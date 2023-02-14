@@ -11,3 +11,7 @@ SP6-9 and Dlx are expressed in cephalopod cephalic tentacles (i.e., eye/olfactor
 2) Assemble *Cornu aspersum* transcriptome (received 02/13/2023) and find SP6-9 and Dlx
 
 ## Future
+
+# Quality Control
+
+
