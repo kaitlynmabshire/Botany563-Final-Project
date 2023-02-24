@@ -1,0 +1,256 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.00 sec, SCORE=843, Nseq=16, Len=671 
+
+NP_523857.1               -------------------------------------------MDAPDAP
+CAH1775388.1              -------------------------------------------ML-----
+QVQ68771.1                DTVDLSTLLVRICYSRFTSGLSVSLPSTFIRKLPIINRKTGPMML-----
+ASY93124.1                -------------------------------------------ML-----
+BBB36758.1                --------------------------------------------------
+UPN66625.1                -------------------------------------------ML-----
+QDF46136.1                -------------------------------------------ML-----
+GFR70799.1                --------------------------------------------------
+ADL14376.1                --------------------------------------------------
+XP_041371678.1            -------------------------------------------ML-----
+XP_013063954.1            -------------------------------------------M------
+XP_046576763.1            -------------------------------------------ML-----
+XP_046337404.1            -------------------------------------------ML-----
+CEK83647.1                -------------------------------------------ML-----
+CAG5114556.1              -------------------------------------------M------
+TRINITY_DN57644_c0_g1_i1  --------------------------------------------------
+                                                                            
+
+NP_523857.1               HTPKYMDGGNTAAS---------------------------------V-T
+CAH1775388.1              ---------NMTGS----------------------------------EA
+QVQ68771.1                ---------NIAGS---------------------------------VDG
+ASY93124.1                ---------NV-GS---------------------------------VEG
+BBB36758.1                --------------------------------------------------
+UPN66625.1                ---------NMTSN---------------------------------MDG
+QDF46136.1                ---------NIAGS---------------------------------VDG
+GFR70799.1                --------------------------------------------------
+ADL14376.1                --------------------------------------------------
+XP_041371678.1            ---------NMTGP---------------------------------MDG
+XP_013063954.1            --------------------------------------------------
+XP_046576763.1            ---------NMAGA---------------------------------MDG
+XP_046337404.1            ---------NMAGA---------------------------------MDG
+CEK83647.1                ---------DYRNNIGNDSPQNGYRGQGHHHHQSHHISATESNNGTCSNG
+CAG5114556.1              ------------------------------------------------DG
+TRINITY_DN57644_c0_g1_i1  --------------------------------------------------
+                                                                            
+
+NP_523857.1               PGINIP-GKSAFVELQQH---AAAGYG-----GIRSTYQHFGP-QG-GQ-
+CAH1775388.1              IGQDIPDSKSAFMEIQQM----QQNMGHHAAYPIRASYP---S-QH-PS-
+QVQ68771.1                LDQDVT-GKSAFMELQQQP--MPPGMA-HPAYPIRSSYP---T-HQ-SQ-
+ASY93124.1                MEQEMA-GKSAFMELQQS---GGMPMG-HPAYPMRSSYQ---PPHHGGQ-
+BBB36758.1                --------------LQQQS--MAGGMG-HPAYNIRSGYP---T-QH-SQ-
+UPN66625.1                MDPEIA-SKSAFMELQQQS--MTGGMG-HPAYNIPSGYP---R-QH-SQ-
+QDF46136.1                LDQDVT-GKSAFMELQQQP--MPPGMA-HPAYPIRSSYP---T-HQ-SQ-
+GFR70799.1                --------------------------------------------------
+ADL14376.1                --------------------------------------------------
+XP_041371678.1            LDQEMV-GKSAFMELQQQ---MPPGMG-HPAYQIRTGYP---P-QH-GH-
+XP_013063954.1            --------------------------G-SP---VRTVSH---D-AH-P-H
+XP_046576763.1            LEQEMV-GKSAFMELQQQ---MPPSMG-HPAYPIRSGYP---P-QH-SQ-
+XP_046337404.1            LEQEMV-GKSAFMELQQQ---MPPSMG-HPAYPIRSGYP---P-QH-SQ-
+CEK83647.1                GASETV-ASILSLSHKNG---IQNSRQ-HSTFVLNS--P---P-LA-AL-
+CAG5114556.1              LEQDMMKQQSAFMELQQQTGGLAHSMGHHPAYQIRPQYP---G-AH-PQH
+TRINITY_DN57644_c0_g1_i1  --------------------------------------------------
+                                                                            
+
+NP_523857.1               ---D-S-G-FPS--PRSAL-GYPFPPMHQNSYSGYH--------------
+CAH1775388.1              ---Q-DSM-Y-TSQATRPL-GYPFS-MNGMSHTAYNS--PS---------
+QVQ68771.1                ---H-ENV-FSTAQHTRPF-TYPFA-MNTMSATTYNP--PT---------
+ASY93124.1                ---HGESV-FSNPQGRGPLAGYPFH-MNAMSPTAYNP--SS--------G
+BBB36758.1                ---H-D-M-FPTSQHTRSF-GYPFP-MNSMAPSGYNAVPPS---------
+UPN66625.1                ---H-E-M-FPTSQHTRXF-GYPFS-MNSMAPSGYNAVPPS---------
+QDF46136.1                ---H-ENV-FSTAQHTRPF-TYPFA-MNTMSATTYNP--PT---------
+GFR70799.1                --------------------------------------------------
+ADL14376.1                --------------------------------TRDNP--PT---------
+XP_041371678.1            ---H-D-GSY-TSQATRSL-GYPFS-MNSMAPTSYNP--PP---------
+XP_013063954.1            ---E-S-L-VKT-DLPRFT-CHVFR-LQYNLYTSII---DD---------
+XP_046576763.1            ---H-D-V-F-TSQPTRPL-AYPFP-MNSMAPTSYNP--PT--------S
+XP_046337404.1            ---H-D-V-F-TSQPTRPL-AYPFP-MNSMAPTSYNP--PT--------S
+CEK83647.1                ---H-N---------LTEM-KFPSS-SSSFLSQDYSP--DTLKQMQAAMS
+CAG5114556.1              HQPH-D-V-FSSQQHGRMP-S-----------------------------
+TRINITY_DN57644_c0_g1_i1  --------------------------------------------------
+                                                                            
+
+NP_523857.1               ----L---------------------------------------------
+CAH1775388.1              H-F-V---------------------------------------------
+QVQ68771.1                HAFSV---------------------------------------------
+ASY93124.1                HHFSM---------------------------------------------
+BBB36758.1                HHFPM---------------------------------------------
+UPN66625.1                HHFPM---------------------------------------------
+QDF46136.1                HAFSV---------------------------------------------
+GFR70799.1                --------------------------------------------------
+ADL14376.1                HPFSV---------------------------------------------
+XP_041371678.1            PHFSM---------------------------------------------
+XP_013063954.1            HPFVT--------------R----------------------LTNC----
+XP_046576763.1            HPFSM---------------------------------------------
+XP_046337404.1            HPFSM---------------------------------------------
+CEK83647.1                HALSTPHGISDILSRPHATFGLPRLDSGMYLGHQTRFPKLAELPGRQPIY
+CAG5114556.1              HPFSV---------------------------------------------
+TRINITY_DN57644_c0_g1_i1  --------------------------------------------------
+                                                                            
+
+NP_523857.1               ------GSYAPPCASP---------PKD--------DFSISDKCEDSGLR
+CAH1775388.1              ------NPYQ--ASCP---------PRD--------DKSP----IEEQLR
+QVQ68771.1                ------TPYQ--TTSP---------TREGCTFYFPTEKTQ----MEEQLR
+ASY93124.1                ------PPYQ--SPSP---------TRD--------DKSQ----MD-ELR
+BBB36758.1                ------SPYQ--PPSP---------TRD--------DKSQ----VEEQLR
+UPN66625.1                ------SPYQ--PPSP---------TRD--------DKSQ----VEEQLR
+QDF46136.1                ------TPYQ--TTSP---------TREGCTFYFPTEKSQ----MEEQLR
+GFR70799.1                --------------------------------------------------
+ADL14376.1                ------TPYQ--TTSP---------TREGYTFYFPTEKSQ----MEEQLR
+XP_041371678.1            ------SPYQ--TPSP---------PRD--------DKSQ----VEEQLR
+XP_013063954.1            -----DEDYK--SVLPGQRIRDRVWHQQ--------HKGQ----VEEQLR
+XP_046576763.1            ------SPYQ--TPSP---------PRD--------EKPQ----MDDQLR
+XP_046337404.1            ------SPYQ--TPSP---------PRD--------EKPQ----MDDQLR
+CEK83647.1                WPGALAEPWR--SSDS---------CQR--------YGSQ-----SSPVV
+CAG5114556.1              ------SPYQ--TPSP---------PRD--------DKSQ----VEEQLR
+TRINITY_DN57644_c0_g1_i1  -------------------------PRD--------DKSQ----VEEQLR
+                                                                            
+
+NP_523857.1               VNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+CAH1775388.1              VNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+QVQ68771.1                INGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+ASY93124.1                INGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+BBB36758.1                INGKGKKLRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+UPN66625.1                INGKGKKLRKPRTIYSS---------------------------------
+QDF46136.1                INGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+GFR70799.1                -------MRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAAALGLTQT
+ADL14376.1                MNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERA-----------
+XP_041371678.1            INGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+XP_013063954.1            INGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+XP_046576763.1            INGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+XP_046337404.1            INGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+CEK83647.1                VDKDGKK-KHTRPTFSGQQIFALEKTFEQTKYLAGPERARLAYALGMSES
+CAG5114556.1              INGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+TRINITY_DN57644_c0_g1_i1  INGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQT
+                                  ::.*. :*.                                 
+
+NP_523857.1               QVKIWFQNRRSKYKKMMKAAQGPGTNSGMPLGGGGPNPGQHSPNQMHSGG
+CAH1775388.1              QVKIWFQNRRSKYKKIMKHNPNGTI--------------SMSP-------
+QVQ68771.1                QVKIWFQNRRSKYKKMMKQQQTNPG-QPQP--------QAQQP-------
+ASY93124.1                QVKIWFQNRRSKAKKIMKQGGTPPG--P----------NQQPP-------
+BBB36758.1                QVKIWFQNKRSKYKKVMKQNPNGPP--P-----------PLTP-------
+UPN66625.1                --------------------------------------------------
+QDF46136.1                QVKIWFQNRRSKYKKMMKQQQTNPG-QPQP--------QAQQP-------
+GFR70799.1                QVKIWFQNRRSKYKKIMKQGGAPPP-SQPP--------CSQPP-------
+ADL14376.1                --------------------------------------------------
+XP_041371678.1            QVKIWFQNRRSKYKKIMKHNPNGPN--P-A--------QSQNP-------
+XP_013063954.1            QVKIWFQNRRSKYKKIMKQGGTP-Q-SQ-P--------CSQPP-------
+XP_046576763.1            QVKIWFQNRRSKYKKLMKQNPNSTP--P----------QPQQP-------
+XP_046337404.1            QVKIWFQNRRSKYKKLMKQNPNSTP--P----------QPQQP-------
+CEK83647.1                QVKVWFQNRRTKWRKKHAAEMATAK--K-K--------QEQAE-------
+CAG5114556.1              QVKIWFQNRRSKYKKIMKQGGPP-P-TQAP--------CSQTP-------
+TRINITY_DN57644_c0_g1_i1  QVKIWFQNRRSKYKKIMKQGGPP-P-TQAP--------CSQTP-------
+                                                                            
+
+NP_523857.1               NNGGGSNSGSPSHYLPPGHSPT--PSSTPVS-EL--SP------------
+CAH1775388.1              PHPGS---------------GGN-PMSNGGE-PM--TP---PPM------
+QVQ68771.1                PSQGH---------------TTPTPQPQQQQ-Q---------AT------
+ASY93124.1                TPVTS---------------PP--ANQQMQP-PS--SP---VQH------
+BBB36758.1                QGSAS---------------SP--PHGQQ---------------------
+UPN66625.1                --------------------------------------------------
+QDF46136.1                PSQGH---------------TTPTPQPQQPQ-Q---------AT------
+GFR70799.1                SHQAS---------------SSP-G-AQHGP-GG--AP---TPSLGGVTV
+ADL14376.1                --------------------------------------------------
+XP_041371678.1            -HQTS---------------PQP-PSQQQQQ-QQQQQPPQSQSA------
+XP_013063954.1            SHQGS---------------ASS-P-PQQQA----------------MGI
+XP_046576763.1            QPQTS---------------PV--PQQQPQP-QA--QP---QPA------
+XP_046337404.1            QPQTS---------------PV--PQQQPQP-QA--QP---QPA------
+CEK83647.1                DMDDN---------------SE--PEDE----------------------
+CAG5114556.1              VHQGS---------------AAS-PSLQQQG-S------------MGVGI
+TRINITY_DN57644_c0_g1_i1  VHQGS---------------AGS-PSLQQQQGS------------MG---
+                                                                            
+
+NP_523857.1               ----------E---FPPT----GLSPP-TQAPWDQKPHW-----ID----
+CAH1775388.1              ----------S---QPPQ-------S--V-SPP--TPHSQHNGQTTVPGT
+QVQ68771.1                ----------V---QH---------P--T-QPT--TPQQ-----NG----
+ASY93124.1                ----------S---PP---------TSNT-HAH--TPHQQLPPNGL----
+BBB36758.1                --------------------------------------------------
+UPN66625.1                --------------------------------------------------
+QDF46136.1                ----------V---------------------------------------
+GFR70799.1                KQQPGSQNSSFLDDGPSTGNSSDMHPG-SQGSP--TPQPH---GGL----
+ADL14376.1                --------------------------------------------------
+XP_041371678.1            ----------D---LP-S-------P--P-QAP--TPHQ-----------
+XP_013063954.1            KQ----QQSSFLDDGPPG---SDMHPG-SQGSP--TPQ-----HGL----
+XP_046576763.1            ----------E---LP---------P--A-QPQ--TPQQ-----SA----
+XP_046337404.1            ----------E---LP---------P--A-QPQ--TPQQ-----SA----
+CEK83647.1                --------------------------------------------------
+CAG5114556.1              KQ----QQNSFLDEGPPG---GDMHPG-SQGSP--TPQ-----HGL----
+TRINITY_DN57644_c0_g1_i1  --------------------------------------------------
+                                                                            
+
+NP_523857.1               -HKPPPQM-TPQPPHPAA--------------------------------
+CAH1775388.1              VQTNNMMGQQN-VHQHPDDSVT----------------------------
+QVQ68771.1                ---PAPNGQQNSSLLPPASSVSPP--------------------------
+ASY93124.1                -KMEAPEQ-QHNLMVSPSSSASPE--------------------------
+BBB36758.1                --------------------------------------------------
+UPN66625.1                --------------------------------------------------
+QDF46136.1                --------------------------------------------------
+GFR70799.1                -QHPHPQG-TPTPMLPASSPLSHHHHPHHQQQQHHPHHTPHHPHSAAHHQ
+ADL14376.1                --------------------------------------------------
+XP_041371678.1            --VSQPQA-PPQALLPVSSSMSPQ--------------------------
+XP_013063954.1            -QHPHPQG-TPTPLLPASSPMSQQ--------------------------
+XP_046576763.1            -AQGQGQGQQPQPLLPVSSSMSPQ--------------------------
+XP_046337404.1            -AQGQGQGQQPQPLLPVSSSMSPQ--------------------------
+CEK83647.1                --------------------------------------------------
+CAG5114556.1              -QHPHPQG-TPTPMLSASSPMSQQ--------------------------
+TRINITY_DN57644_c0_g1_i1  --------------------------------------------------
+                                                                            
+
+NP_523857.1               ------------TLHPQT--H------------------HH---------
+CAH1775388.1              ------PPSSWAEIHSS--AAHTPSMSMP---------------------
+QVQ68771.1                ------P--TWSELSTT--TP-------T---------------------
+ASY93124.1                ------PENHWNDHMSG--MT-------S---------------------
+BBB36758.1                --------------------------------------------------
+UPN66625.1                --------------------------------------------------
+QDF46136.1                --------------------------------------------------
+GFR70799.1                QGGAAGGVLSWSDLGAAGGIPT------SGHAHSHG--GQHVHPHAHSVS
+ADL14376.1                --------------------------------------------------
+XP_041371678.1            ------PVGSWSDISNN--NP-------S---------------------
+XP_013063954.1            -----GNVLSWSDLGTG---PT------SGHGHTHG--QHH---------
+XP_046576763.1            ------PVCTWSDLSNN--NP-------S---------------------
+XP_046337404.1            ------PVCTWSDLSNN--NP-------S---------------------
+CEK83647.1                -------------NSDQ---N-------L---------------------
+CAG5114556.1              -----GSVLSWSDLGSN---PN------SGHIHPHSHNQHH---------
+TRINITY_DN57644_c0_g1_i1  --------------------------------------------------
+                                                                            
+
+NP_523857.1               ---NPPPQMG------GY------------------VPQY---WYQPE-T
+CAH1775388.1              --------PG------NY------------------MSQY--PWYSHT-A
+QVQ68771.1                ---------T------SY------------------MSPY--TWYSQQQN
+ASY93124.1                --------SHHAHASQPYMSMPSMPPSSSMMPSGMPMSYYHSAWYSQP--
+BBB36758.1                --------------------------------------------------
+UPN66625.1                --------------------------------------------------
+QDF46136.1                --------------------------------------------------
+GFR70799.1                SAAAHQQIGN------AY------------------MSHY-SSWYSQG-S
+ADL14376.1                --------------------------------------------------
+XP_041371678.1            --------TN------SYM----------------SMSHY--SWYAQN-S
+XP_013063954.1            ---NHQQIGN------AY------------------MSHY-SSWYSQN-G
+XP_046576763.1            --------TN------SYM----------------SMSHY--SWYAHN-N
+XP_046337404.1            --------TN------SYM----------------SMSHY--SWYAHN-N
+CEK83647.1                --------KA------DY------------------LSSV--DFN-----
+CAG5114556.1              ---AQHQINS------AY------------------MSHY-SSWYTQN-G
+TRINITY_DN57644_c0_g1_i1  --------------------------------------------------
+                                                                            
+
+NP_523857.1               N-----PSLVTVWPAV-----
+CAH1775388.1              ANPVQQQQILT----------
+QVQ68771.1                S--ISHQSLLT----------
+ASY93124.1                M--VNQQSCLT----------
+BBB36758.1                ---------------------
+UPN66625.1                ---------------------
+QDF46136.1                ----------Q----------
+GFR70799.1                L--PHQQSLLT----------
+ADL14376.1                ---------------------
+XP_041371678.1            M--VPQQPLIT---KTEVPGF
+XP_013063954.1            I--PHQQSLLT----------
+XP_046576763.1            M--NSQQSLLT----------
+XP_046337404.1            M--NSQQSLLT----------
+CEK83647.1                ---------------------
+CAG5114556.1              L--PHQQSLLT----------
+TRINITY_DN57644_c0_g1_i1  V--VIKQ--------------
+                                               
+
+
+
