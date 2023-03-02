@@ -1,12 +1,13 @@
-# Multiple Sequence Alignment (02/24/2023)
+# Multiple Sequence Alignment
 
 ## Ran T-Coffee:
+### Input:
 ```
 cd botany563/botany563-final-project
 t_coffee dlx_protein.fasta
 ```
 
-## Output:
+### Output:
 ```
 PROGRAM: T-COFFEE Version_13.45.0.4846264 (Version_13.45.0.4846264)
 -full_log      	S	[0] 
@@ -512,11 +513,12 @@ OUTPUT RESULTS
 # Register on: https://groups.google.com/group/tcoffee/
 ```
 ## Ran Muscle:
+### Input:
 ```
 ~/Dropbox/software/muscle3.8.31_i86darwin64 -in dlx_protein.fasta -out muscle_aligned_dlx_protein.fasta
 ```
 
-## Output:
+### Output:
 ```
 MUSCLE v3.8.31 by Robert C. Edgar
 
