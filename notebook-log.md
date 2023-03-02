@@ -1,13 +1,38 @@
+# Finding Sequences in Transcriptome
+
+## NCBI BLAST+
+-NCBI BLAST+ was downloaded from (WEBSITE NAME)
+-Sequences found from the NCBI database were used as query and searched in assembled transcriptome.
+
+### Making local database
+
+#### Input:
+```
+./makeblastdb -in cornu_aspersum.fasta -out cornu_aspersum_db -dbtype nucl -parse_seqid
+```
+
+### Running query
+
+#### Input:
+```
+./tblastn -query <query_sequence_file.fasta> -out cornu_aspersum_db -out <file.txt>
+```
+
+#### Output:
+```
+
+```
+
 # Multiple Sequence Alignment
 
 ## Ran T-Coffee:
-### Input:
+#### Input:
 ```
 cd botany563/botany563-final-project
 t_coffee dlx_protein.fasta
 ```
 
-### Output:
+#### Output:
 ```
 PROGRAM: T-COFFEE Version_13.45.0.4846264 (Version_13.45.0.4846264)
 -full_log      	S	[0] 
@@ -513,12 +538,12 @@ OUTPUT RESULTS
 # Register on: https://groups.google.com/group/tcoffee/
 ```
 ## Ran Muscle:
-### Input:
+#### Input:
 ```
 ~/Dropbox/software/muscle3.8.31_i86darwin64 -in dlx_protein.fasta -out muscle_aligned_dlx_protein.fasta
 ```
 
-### Output:
+#### Output:
 ```
 MUSCLE v3.8.31 by Robert C. Edgar
 
