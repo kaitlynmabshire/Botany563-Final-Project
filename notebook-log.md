@@ -5,29 +5,29 @@ cd botany563/botany563-final-project
 t_coffee dlx_protein.fasta
 
 ## Output:
-PROGRAM: T-COFFEE Version_13.45.0.4846264 (Version_13.45.0.4846264)
--full_log      	S	[0] 
--genepred_score	S	[0] 	nsd
--run_name      	S	[0] 
--mem_mode      	S	[0] 	mem
--extend        	D	[1] 	1 
--extend_mode   	S	[0] 	very_fast_triplet
--max_n_pair    	D	[0] 	10 
--seq_name_for_quadruplet	S	[0] 	all
--compact       	S	[0] 	default
--clean         	S	[0] 	no
--do_self       	FL	[0] 	0
--do_normalise  	D	[0] 	1000 
--template_file 	S	[0] 
--setenv        	S	[0] 	0
--export        	S	[0] 	0
--template_mode 	S	[0] 
--flip          	D	[0] 	0 
--remove_template_file	D	[0] 	0 
--profile_template_file	S	[0] 
--in            	S	[0] 
--seq           	S	[1] 	dlx_protein.fasta
--aln           	S	[0] 
+  PROGRAM: T-COFFEE Version_13.45.0.4846264 (Version_13.45.0.4846264)
+  -full_log      	S	[0] 
+  -genepred_score	S	[0] 	nsd
+  -run_name      	S	[0] 
+  -mem_mode      	S	[0] 	mem
+  -extend        	D	[1] 	1 
+  -extend_mode   	S	[0] 	very_fast_triplet
+  -max_n_pair    	D	[0] 	10 
+  -seq_name_for_quadruplet	S	[0] 	all
+  -compact       	S	[0] 	default
+  -clean         	S	[0] 	no
+  -do_self       	FL	[0] 	0
+  -do_normalise  	D	[0] 	1000 
+  -template_file 	S	[0] 
+  -setenv        	S	[0] 	0
+  -export        	S	[0] 	0
+  -template_mode 	S	[0] 
+  -flip          	D	[0] 	0 
+  -remove_template_file	D	[0] 	0 
+  -profile_template_file	S	[0] 
+  -in            	S	[0] 
+  -seq           	S	[1] 	dlx_protein.fasta
+  -aln           	S	[0] 
 -method_limits 	S	[0] 
 -method        	S	[0] 
 -lib           	S	[0] 
@@ -196,7 +196,7 @@ INPUT SEQUENCES: 17 SEQUENCES  [PROTEIN]
   Input File dlx_protein.fasta                       Seq Plakobranchus_ocellatus_GFO48356.1      Length  206 type PROTEIN Struct Unchecked
   Input File dlx_protein.fasta                       Seq Sepia_bandensis_QDF46136.1              Length  221 type PROTEIN Struct Unchecked
 
-	Multi Core Mode (read): 1 processor(s):
+  Multi Core Mode (read): 1 processor(s):
 
 	--- Process Method/Library/Aln Sdlx_protein.fasta
 	xxx Retrieved Sdlx_protein.fasta
