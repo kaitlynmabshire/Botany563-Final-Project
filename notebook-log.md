@@ -1,33 +1,36 @@
 # Multiple Sequence Alignment (02/24/2023)
 
 ## Ran T-Coffee:
+```
 cd botany563/botany563-final-project
 t_coffee dlx_protein.fasta
+```
 
 ## Output:
-  PROGRAM: T-COFFEE Version_13.45.0.4846264 (Version_13.45.0.4846264)
-  -full_log      	S	[0] 
-  -genepred_score	S	[0] 	nsd
-  -run_name      	S	[0] 
-  -mem_mode      	S	[0] 	mem
-  -extend        	D	[1] 	1 
-  -extend_mode   	S	[0] 	very_fast_triplet
-  -max_n_pair    	D	[0] 	10 
-  -seq_name_for_quadruplet	S	[0] 	all
-  -compact       	S	[0] 	default
-  -clean         	S	[0] 	no
-  -do_self       	FL	[0] 	0
-  -do_normalise  	D	[0] 	1000 
-  -template_file 	S	[0] 
-  -setenv        	S	[0] 	0
-  -export        	S	[0] 	0
-  -template_mode 	S	[0] 
-  -flip          	D	[0] 	0 
-  -remove_template_file	D	[0] 	0 
-  -profile_template_file	S	[0] 
-  -in            	S	[0] 
-  -seq           	S	[1] 	dlx_protein.fasta
-  -aln           	S	[0] 
+```
+PROGRAM: T-COFFEE Version_13.45.0.4846264 (Version_13.45.0.4846264)
+-full_log      	S	[0] 
+-genepred_score	S	[0] 	nsd
+-run_name      	S	[0] 
+-mem_mode      	S	[0] 	mem
+-extend        	D	[1] 	1 
+-extend_mode   	S	[0] 	very_fast_triplet
+-max_n_pair    	D	[0] 	10 
+-seq_name_for_quadruplet	S	[0] 	all
+-compact       	S	[0] 	default
+-clean         	S	[0] 	no
+-do_self       	FL	[0] 	0
+-do_normalise  	D	[0] 	1000 
+-template_file 	S	[0] 
+-setenv        	S	[0] 	0
+-export        	S	[0] 	0
+-template_mode 	S	[0] 
+-flip          	D	[0] 	0 
+-remove_template_file	D	[0] 	0 
+-profile_template_file	S	[0] 
+-in            	S	[0] 
+-seq           	S	[1] 	dlx_protein.fasta
+-aln           	S	[0] 
 -method_limits 	S	[0] 
 -method        	S	[0] 
 -lib           	S	[0] 
@@ -507,11 +510,14 @@ OUTPUT RESULTS
 # Results Produced with T-COFFEE Version_13.45.0.4846264 (Version_13.45.0.4846264)
 # T-COFFEE is available from http://www.tcoffee.org
 # Register on: https://groups.google.com/group/tcoffee/
-
+```
 ## Ran Muscle:
+```
 ~/Dropbox/software/muscle3.8.31_i86darwin64 -in dlx_protein.fasta -out muscle_aligned_dlx_protein.fasta
+```
 
 ## Output:
+```
 MUSCLE v3.8.31 by Robert C. Edgar
 
 http://www.drive5.com/muscle
@@ -530,4 +536,4 @@ dlx_protein 17 seqs, max length 333, avg  length 250
 00:00:00      6 MB(0%)  Iter   4  100.00%  Refine biparts
 00:00:00      6 MB(0%)  Iter   5  100.00%  Refine biparts
 00:00:00      6 MB(0%)  Iter   5  100.00%  Refine biparts
-
+```
