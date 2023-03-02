@@ -1,0 +1,1 @@
+t_coffee -other_pg seq_reformat -in dlx_protein.aln -output fasta > dlx_protein.fna

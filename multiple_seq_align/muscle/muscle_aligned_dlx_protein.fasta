@@ -1,176 +1,153 @@
->CEK83647.1 hypothetical protein [Arion vulgaris]
--------------------------------------------MLDYRNNIGNDSP----
-QNGYRGQGHHHHQSHHISATESNNGTCSNGGASETVASILSLSHKNGIQNSRQHSTFVLN
-SPPLAALHNLTEMKFPSSSSSFLSQDYSPDTLKQMQAAMSHALSTPHGISDILSRPHATF
-GLPRLDSGMYLGHQTRFPKLAELPGRQPIYWPGALAEPWRSSDSCQRYGSQSSPVVVDKD
-GKK-KHTRPTFSGQQIFALEKTFEQTKYLAGPERARLAYALGMSESQVKVWFQNRRTKWR
-KKHAAEMATAKKKQ-EQAEDMDDN------------------------------------
------SEPEDENSDQN----LKADYLSSVDFN----------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-----
->NP_523857.1 Distal-less, isoform A [Drosophila melanogaster]
+>Drosophila_melanogaster NP_523857.1 Distal-less, isoform A [Drosophila melanogaster]
 --------------------------------------MDAPDAPHTPKYMDGGNTAASV
-TPGINIPGKSAFVELQQHAAAGYGG----------IRSTYQHFGPQGGQ-DSGFPS---P
-RSALG---------YPFP--PMHQNSYS------------------------------GY
-HLGSYAP----------------PCASP---PKDDFSIS---DKCE-----DSGLRVNGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KMMKAAQGPGTNSG-MPLGGGGPNPGQHSPNQMHSGGNNGGGSNSGSPSHYLPPGHSPTP
-SSTPVSELSPEFPPTG----LSPPTQAPWDQKPHWIDHKPPPQMTPQP------------
--PHPAAT----L--HPQTHHHNPPPQMG-------------------------------G
-YVP-------------------------------------QYWYQPETNPSLVTVWPAV-
-----
->CAH1775388.1 unnamed protein product [Owenia fusiformis]
+TPGINIPGKSAFVELQQH---------AAAGYGGIRSTY-QHFGPQ--GGQDSGFPSPRS
+AL---GYPFP--PMHQNSYS------GYHLGSYAPPCASPPKDDFSIS---DKCE-DSGL
+RVNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKMMKAAQ-G---PGTNSGMPLG-----GGGPNPGQHSPNQMHSGGN-----NGG-
+-----------------GSNSGSPSHYLPP-GHSPTPSSTPVSELSPEFPPTGLS---PP
+T---------------------------QAPWDQKPHWIDHK-------PPPQMTPQPPH
+PAATLHPQTHHHNPPPQMGGYVPQYWYQPETNPSLVTVWPAV--------
+>Owenia_fusiformis CAH1775388.1 unnamed protein product [Owenia fusiformis]
 -------------------------------------------MLNMTGSEAIGQD----
-----IPDSKSAFMEIQQ--MQQNMGHH----AAYPIRASYPSQHPS----QDSMYT-SQA
-TRPLG---------YPFSMNGMSHTAYN--S------------------------PSHF-
--VNPYQA----------------SC--P---PRD--------DKSP----IEEQLRVNGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KIMKHNPNGTISMS-PPHPGSGGNPMSNGG------------------EPMTPPPMSQPP
-QSVSPPTPHSQHNGQT----TVPGTVQTNNMMGQQNVH-QHPDDSVTP------------
--PSSWAE----I--HSSAAHTPSMSMPP-------------------------------G
-NYMSQ-----------------------------------YPWYSHTAANPVQQQQILT-
-----
->ASY93124.1 DLX [Pinctada fucata]
+----IPDSKSAFMEIQQMQQNMG----HHAAYPI-RASY-PSQHPS-----QDSMYTSQA
+TRPL-GYPFSMNGMSHTAYN--SPSHF--VNPYQASC--PPRD--------DKSPIEEQL
+RVNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKIMKHNPNG---TISMSPPHPG-----SGGNPMSNGGEPMTPPPMS-----QPP-
+-------------------QSVSPPTPHSQ-HNGQTTVPGTVQTNNMMGQQNVHQ---HP
+D----------------------------DSVTPPSSWAEIH------------------
+SSAAHTP-----SMSMPPGNYMSQYPWYSHTAANPVQQQQILT-------
+>Pinctada_fucata ASY93124.1 DLX [Pinctada fucata]
 -------------------------------------------MLNV-GSVEGMEQ----
-----EMAGKSAFMELQQSGGMP-MGH-----PAYPMRSSYQPPHHGGQHGESVFSN-PQG
-RGPLAG--------YPFHMNAMSPTAYNPS-------------------------SGHHF
-SMPPYQS----------------PS--P---TRD--------DKSQ-----MDELRINGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKAK
-KIMKQGGTPPGPNQQPPTPVTSPPANQQMQ------------------PPSSPVQHSPPT
-SNTHAHTPHQQLPPNG----LK----MEAPEQQHNLMVSPSSSASPEP------------
--ENHWNDHMSGMTSSHHAHASQPYMSMP-------------------------------S
-MPPSSSMMPSGMPMSYYH----------------------SAWYSQPMVNQQSCLT----
-----
->XP_041371678.1 homeobox protein DLX-1-like [Gigantopelta aegis]
+----EMAGKSAFMELQQSGGMPM----GHPAYPM-RSSYQPPHHGG--QHGESVFSNPQG
+RGPLAGYPFHMNAMSPTAYNP-SSGHHFSMPPYQSPS--PTRD--------DKSQMDE-L
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKAKKIMKQGGTP---PGPNQQPPTP-----VTSPPANQQMQPPSSPVQH-----SPP-
+------------------TSNTHAHTPHQQLPPNGLKMEAPEQQHNLMVSPSSSA---SP
+E--------------------------------PENHWNDHMSGMTSSHHAHASQPYMSM
+PSMPPS------SSMMPSGMPMSYYHSAWYSQP-MVNQQSCLT-------
+>Elysia_chlorotica RUS90064.1 hypothetical protein EGW08_002177, partial [Elysia chlorotica]
+------------------------------------------------------------
+------------MSHHHH---------HHPAYQLRAAQY-GSAHAQHAQGHDSVFSSGQH
+GRAL-AYPFGMNGMGGNPYGS-PGAHPFSVSPYQTPS--PPRD--------DKSQVEEQL
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAAALGLTQTQVKIWFQNR
+RSKYKKIMKQGGAPPPPPSSQPQSSSP-----GGAPTPSLGGVVNVKQQPG-----SQS-
+---NSFLDEGPPTGNSSDMHPGSQGSPTPQ-PHGGIQHPGSQGTPTPMLPASSPLSHHHH
+HHQHHQHQQQQHQQHQHHPHHSHHNNHQGGAAGGVLSWSDLGAA----------------
+------------GGIPTSGHVHSHGGQHVHPHAHSVSSAAAHQ-------
+>Gigantopelta_aegis XP_041371678.1 homeobox protein DLX-1-like [Gigantopelta aegis]
 -------------------------------------------MLNMTGPMDGLDQ----
-----EMVGKSAFMELQQQ-MPPGMGH-----PAYQIRTGYPPQHGH----HDGSYT-SQA
-TRSLG---------YPFSMNSMAPTSYN--P------------------------PPPHF
-SMSPYQT----------------PS--P---PRD--------DKSQ----VEEQLRINGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KIMKHNPNGPNPAQSQNPHQTSPQPPSQQQ---------------------QQQQQQQPP
-QSQSADLPSPPQAP--------TPHQVSQPQAPPQALLPVSSSMSPQP------------
--VGSWSD----I--SNNNPSTNSYMSMS-------------------------------H
-----------------------------------------YSWYAQNSMVPQQPLITKTE
-VPGF
->XP_046576763.1 homeobox protein Dlx1a-like [Haliotis rubra]
+----EMVGKSAFMELQQQ-MPPGM---GHPAYQI-RTGY-PPQHGH-----HDGSYTSQA
+TRSL-GYPFSMNSMAPTSYN--PPPPHFSMSPYQTPS--PPRD--------DKSQVEEQL
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKIMKHNPNGPN-PAQSQNPHQT-----SPQPPSQQQQQQQQQQPPQ-----SQS-
+-----------------ADLPSPPQAPTPH-QVSQPQAP-----PQALLPVSSSM---SP
+Q--------------------------------PVGSWSDIS------------------
+------------NNNPSTNSYMSMSHYSWYAQNSMVPQQPLITKTEVPGF
+>Haliotis_rubra XP_046576763.1 homeobox protein Dlx1a-like [Haliotis rubra]
 -------------------------------------------MLNMAGAMDGLEQ----
-----EMVGKSAFMELQQQ-MPPSMGH-----PAYPIRSGYPPQHSQ----HDVFT--SQP
-TRPLA---------YPFPMNSMAPTSYNP-P------------------------TSHPF
-SMSPYQT----------------PS--P---PRD--------EKPQ----MDDQLRINGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KLMKQNPNSTPPQPQQPQPQTSPVPQQQPQ-------------------------PQAQP
-QPAELPPAQPQTPQQS----AAQGQGQGQQPQPLLPVS---SSMSPQP------------
--VCTWSD----L--SNNNPSTNSYMSMS-------------------------------H
-----------------------------------------YSWYAHNNMNSQQSLLT---
-----
->XP_046337404.1 homeobox protein Dlx1a-like [Haliotis rufescens]
+----EMVGKSAFMELQQQ-MPPSM---GHPAYPI-RSGY-PPQHSQ-----HDVF-TSQP
+TRPL-AYPFPMNSMAPTSYNP-PTSHPFSMSPYQTPS--PPRD--------EKPQMDDQL
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKLMKQNPNS---TPPQPQQPQP-----QTSPVPQQQPQPQAQPQPA-----ELP-
+-----------------------PAQPQTP-QQSAAQGQGQGQQPQPLLPVSSSM---SP
+Q--------------------------------PVCTWSDLS------------------
+------------NNNPSTNSYMSMSHYSWYAHNNMNSQQSLLT-------
+>Haliotis_rufescens XP_046337404.1 homeobox protein Dlx1a-like [Haliotis rufescens]
 -------------------------------------------MLNMAGAMDGLEQ----
-----EMVGKSAFMELQQQ-MPPSMGH-----PAYPIRSGYPPQHSQ----HDVFT--SQP
-TRPLA---------YPFPMNSMAPTSYNP-P------------------------TSHPF
-SMSPYQT----------------PS--P---PRD--------EKPQ----MDDQLRINGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KLMKQNPNSTPPQPQQPQPQTSPVPQQQPQ-------------------------PQAQP
-QPAELPPAQPQTPQQS----AAQGQGQGQQPQPLLPVS---SSMSPQP------------
--VCTWSD----L--SNNNPSTNSYMSMS-------------------------------H
-----------------------------------------YSWYAHNNMNSQQSLLT---
-----
->XP_013063954.1 PREDICTED: homeotic protein distal-less-like [Biomphalaria glabrata]
+----EMVGKSAFMELQQQ-MPPSM---GHPAYPI-RSGY-PPQHSQ-----HDVF-TSQP
+TRPL-AYPFPMNSMAPTSYNP-PTSHPFSMSPYQTPS--PPRD--------EKPQMDDQL
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKLMKQNPNS---TPPQPQQPQP-----QTSPVPQQQPQPQAQPQPA-----ELP-
+-----------------------PAQPQTP-QQSAAQGQGQGQQPQPLLPVSSSM---SP
+Q--------------------------------PVCTWSDLS------------------
+------------NNNPSTNSYMSMSHYSWYAHNNMNSQQSLLT-------
+>Biomphalaria_glabrata XP_013063954.1 PREDICTED: homeotic protein distal-less-like [Biomphalaria glabrata]
 ------------------------------------------------------------
--------------------------------MGSPVRTVSHDAHPHESLVKTDLPRFTCH
-VFRLQ---------YNLYTSIIDDHPFV---------------------------TRLTN
-CDEDYKS----------------VL--PGQRIRD--RVWHQQHKGQ----VEEQLRINGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KIMKQ---GGTPQS-QPCSQPPSHQGSASS----------------------PPQQQAMG
-IKQQQSSFLDDGPPGS----DMHPGSQGSPTPQHGLQH-PHPQGTPTP------------
--LLPASS----P--MSQQGNVLSWSDLG-------------------------------T
-GPTSGHGHTHGQHH-------------NHQQIGNAYMSHYSSWYSQNGIPHQQSLLT---
-----
->QVQ68771.1 homeobox protein Distalless, partial [Doryteuthis pealeii]
-DTVDLSTLLVRICYSRFTSGLSVSLPSTFIRKLPIINRKTGPMMLNIAGSVDGLDQ----
-----DVTGKSAFMELQQQPMPPGMAH-----PAYPIRSSYPTHQSQH---ENVFST-AQH
-TRPFT---------YPFAMNTMSATTYN--P------------------------PTHAF
-SVTPYQT----------------TS--P---TREGCTFYFPTEKTQ----MEEQLRINGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KMMKQQQTNPGQP--QPQAQQPPSQGHTTP----------------------------TP
-QPQQQQQATVQHPTQP----TTPQQNGPAPNGQQNSSL-LPPASSVSP------------
--PPTWSE----L--STTTPTTSYMSP----------------------------------
-----------------------------------------YTWYSQQQNSISHQSLLT--
-----
->QDF46136.1 distalless protein, partial [Sepia bandensis]
--------------------------------------------MLNIAGSVDGLDQ----
-----DVTGKSAFMELQQQPMPPGMAH-----PAYPIRSSYPTHQSQH---ENVFST-AQH
-TRPFT---------YPFAMNTMSATTYN--P------------------------PTHAF
-SVTPYQT----------------TS--P---TREGCTFYFPTEKSQ----MEEQLRINGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KMMKQQQTNPGQP--QPQAQQPPSQGHTTP------------------------------
-------TPQPQQPQQA----TVQ-------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-----
->GFR70799.1 distal-less [Elysia marginata]
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
----MRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAAALGLTQTQVKIWFQNRRSKYK
-KIMKQGGAPPPSQ--PPCSQPPSHQASSSPGAQHGPG--------GAPTPSLGGVTVKQQ
-PGSQNSSFLDDGPSTGNSSDMHPGSQGSPTPQPHGGLQHPHPQGTPTP------------
--MLPASS----PLSHHHHPHHQQQQHHPHHTPHHPHSAAHHQQGGAAGGVLSWSDLGAAG
-GIPTSGHAHSHGGQHVHPHAHSVSSAAAHQQIGNAYMSHYSSWYSQGSLPHQQSLLT---
-----
->ADL14376.1 distal-less protein, partial [Octopus bimaculoides]
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------TRDN--P------------------------PTHPF
-SVTPYQT----------------TS--P---TREGYTFYFPTEKSQ----MEEQLRMNGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERA-------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-----
->CAG5114556.1 unnamed protein product [Candidula unifasciata]
---------------------------------------------------MDGLEQD---
-----MMKQQSAFMELQQQ--TGGLAHSMGHHPAYQIRPQYPGAHPQHHQPHDVFSS-QQH
-GRM----------------------------------------------------PSHPF
-SVSPYQT----------------PS--P---PRD--------DKSQ----VEEQLRINGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KIMKQGGPPPTQ---APCSQTPVHQGSAAS------------------PSLQQQGSMGVG
-IKQQQNSFLDEGPPGG----DMHPGSQGSPTPQHGLQH-PHPQGTPTPMLSASSPMSQQG
-SVLSWSD----LGSNPNSGHIHPHSHNQ-------------------------------H
-HAQHQINSAYMSHY--------------------------SSWYTQNGLPHQQSLLT---
-----
->TRINITY_DN57644_c0_g1_i1 [Cornu aspersum]
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------PRD--------DKSQ----VEEQLRINGK
-GKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNRRSKYK
-KIMKQGGPPPTQ---APCSQTPVHQGSAGS------------------------------
------PSLQQQQGSMG----VVIKQ-----------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-----
->UPN66625.1 homeobox DLX family protein, partial [Patelloida mimula]
+-------MGSPVRTVSHD---------AHPHESLVKTDL-PRFTCHVFRLQYNLYTSIID
+DHPF----VTRLTNCDEDYKSVLPGQRIRDRVWHQQH---------------KGQVEEQL
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKIMKQGGTPQSQPCSQPPSHQG-----SASSPPQQQAMGIKQQQSS-----FLD-
+-----------DGPPGSDMHPGSQGSPTPQ-H--GLQHPHPQGTPTPLLPASSPM---SQ
+Q-------------------------------GNVLSWSDLG---------------TGP
+TSGHGHTHGQHHNHQQIGNAYMSHYS-SWYSQNGIPHQQSLLT-------
+>Patelloida_mimula UPN66625.1 homeobox DLX family protein, partial [Patelloida mimula]
 -------------------------------------------MLNMTSNMDGMDP----
-----EIASKSAFMELQQQSMTGGMGH-----PAYNIPSGYPRQHSQ----HEMFPT-SQH
-TRXFG---------YPFSMNSMAPSGYNAVP------------------------PSHHF
-PMSPYQP----------------PS--P---TRD--------DKSQ----VEEQLRINGK
-GKKLRKPRTIYSS-----------------------------------------------
+----EIASKSAFMELQQQSMTGGM---GHPAYNI-PSGY-PRQHSQ-----HEMFPTSQH
+TRXF-GYPFSMNSMAPSGYNAVPPSHHFPMSPYQPPS--PTRD--------DKSQVEEQL
+RINGKGKKLRKPRTIYSS------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+--------------------------------------------------
+>Nipponacmea_fuscoviridis BBB36758.1 homeobox protein Dlx, partial [Nipponacmea fuscoviridis]
 ------------------------------------------------------------
-----
->BBB36758.1 homeobox protein Dlx, partial [Nipponacmea fuscoviridis]
-------------------------------------------------------------
---------------LQQQSMAGGMGH-----PAYNIRSGYPTQHSQ----HDMFPT-SQH
-TRSFG---------YPFPMNSMAPSGYNAVP------------------------PSHHF
-PMSPYQP----------------PS--P---TRD--------DKSQ----VEEQLRINGK
-GKKLRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNKRSKYK
-KVMKQNPNGPPPPL-TPQG-----------------------------------------
---------SASSPPHG----QQ--------------------------------------
+--------------LQQQSMAGGM---GHPAYNI-RSGY-PTQHSQ-----HDMFPTSQH
+TRSF-GYPFPMNSMAPSGYNAVPPSHHFPMSPYQPPS--PTRD--------DKSQVEEQL
+RINGKGKKLRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNK
+RSKYKKVMKQNPNG---PPPPLTPQGS-----ASSPPHGQQ-------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
-----
+--------------------------------------------------
+>Candidula_unifasciata CAG5114556.1 unnamed protein product [Candidula unifasciata]
+--------------------------------------------------MDGLEQD---
+----MMKQQSAFMELQQQTGGLAHSMGHHPAYQI-RPQY-PGAHPQHHQPHD-VFSSQQH
+GR--------------------MPSHPFSVSPYQTPS--PPRD--------DKSQVEEQL
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKIMKQGG-P---PPTQAPCSQT--------PVHQGSAASPSLQQQG-----SMGV
+GIKQQQNSFLDEGPPGGDMHPGSQGSPTPQ-H--GLQHPHPQGTPTPMLSASSPM---SQ
+Q-------------------------------GSVLSWSDLG-------------SNPNS
+GHIHPHSHNQHHAQHQINSAYMSHYS-SWYTQNGLPHQQSLLT-------
+>Cornu_aspersum TRINITY_DN57644_c0_g1_i1 [Cornu aspersum]
+------------------------------------------------------------
+------------------------------------------------------------
+----------------------------------------PRD--------DKSQVEEQL
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKIMKQGG-P---PPTQAPCSQT--------PVHQGSAGSPSLQQQQ-----GSM-
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------------GVVIKQ-----------
+>Plakobranchus_ocellatus GFO48356.1 hypothetical protein PoB_007486100 [Plakobranchus ocellatus]
+------------------------------------------------------------
+--------------MKQGGAPP-------------PSQA-PCSQPP----SHQASSSPGA
+QHGPGGAPTPSLGNVTVKQQPGSQGNSFLDDGPQSGS-------------------GSEM
+HPGSQGSPTPQP---HGGLQ----HPHPQGTPTPMLPASSPLS---------------HH
+HHQHHQQQHHSAHP---HHNPHHPHSA-----AHHPQGAGGGGVLSWSDLG-----AAG-
+------------------------GIPTSGQHGGQHGHPHAHSVSSA-------------
+------------------------------------------------------------
+------------AHQQIGNAYMSHYS-SWYSQGSLPHQQSLLT-------
+>Doryteuthis_pealeii QVQ68771.1 homeobox protein Distalless, partial [Doryteuthis pealeii]
+DTVDLSTLLVRICYSRFTSGLSVSLPSTFIRKLPIINRKTGPMMLNIAGSVDGLDQ----
+----DVTGKSAFMELQQQPMPPGM---AHPAYPI-RSSY-PTHQSQ----HENVFSTAQH
+TRPF-TYPFAMNTMSATTYN--PPTHAFSVTPYQTTS--PTREGCTFYFPTEKTQMEEQL
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKMMKQQQTN---PGQPQPQAQQ--------PPSQGHTTPTPQPQQQ-----QQA-
+-------------------TVQHPTQPTTP-QQNGPAPNG--QQNSSLLPPASSV---S-
+---------------------------------PPPTWSEL-------------------
+------------STTTPTTSYMSPYTWYSQQQNSISH-QSLLT-------
+>Sepia_bandensis QDF46136.1 distalless protein, partial [Sepia bandensis]
+-------------------------------------------MLNIAGSVDGLDQ----
+----DVTGKSAFMELQQQPMPPGM---AHPAYPI-RSSY-PTHQSQ----HENVFSTAQH
+TRPF-TYPFAMNTMSATTYN--PPTHAFSVTPYQTTS--PTREGCTFYFPTEKSQMEEQL
+RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQVKIWFQNR
+RSKYKKMMKQQQTN---PGQPQPQAQQ--------PPSQGHTTPTPQPQQP-----QQA-
+---------------------------TVQ------------------------------
+------------------------------------------------------------
+--------------------------------------------------
+>Elysia_marginata GFR70799.1 distal-less [Elysia marginata]
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------MRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAAALGLTQTQVKIWFQNR
+RSKYKKIMKQGGAP---PPSQPPCSQPPSHQASSSPGAQHGPGGAPTPSLGGVTVKQQPG
+SQNSSFLDDGPSTGNSSDMHPGSQGSPTPQ-PHGGLQHPHPQGTPTPMLPASSPL---SH
+HHHPHHQQQQHHPHHTPHHPHSAAHHQQGGAAGGVLSWSDLGAAGGIPTSGHAHSHGGQH
+VHPHAHSVSSAAAHQQIGNAYMSHYS-SWYSQGSLPHQQSLLT-------
+>Octopus_bimaculoides ADL14376.1 distal-less protein, partial [Octopus bimaculoides]
+------------------------------------------------------------
+------------------------------------------------------------
+----------------TRDN--PPTHPFSVTPYQTTS--PTREGYTFYFPTEKSQMEEQL
+RMNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERA--------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------
