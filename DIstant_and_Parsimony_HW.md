@@ -8,6 +8,7 @@ Data reduction occurs and only one possible tree is produced; rely on an evoluti
 ### Assumptions
 
 
+### Input:
 ```
 #load packages
 library(ape)
@@ -46,6 +47,7 @@ May create errors for trees where evolution rates are not equal (long-branch att
 ### Assumptions
 Independence among characters
 
+### Input:
 ```
 setwd("~/Desktop/Botany563/Botany563-Final-Project/multiple_seq_align/t-coffee")
 AA1 <- fasta2DNAbin(file="dlx_protein.fasta")
