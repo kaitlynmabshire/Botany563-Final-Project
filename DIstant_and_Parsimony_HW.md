@@ -1,4 +1,13 @@
-# Neighbor-Joining Tress 
+# Neighbor-Joining Trees 
+### Description
+
+### Strengths
+
+### Weaknesses
+
+### Assumptions
+
+
 ```
 #load packages
 library(ape)
@@ -28,6 +37,15 @@ is.rooted(rootedtree)
 plot(rootedtree, type = "tidy", edge.width = 2)
 ```
 # Parsimony Tree
+### Description
+Uses aligned character-based data (4 nucleotides or 20 amino acids) and seeks the trees that minimizes the amount of evolutionary change (i.e., lowest cost of change) that explains the data
+### Strengths
+Most effective when rates of evolution is slow and equal among branches
+### Weaknesses
+May create errors for trees where evolution rates are not equal (long-branch attraction; Felsenstein zone)
+### Assumptions
+Independence among characters
+
 ```
 setwd("~/Desktop/Botany563/Botany563-Final-Project/multiple_seq_align/t-coffee")
 AA1 <- fasta2DNAbin(file="dlx_protein.fasta")
