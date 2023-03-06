@@ -1,7 +1,25 @@
+# General Commands
+### Connecting Github to Git on personal laptop
+#### Cloning Directory
+```
+Pwd
+Cd desktop/Botany563
+Git clone https://github.com/kaitlynmabshire/Botany563.git
+```
+#### Adding Upstream Directory and Pushing
+```
+Git remote add upstream https://github.com/kaitlynmabshire/Botany563.git
+Git remote -v
+Git add .
+git commit -m "note"
+git push
+```
+
 # Finding Sequences in Transcriptome
 
 ## NCBI BLAST+
--NCBI BLAST+ was downloaded from (WEBSITE NAME)
+-NCBI BLAST+ was downloaded from https://www.ncbi.nlm.nih.gov/books/NBK52640/
+
 -Sequences found from the NCBI database were used as query and searched in assembled transcriptome.
 
 ### Making local database
@@ -18,10 +36,7 @@
 ./tblastn -query <query_sequence_file.fasta> -out cornu_aspersum_db -out <file.txt>
 ```
 
-#### Output:
-```
-
-```
+Sequences found with the lowest E value (less than E^-20) were selected compared to ortholog sequences using ORFfinder on NCBI.
 
 # Multiple Sequence Alignment
 
