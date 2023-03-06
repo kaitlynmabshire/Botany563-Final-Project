@@ -1,10 +1,10 @@
 # Neighbor-Joining Trees 
 ### Description
-
+Uses a distance matrix to construct a tree by determining which leaves/branches are neighbors. NJ trees aim to show the minimum amount of evolution to explain differences among sequences.
 ### Strengths
-
+Topologically accurate and fast
 ### Weaknesses
-
+Data reduction occurs and only one possible tree is produced; rely on an evolution model
 ### Assumptions
 
 
