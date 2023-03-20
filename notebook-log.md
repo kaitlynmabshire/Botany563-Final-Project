@@ -579,3 +579,33 @@ dlx_protein 17 seqs, max length 333, avg  length 250
 00:00:00      6 MB(0%)  Iter   5  100.00%  Refine biparts
 00:00:00      6 MB(0%)  Iter   5  100.00%  Refine biparts
 ```
+
+# Neighbor-Joining Tree
+```
+#load packages
+library(ape)
+library(adegenet)
+library(phangorn)
+
+#load sample data
+setwd("~/Desktop/Botany563/Botany563-Final-Project/multiple_seq_align/t-coffee")
+AA <- fasta2DNAbin(file="dlx_protein.fasta")
+
+#compute genetic distances
+A1 <- dist.aa(AA)
+
+#Get NJ trees
+tre1 <- nj(A1)
+
+#add ladderize funcation
+tre1 <- ladderize(tre1)
+
+#plot tree
+plot(tre1, cex=.6)
+title("A simple NJ tree")
+
+#root tree
+rootedtree <- root(tre1, outgroup = "Drosophila_melanogaster", resolve.root = "true")
+is.rooted(rootedtree)
+plot(rootedtree, type = "tidy", edge.width = 2)
+```
