@@ -147,11 +147,20 @@ rootedtree <- root(tre1, outgroup = "Drosophila_melanogaster", resolve.root = "t
 is.rooted(rootedtree)
 plot(rootedtree, type = "tidy", edge.width = 2)
 ```
+#Maximum Likelihood
+## RAxML-NG
+### Description
+Randomized Axelerated Maximum Likelihood (RAxML) is a phylogenetic analysis method of large datasets under maximum likelihood. It uses Subtree Pruning Regrafting (SPR) moves to quickly navigate to the best known ML tree.
+### Strengths
+Can be used on large datasets and quickly produces high scoring trees; supports DNA, protein, binary, multi-state morphological, and RNA secondary data; offers standard statistical significant test and options to compute Robinson-Foulds distances
+### Weaknesses
+Has higher variance of trees and can be less stable than IQ-Tree; may need more iterations for phylogeny building if alignments already have strong phylogentic signals
+### Assumptions
+1) mutation process is the same at every branch of the tree 2) all sites evolve independently of each other 3) all sites evolve the same
 
-# RaxML Trees
 #### dlx tree
 ```
-~/Dropbox/software/raxml-ng -msa dlx_protein.fasta -model LG+G
+~/Dropbox/software/raxml-ng -msa dlx_protein.fasta -model VT+I+I+R2
 ```
 #### Output Results:
 ```
@@ -172,7 +181,7 @@ Elapsed time: 237.832 seconds
 ```
 #### exd tree
 ```
-~/Dropbox/software/raxml-ng -msa exd_protein.fasta -model LG+G
+~/Dropbox/software/raxml-ng -msa exd_protein.fasta -model VT+I+I+R2
 ```
 #### Output Results:
 ```
@@ -190,4 +199,49 @@ Execution log saved to: /Users/kaitlynabshire/Desktop/Botany563/Botany563-Final-
 Analysis started: 20-Mar-2023 10:36:03 / finished: 20-Mar-2023 10:41:40
 
 Elapsed time: 337.394 seconds
+```
+
+## iqtree2
+#### dlx 
+```
+~/Dropbox/software/iqtree-2.2.0-MacOSX/bin/iqtree2 -s dlx_protein.fasta
+```
+#### exd 
+```
+~/Dropbox/software/iqtree-2.2.0-MacOSX/bin/iqtree2 -s exd_protein.fasta
+```
+#### output:
+```
+Akaike Information Criterion:           VT+F+I+I+R2
+Corrected Akaike Information Criterion: VT+F+I+I+R2
+Bayesian Information Criterion:         VT+I+I+R2
+Best-fit model: VT+I+I+R2 chosen according to BIC
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -12068.747
+Optimal log-likelihood: -12068.747
+Proportion of invariable sites: 0.011
+Site proportion and rates:  (0.752,0.267) (0.237,3.373)
+Parameters optimization took 1 rounds (0.079 sec)
+BEST SCORE FOUND : -12068.747
+Total tree length: 21.735
+
+Total number of iterations: 219
+CPU time used for tree search: 69.814 sec (0h:1m:9s)
+Wall-clock time used for tree search: 71.654 sec (0h:1m:11s)
+Total CPU time used: 70.228 sec (0h:1m:10s)
+Total wall-clock time used: 71.974 sec (0h:1m:11s)
+
+Analysis results written to: 
+  IQ-TREE report:                exd_protein.fasta.iqtree
+  Maximum-likelihood tree:       exd_protein.fasta.treefile
+  Likelihood distances:          exd_protein.fasta.mldist
+  Screen log file:               exd_protein.fasta.log
+
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t exd_protein.fasta.treefile -m "VT+I{0.0113759}+R2{0.751691,0.267149,0.236933,3.37305}" --length 1467
 ```
