@@ -245,3 +245,41 @@ ALISIM COMMAND
 --------------
 --alisim simulated_MSA -t exd_protein.fasta.treefile -m "VT+I{0.0113759}+R2{0.751691,0.267149,0.236933,3.37305}" --length 1467
 ```
+
+# Bayesian Inference
+## MrBayes
+### Converting Fasta File to Nexus File
+```
+install.packages("seqinr")
+install.packages("ape")
+library(seqinr)
+library(ape)
+
+data = read.FASTA("~/desktop/botany563/botany563-final-project/multiple_seq_align/t-coffee/dlx_protein.fna", type = "AA")
+write.nexus.data(data, file="~/desktop/botany563/botany563-final-project/nexus_dlx_protein.nex", format="protein")
+
+data = read.fasta("~/desktop/botany563/botany563-final-project/multiple_seq_align/t-coffee/exd_protein.aln", type = "AA")
+write.nexus.data(data, file="~/desktop/botany563/botany563-final-project/nexus_exd_protein.nex", format="protein")
+```
+### MrBayes Block (added to Nexus File)
+```
+begin mrbayes;
+    set nowarnings=yes;
+    set autoclose=yes;
+    set seed=112491;
+    set swapseed=1337;
+    lset nst=6 rates=gamma;
+    mcmcp ngen=10000000 burninfrac=.25 samplefreq=1000 printfreq=1000 diagnfreq=10000 nruns=3 nchains=3 temp=0.40 swapfreq=10 savebrelens=yes;
+    outgroup Drosophila_melanogaster;
+    mcmc;
+        sumt;
+        sump;
+end;
+
+```
+### Running MrBayes
+```
+cd desktop/botany563/botany562-final-project
+~/Dropbox/software/MrBayes mb nexus_dlx_protein.aln
+~/Dropbox/software/MrBayes mb nexus_exd_protein.aln
+```
