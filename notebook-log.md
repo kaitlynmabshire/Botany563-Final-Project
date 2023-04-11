@@ -40,7 +40,15 @@ Sequences found with the lowest E value (less than E^-20) were selected compared
 
 # Multiple Sequence Alignment
 
-## Ran T-Coffee:
+## T-Coffee:
+
+#### Downloading T-Coffee
+Downloaded T-COFFEE_distribution_Version_13.45.0.4846264.tar.gz from http://www.tcoffee.org/Packages/Stable/Latest/ (Downloaded on 06/29/2021)
+```
+mv ~/Downloads/T-COFFEE* ~/Desktop/ncbi_dataset
+# cd ncbi_dataset/T-COFFEE*
+# ./install all
+```
 #### Input:
 ```
 cd botany563/botany563-final-project
@@ -60,7 +68,12 @@ OUTPUT RESULTS
 # T-COFFEE is available from http://www.tcoffee.org
 # Register on: https://groups.google.com/group/tcoffee/
 ```
-## Ran Muscle:
+## Muscle:
+#### Downloading Muscle
+Downloaded Muscle from https://drive5.com/muscle/downloads_v3.htm (muscle3.8.31_i86darwin64.tar.gz) (02/2023)
+```
+tar -zxvf muscle3.8.31_i86darwin64.tar.gz
+```
 #### Input:
 ```
 ~/Dropbox/software/muscle3.8.31_i86darwin64 -in dlx_protein.fasta -out muscle_aligned_dlx_protein.fasta
@@ -158,6 +171,14 @@ Has higher variance of trees and can be less stable than IQ-Tree; may need more 
 ### Assumptions
 1) mutation process is the same at every branch of the tree 2) all sites evolve independently of each other 3) all sites evolve the same
 
+#### Downloading RAxML
+Downloaded RaxML from https://github.com/amkozlov/raxml-ng (06/29/2021)
+```
+mv ~/Downloads/raxml* ~/Desktop/ncbi_dataset
+cd ncbi_dataset/raxml*
+
+./raxml-ng -v
+```
 #### dlx tree
 ```
 ~/Dropbox/software/raxml-ng -msa dlx_protein.fasta -model VT+I+I+R2
@@ -202,6 +223,9 @@ Elapsed time: 337.394 seconds
 ```
 
 ## iqtree2
+#### Downloading iqtree2
+Downloaded iqtree2 from http://www.iqtree.org/#download (03/2023)
+
 #### dlx 
 ```
 ~/Dropbox/software/iqtree-2.2.0-MacOSX/bin/iqtree2 -s dlx_protein.fasta
@@ -248,6 +272,27 @@ ALISIM COMMAND
 
 # Bayesian Inference
 ## MrBayes
+### Downloading MrBayes
+Followed instruction for Mrbayes installation from https://nbisweden.github.io/MrBayes/download.html (06/29/2021)
+```
+cd desktop/ncbi_database
+git clone --depth=1 https://github.com/NBISweden/MrBayes.git
+cd MrBayes
+./configure
+brew tap brewsci/bio
+
+==> Tapping brewsci/bio
+Cloning into '/usr/local/Homebrew/Library/Taps/brewsci/homebrew-bio'...
+remote: Enumerating objects: 13905, done.
+remote: Counting objects: 100% (681/681), done.
+remote: Compressing objects: 100% (493/493), done.
+remote: Total 13905 (delta 251), reused 585 (delta 187), pack-reused 13224
+Receiving objects: 100% (13905/13905), 2.85 MiB | 12.97 MiB/s, done.
+Resolving deltas: 100% (9489/9489), done.
+Tapped 321 formulae (346 files, 3.7MB).
+
+brew install mrbayes --with-open-mpi
+```
 ### Converting Fasta File to Nexus File
 ```
 install.packages("seqinr")
@@ -269,7 +314,7 @@ begin mrbayes;
     set seed=112491;
     set swapseed=1337;
     lset nst=6 rates=gamma;
-    mcmcp ngen=10000000 burninfrac=.25 samplefreq=1000 printfreq=1000 diagnfreq=10000 nruns=3 nchains=3 temp=0.40 swapfreq=10 savebrelens=yes;
+    mcmcp ngen=10000000 burninfrac=.25 samplefreq=1000 printfreq=1000 diagnfreq=10000 nruns=3 nchains=3 temp=0.40 swapfreq=10;
     outgroup Drosophila_melanogaster;
     mcmc;
         sumt;
@@ -280,6 +325,6 @@ end;
 ### Running MrBayes
 ```
 cd desktop/botany563/botany562-final-project
-~/Dropbox/software/MrBayes mb nexus_dlx_protein.aln
-~/Dropbox/software/MrBayes mb nexus_exd_protein.aln
+~/Dropbox/software/MrBayes mb nexus_dlx_protein.nex
+~/Dropbox/software/MrBayes mb nexus_exd_protein.nex
 ```
