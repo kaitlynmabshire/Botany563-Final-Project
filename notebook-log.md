@@ -43,7 +43,7 @@ Sequences found with the lowest E value (less than E^-20) were selected compared
 ## T-Coffee:
 
 #### Downloading T-Coffee
-Downloaded T-COFFEE_distribution_Version_13.45.0.4846264.tar.gz from http://www.tcoffee.org/Packages/Stable/Latest/ (Downloaded on 06/29/2021)
+Downloaded T-COFFEE_distribution_Version_13.45.0.4846264.tar.gz from http://www.tcoffee.org/Packages/Stable/Latest/ (Downloaded on 06/29/2021). T-Coffee can be found in dekstop/software/T-COFFEE_distribution_Version_13.45.61.3c310a9
 ```
 mv ~/Downloads/T-COFFEE* ~/Desktop/ncbi_dataset
 # cd ncbi_dataset/T-COFFEE*
@@ -70,7 +70,7 @@ OUTPUT RESULTS
 ```
 ## Muscle:
 #### Downloading Muscle
-Downloaded Muscle from https://drive5.com/muscle/downloads_v3.htm (muscle3.8.31_i86darwin64.tar.gz) (02/2023)
+Downloaded Muscle from https://drive5.com/muscle/downloads_v3.htm (muscle3.8.31_i86darwin64.tar.gz) (02/2023). Muscle can be found in desktop/software/muscle3.8.31_i86darwin64
 ```
 tar -zxvf muscle3.8.31_i86darwin64.tar.gz
 ```
@@ -172,7 +172,7 @@ Has higher variance of trees and can be less stable than IQ-Tree; may need more 
 1) mutation process is the same at every branch of the tree 2) all sites evolve independently of each other 3) all sites evolve the same
 
 #### Downloading RAxML
-Downloaded RaxML from https://github.com/amkozlov/raxml-ng (06/29/2021)
+Downloaded RAxML from https://github.com/amkozlov/raxml-ng (06/29/2021). RAxML can be found in desktop/software/raxml-ng_v1
 ```
 mv ~/Downloads/raxml* ~/Desktop/ncbi_dataset
 cd ncbi_dataset/raxml*
@@ -224,7 +224,7 @@ Elapsed time: 337.394 seconds
 
 ## iqtree2
 #### Downloading iqtree2
-Downloaded iqtree2 from http://www.iqtree.org/#download (03/2023)
+Downloaded iqtree2 from http://www.iqtree.org/#download (03/2023). iqTree2 can be found in desktop/software/iqtree01.6.12-MacOSX
 
 #### dlx 
 ```
@@ -273,7 +273,7 @@ ALISIM COMMAND
 # Bayesian Inference
 ## MrBayes
 ### Downloading MrBayes
-Followed instruction for Mrbayes installation from https://nbisweden.github.io/MrBayes/download.html (06/29/2021)
+Followed instruction for Mrbayes installation from https://nbisweden.github.io/MrBayes/download.html (06/29/2021). MrBayes can be found in desktop/software/MrBayes
 ```
 cd desktop/ncbi_database
 git clone --depth=1 https://github.com/NBISweden/MrBayes.git
@@ -327,4 +327,20 @@ end;
 cd desktop/botany563/botany562-final-project
 ~/Dropbox/software/MrBayes mb nexus_dlx_protein.nex
 ~/Dropbox/software/MrBayes mb nexus_exd_protein.nex
+```
+
+# Coalescent 
+## ASTRAL
+Downloaded from https://github.com/smirarab/ASTRAL/blob/master/README.md#installation (04/16/2023). ASTRAL can be found in desktop/software/Astral
+### Running ASTRAL
+```
+cd desktop/botany563/botany563-final-project/FINISHPATHNAME
+java -jar ~/Desktop/software/astral/astral.5.7.8.jar -i (File name) -o (output file name)
+```
+## BUCKy
+Downloaded v1.4.4 from https://pages.stat.wisc.edu/~ane/bucky/downloads.html (04/16/2023). BUCKy can be found in desktop/software/bucky-1.4.4
+More information on BUCKy at https://pages.stat.wisc.edu/~larget/AustinWorkshop/tutorial.pdf
+```
+cd desktop/sofwater/bucky-1.4.4
+bucky -a 1 -k 4 -n 1000000 -c 4 -s1 23546 -s2 4564 -o (output file name) 
 ```
