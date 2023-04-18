@@ -1,12 +1,12 @@
 # General Commands
-### Connecting Github to Git on personal laptop
-#### Cloning Directory
+## Connecting Github to Git on personal laptop
+### Cloning Directory
 ```
 Pwd
 Cd desktop/Botany563
 Git clone https://github.com/kaitlynmabshire/Botany563.git
 ```
-#### Adding Upstream Directory and Pushing
+### Adding Upstream Directory and Pushing
 ```
 Git remote add upstream https://github.com/kaitlynmabshire/Botany563.git
 Git remote -v
@@ -15,7 +15,7 @@ git commit -m "note"
 git push
 ```
 
-# Finding Sequences in Transcriptome
+# Finding Sequences in C. aspersum Transcriptome
 
 ## NCBI BLAST+
 -NCBI BLAST+ was downloaded from https://www.ncbi.nlm.nih.gov/books/NBK52640/
@@ -24,38 +24,42 @@ git push
 
 ### Making local database
 
-#### Input:
 ```
+cd dekstop/HCR/sequences/ncbi-blast-2.13.0+/bin
 ./makeblastdb -in cornu_aspersum.fasta -out cornu_aspersum_db -dbtype nucl -parse_seqid
 ```
 
 ### Running query
 
-#### Input:
 ```
+mv ~downloads/ncbi-blast-2.13.0 ~cd dekstop/HCR/sequences
+cd dekstop/HCR/sequences/ncbi-blast-2.13.0+/bin
 ./tblastn -query <query_sequence_file.fasta> -out cornu_aspersum_db -out <file.txt>
 ```
 
 Sequences found with the lowest E value (less than E^-20) were selected compared to ortholog sequences using ORFfinder on NCBI.
 
+All sequences used, including ascension number, can be found in desktop/botany563/botany563-final-project/data
+
 # Multiple Sequence Alignment
 
 ## T-Coffee:
 
-#### Downloading T-Coffee
+### Downloading T-Coffee
 Downloaded T-COFFEE_distribution_Version_13.45.0.4846264.tar.gz from http://www.tcoffee.org/Packages/Stable/Latest/ (Downloaded on 06/29/2021). T-Coffee can be found in dekstop/software/T-COFFEE_distribution_Version_13.45.61.3c310a9
 ```
 mv ~/Downloads/T-COFFEE* ~/Desktop/software
 cd desktop/software/T-COFFEE*
 ./install all
 ```
-#### Input:
+### Input:
 ```
 cd botany563/botany563-final-project
 t_coffee dlx_protein.fasta
+t_coffee exd_protein.fasta
 ```
 
-#### Output Results:
+### Output:
 ```
 OUTPUT RESULTS
 	#### File Type= GUIDE_TREE      Format= newick          Name= dlx_protein.dnd
@@ -67,231 +71,22 @@ OUTPUT RESULTS
 # Results Produced with T-COFFEE Version_13.45.0.4846264 (Version_13.45.0.4846264)
 # T-COFFEE is available from http://www.tcoffee.org
 # Register on: https://groups.google.com/group/tcoffee/
-```
-## Muscle:
-#### Downloading Muscle
-Downloaded Muscle from https://drive5.com/muscle/downloads_v3.htm (muscle3.8.31_i86darwin64.tar.gz) (02/2023). Muscle can be found in desktop/software/muscle3.8.31_i86darwin64
-```
-tar -zxvf muscle3.8.31_i86darwin64.tar.gz
-```
-#### Input:
-```
-~/Desktop/software/muscle3.8.31_i86darwin64 -in dlx_protein.fasta -out muscle_aligned_dlx_protein.fasta
-```
 
-#### Output:
-```
-MUSCLE v3.8.31 by Robert C. Edgar
+###############
 
-http://www.drive5.com/muscle
-This software is donated to the public domain.
-Please cite: Edgar, R.C. Nucleic Acids Res 32(5), 1792-97.
+OUTPUT RESULTS
+	#### File Type= GUIDE_TREE      Format= newick          Name= exd_protein.dnd
+	#### File Type= MSA             Format= aln             Name= exd_protein.aln
+	#### File Type= MSA             Format= html            Name= exd_protein.html
 
-dlx_protein 17 seqs, max length 333, avg  length 250
-00:00:00      1 MB(0%)  Iter   1  100.00%  K-mer dist pass 1
-00:00:00      1 MB(0%)  Iter   1  100.00%  K-mer dist pass 2
-00:00:00      5 MB(0%)  Iter   1  100.00%  Align node       
-00:00:00      5 MB(0%)  Iter   1  100.00%  Root alignment
-00:00:00      6 MB(0%)  Iter   2  100.00%  Refine tree   
-00:00:00      6 MB(0%)  Iter   2  100.00%  Root alignment
-00:00:00      6 MB(0%)  Iter   2  100.00%  Root alignment
-00:00:00      6 MB(0%)  Iter   3  100.00%  Refine biparts
-00:00:00      6 MB(0%)  Iter   4  100.00%  Refine biparts
-00:00:00      6 MB(0%)  Iter   5  100.00%  Refine biparts
-00:00:00      6 MB(0%)  Iter   5  100.00%  Refine biparts
+# Command Line: t_coffee dlx_protein.fasta  [PROGRAM:T-COFFEE]
+# T-COFFEE Memory Usage: Current= 37.306 Mb, Max= 40.739 Mb
+# Results Produced with T-COFFEE Version_13.45.0.4846264 (Version_13.45.0.4846264)
+# T-COFFEE is available from http://www.tcoffee.org
+# Register on: https://groups.google.com/group/tcoffee/
 ```
 
-# Neighbor-Joining Tree
-#### dlx NJ tree
-```
-#load packages
-library(ape)
-library(adegenet)
-library(phangorn)
-
-#load sample data
-setwd("~/Desktop/Botany563/Botany563-Final-Project/multiple_seq_align/t-coffee")
-AA <- fasta2DNAbin(file="dlx_protein.fasta")
-
-#compute genetic distances
-A1 <- dist.aa(AA)
-
-#Get NJ trees
-tre1 <- nj(A1)
-
-#add ladderize funcation
-tre1 <- ladderize(tre1)
-
-#plot tree
-plot(tre1, cex=.6)
-title("A simple NJ tree")
-
-#root tree
-rootedtree <- root(tre1, outgroup = "Drosophila_melanogaster", resolve.root = "true")
-is.rooted(rootedtree)
-plot(rootedtree, type = "tidy", edge.width = 2)
-```
-#### exd NJ tree
-```
-#load packages
-library(ape)
-library(adegenet)
-library(phangorn)
-
-#load sample data
-setwd("~/Desktop/Botany563/Botany563-Final-Project/multiple_seq_align/t-coffee")
-AA <- fasta2DNAbin(file="exd_protein.fasta")
-
-#compute genetic distances
-A1 <- dist.aa(AA)
-
-#Get NJ trees
-tre1 <- nj(A1)
-
-#add ladderize funcation
-tre1 <- ladderize(tre1)
-
-#plot tree
-plot(tre1, cex=.6)
-title("A simple NJ tree")
-
-#root tree
-rootedtree <- root(tre1, outgroup = "Drosophila_melanogaster", resolve.root = "true")
-is.rooted(rootedtree)
-plot(rootedtree, type = "tidy", edge.width = 2)
-```
-#Maximum Likelihood
-## RAxML-NG
-### Description
-Randomized Axelerated Maximum Likelihood (RAxML) is a phylogenetic analysis method of large datasets under maximum likelihood. It uses Subtree Pruning Regrafting (SPR) moves to quickly navigate to the best known ML tree.
-### Strengths
-Can be used on large datasets and quickly produces high scoring trees; supports DNA, protein, binary, multi-state morphological, and RNA secondary data; offers standard statistical significant test and options to compute Robinson-Foulds distances
-### Weaknesses
-Has higher variance of trees and can be less stable than IQ-Tree; may need more iterations for phylogeny building if alignments already have strong phylogentic signals
-### Assumptions
-1) mutation process is the same at every branch of the tree 2) all sites evolve independently of each other 3) all sites evolve the same
-
-#### Downloading RAxML
-Downloaded RAxML from https://github.com/amkozlov/raxml-ng (06/29/2021). RAxML can be found in desktop/software/raxml-ng_v1
-```
-mv ~/Downloads/raxml* ~/Desktop/ncbi_dataset
-cd ncbi_dataset/raxml*
-
-./raxml-ng -v
-```
-#### dlx tree
-```
-~/Desktop/software/raxml-ng -msa dlx_protein.fasta -model JTT+F+I+G4
-```
-#### Output Results:
-```
-Final LogLikelihood: -7882.775059
-
-AIC score: 15885.550118 / AICc score: 15893.207022 / BIC score: 16181.026862
-Free parameters (model + branch lengths): 60
-
-Best ML tree saved to: /Users/kmabshire/Desktop/Software/raxml-ng_v1/dlx_protein.fasta.raxml.bestTree
-All ML trees saved to: /Users/kmabshire/Desktop/Software/raxml-ng_v1/dlx_protein.fasta.raxml.mlTrees
-Optimized model saved to: /Users/kmabshire/Desktop/Software/raxml-ng_v1/dlx_protein.fasta.raxml.bestModel
-
-Execution log saved to: /Users/kmabshire/Desktop/Software/raxml-ng_v1/dlx_protein.fasta.raxml.log
-
-Analysis started: 17-Apr-2023 19:43:45 / finished: 17-Apr-2023 19:45:26
-
-Elapsed time: 100.974 seconds
-```
-#### exd tree
-```
-~/Desktop/software/raxml-ng -msa exd_protein.fasta -model  VT+G4
-```
-#### Output Results:
-```
-Final LogLikelihood: -7272.198892
-
-AIC score: 14624.397784 / AICc score: 14628.307200 / BIC score: 14815.594660
-Free parameters (model + branch lengths): 40
-
-WARNING: Best ML tree contains 1 near-zero branches!
-
-Best ML tree with collapsed near-zero branches saved to: /Users/kmabshire/Desktop/Software/raxml-ng_v1/exd_protein.fasta.raxml.bestTreeCollapsed
-Best ML tree saved to: /Users/kmabshire/Desktop/Software/raxml-ng_v1/exd_protein.fasta.raxml.bestTree
-All ML trees saved to: /Users/kmabshire/Desktop/Software/raxml-ng_v1/exd_protein.fasta.raxml.mlTrees
-Optimized model saved to: /Users/kmabshire/Desktop/Software/raxml-ng_v1/exd_protein.fasta.raxml.bestModel
-```
-
-## iqtree2
-#### Downloading iqtree2
-Downloaded iqtree2 from http://www.iqtree.org/#download (03/2023). iqTree2 can be found in desktop/software/iqtree01.6.12-MacOSX
-
-#### dlx 
-```
-~/Desktop/software/iqtree-2.2.0-MacOSX/bin/iqtree2 -s dlx_protein.fasta
-```
-#### output:
-```
-Akaike Information Criterion:           JTT+F+I+G4
-Corrected Akaike Information Criterion: JTT+F+I+G4
-Bayesian Information Criterion:         JTT+F+I+G4
-Best-fit model: JTT+F+I+G4 chosen according to BIC
---------------------------------------------------------------------
-|                    FINALIZING TREE SEARCH                        |
---------------------------------------------------------------------
-Performs final model parameters optimization
-Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -7887.634
-Optimal log-likelihood: -7887.628
-Proportion of invariable sites: 0.179
-Gamma shape alpha: 2.401
-Parameters optimization took 1 rounds (0.113 sec)
-BEST SCORE FOUND : -7887.628
-Total tree length: 7.412
-
-Total number of iterations: 104
-CPU time used for tree search: 65.108 sec (0h:1m:5s)
-Wall-clock time used for tree search: 65.497 sec (0h:1m:5s)
-Total CPU time used: 76.014 sec (0h:1m:16s)
-Total wall-clock time used: 76.457 sec (0h:1m:16s)
-
-Analysis results written to: 
-  IQ-TREE report:                dlx_protein.fasta.iqtree
-  Maximum-likelihood tree:       dlx_protein.fasta.treefile
-  Likelihood distances:          dlx_protein.fasta.mldist
-  Screen log file:               dlx_protein.fasta.log
-```
-#### exd 
-```
-~/Desktop/software/iqtree-2.2.0-MacOSX/bin/iqtree2 -s exd_protein.fasta
-```
-#### output:
-```
-Akaike Information Criterion:           VT+F+R3
-Corrected Akaike Information Criterion: VT+F+R3
-Bayesian Information Criterion:         VT+G4
-Best-fit model: VT+G4 chosen according to BIC
---------------------------------------------------------------------
-|                    FINALIZING TREE SEARCH                        |
---------------------------------------------------------------------
-Performs final model parameters optimization
-Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -7272.200
-Optimal log-likelihood: -7272.200
-Gamma shape alpha: 0.420
-Parameters optimization took 1 rounds (0.100 sec)
-BEST SCORE FOUND : -7272.200
-Total tree length: 5.195
-
-Total number of iterations: 107
-CPU time used for tree search: 94.098 sec (0h:1m:34s)
-Wall-clock time used for tree search: 94.254 sec (0h:1m:34s)
-Total CPU time used: 95.163 sec (0h:1m:35s)
-Total wall-clock time used: 95.329 sec (0h:1m:35s)
-
-Analysis results written to: 
-  IQ-TREE report:                exd_protein.fasta.iqtree
-  Maximum-likelihood tree:       exd_protein.fasta.treefile
-  Likelihood distances:          exd_protein.fasta.mldist
-  Screen log file:               exd_protein.fasta.log
-```
+All T-Coffee aligned sequences can be found in desktop/botany563/botany563-final-project/multiple_seq_align/t-coffee
 
 # Bayesian Inference
 ## MrBayes
@@ -805,18 +600,10 @@ Analysis completed in 93 hours 20 mins 11 seconds
       + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
         and Rubin, 1992) should approach 1.0 as runs converge.
 ```
-# Coalescent 
-## ASTRAL
-Downloaded from https://github.com/smirarab/ASTRAL/blob/master/README.md#installation (04/16/2023). ASTRAL can be found in desktop/software/Astral
-### Running ASTRAL
+### Output (exd)
 ```
-cd desktop/botany563/botany563-final-project/FINISHPATHNAME
-java -jar ~/Desktop/software/astral/astral.5.7.8.jar -i (File name) -o (output file name)
+
 ```
-## BUCKy
-Downloaded v1.4.4 from https://pages.stat.wisc.edu/~ane/bucky/downloads.html (04/16/2023). BUCKy can be found in desktop/software/bucky-1.4.4
-More information on BUCKy at https://pages.stat.wisc.edu/~larget/AustinWorkshop/tutorial.pdf
-```
-cd desktop/sofwater/bucky-1.4.4
-bucky -a 1 -k 4 -n 1000000 -c 4 -s1 23546 -s2 4564 -o (output file name) 
-```
+
+All MrBayes output files can be found in desktop/botany563/botany563-final-project/trees/mrbayes
+
