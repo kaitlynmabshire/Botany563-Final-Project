@@ -1,0 +1,262 @@
+#NEXUS
+[Data written by write.nexus.data.R, Mon Apr 17 20:35:21 2023]
+BEGIN DATA;
+  DIMENSIONS NTAX=21 NCHAR=880;
+  FORMAT DATATYPE=PROTEIN MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    Octopus_bimaculoides         ---------------MD---------------DQQRL--MHPQQAGGGPVSMSA--GMPPQHGYMPPGAGGGGGGGGGGG
+    Drosophila_melanogaster      ---------------ME---------------DPNRM--LAHTG---GMMAP-QG-YGLSG--QD-------------DG
+    Biomphalaria_glabrata        ---------------MD---------------EQQRL--SHP-P---GQVNMSN--VMAP-QGYD-------------GG
+    Patella_vulgata              ---------------MD---------------DQQRL--MQIQS---NVAAMNNSVNMGQQQGYE-------------NM
+    Owenia_fusiformis            ---------------MD---------------DRGQY--GAP--------QMMGG-YGMQQ--DP-------------GN
+    Haliotis_rufescens           MDSLVRFASSAATTGME---------------DQQRL--LHQ-----GQVSMASG-VMTQQTGYD-------------QN
+    Haliotis_rubra               MDSLVRFASSAATTGME---------------DQQRL--LHQ-----GQVSMASG-VMPQQTGYD-------------QN
+    Doryteuthis_pealeii          --------------------------------------------------------------------------------
+    Candidula_unifasciata        MNDFK----------MD---------------EQQRL--SHPSQ---GQVNMSS--VMAA-QGYD-------------GS
+    Gigantopelta_aegis           ---------------MENLVRFASSGATGMENDQQRL--MHQ-----GPGTMAS--VMPQQTVYD-------------QN
+    Elysia_marginata             ---------------MD---------------DQQRL--THPSQ---GQVNMQN--VM---QGYD-------------GS
+    Aplysia_californica          ---------------MD---------------DQQRL--MHPSQ---GQVSMAG--VMPQ-QGYD-------------GS
+    Pecten_maximus               ---------------MD---------------DTQRLSVMHPQQ---GAVSMSGPENMI--QQYN-------------LQ
+    Elysia_chlorotic             ---------------MD---------------DQQRL--THPSQ---GQVNMQN--VM---QGYD-------------GS
+    Pomacea_canaliculata         ---------------MD---------------DQQRL--MHPQ----GPVSMAS--VMPQQGGYD-------------GM
+    Crassostrea_virginica        ---------------ME---------------DGQRM--YSQQG---GLTNMSG--NVL--PQYN-------------M-
+    Crassostrea_gigas            ---------------ME---------------DGQRM--YSQQG---GLTNMSG--NVL--PQYN-------------M-
+    Mizuhopecten_yessoensis      ---------------MD---------------DTQRLGVMHPQQ---GAVSMSAPENMI--QQYN-------------LQ
+    Cornu_aspersum               MNDFK----------MD---------------EQQRL--SHPSQ---GQVNMSS--VMAA-QGYD-------------GS
+    Sepia_sp                    ---------------MD---------------DGQRL--MHPQQAGGGPVSMSG--AMPPQHGYLPPPGAGG--GGGGGG
+    Pinctada_fucata              ---------------ME---------------DGQRM--YSQQG---GLTNMSG--NVL--PQYN-------------M-
+
+    Octopus_bimaculoides         G-GPD--DHQEQRK-QEISDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRGT
+    Drosophila_melanogaster      Q-NAG--SENEVRKQKDIGEILQQIMSISEQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNT
+    Biomphalaria_glabrata        Y-GQS--DHGEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKTVLSIRNT
+    Patella_vulgata              Q-PTA--PTDPDRK-QEIGDILQQIMTITDQSLDEAQA------RWVSGKHTLNCHRMKPALFSVLCEIKEKTVLSIRNT
+    Owenia_fusiformis            V-QGGD-VNSEQRK-QEIGDILQQIMTITDQSLDEAQASIVSNSR----KHTLNCHRMKPALFSVLCEIKEKTVLSIRGS
+    Haliotis_rufescens           MQQSGNPSDPDQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNT
+    Haliotis_rubra               MQQSGNPSDPDQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNT
+    Doryteuthis_pealeii          --------------------------------------------------------------------------------
+    Candidula_unifasciata        Y-GPG--DHGEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKTVLSIRNT
+    Gigantopelta_aegis           M-QSG--D-PDQRK-QEIGDILQQIMTITDQSLDEAQARWV--DR----KHTLNCHRMKPALFSVLCEIKEKTVLNIRNT
+    Elysia_marginata             Y-GQG--DPSEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKAYSSV---
+    Aplysia_californica          L-TQG--DPGDQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKTVLSIRNT
+    Pecten_maximus               P-TGQ--EPSEQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNS
+    Elysia_chlorotic             Y-GQG--DPSEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKACLSIRNT
+    Pomacea_canaliculata         Q-SAA--PDPDQRK-QEIGDILQQIMTITDQSLDEAQARSV--DR----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNT
+    Crassostrea_virginica        --GQD--EPSDQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNS
+    Crassostrea_gigas            --GQD--EPSDQRK-QEIGDILQQIMTITDQSLDEAQARC----R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNS
+    Mizuhopecten_yessoensis      P-TGQ--EPSEQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNS
+    Cornu_aspersum               Y-GPG--DHGEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKTVLSIRNT
+    Sepia_sp                    G-GGG--DEQEQRK-QEISDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRGT
+    Pinctada_fucata              --GQD--EPSDQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNS
+
+    Octopus_bimaculoides         QEEEPADPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASSGPGQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Drosophila_melanogaster      QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGGAAAASAAAA-SQG--GSLSIDGADNAIEHSDYRAKLAQIRQIYHQELEK
+    Biomphalaria_glabrata        QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSTAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Patella_vulgata              QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDGAIEHSDYRAKLAQIRQIYHTELEK
+    Owenia_fusiformis            QDDEPPDPQLMRLDNMLIAEGVAGPEKDGVGSG----------P--GQ-----PENAIEHSDYRSKLAQIRQIYHTELEK
+    Haliotis_rufescens           QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Haliotis_rubra               QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Doryteuthis_pealeii          ---------------------------------AANATAA-ASGGPGQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Candidula_unifasciata        QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSTAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Gigantopelta_aegis           QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Elysia_marginata             ------------------GSGFAPWLRGRGFKTQPSTVRA-PTG------------------------------------
+    Aplysia_californica          QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Pecten_maximus               QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAVNATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Elysia_chlorotic             QEEEPPDPQLMRLDNMLIAEGVAGPEKGGASTAS-TPSPA-ASG--GQ-----TDSAIEHSDYRAKLAQIRQIYHTELEK
+    Pomacea_canaliculata         QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAAAASG--GQ-----PESAIEHSDYRAKLAQIRQIYHTELEK
+    Crassostrea_virginica        QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Crassostrea_gigas            QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Mizuhopecten_yessoensis      QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Cornu_aspersum               QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSTAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Sepia_sp                    QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASGGPGQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+    Pinctada_fucata              QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
+
+    Octopus_bimaculoides         YEQACNEFTSHVINLLREQSRTRPIAPKEIERMVSIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEI
+    Drosophila_melanogaster      YEQACNEFTTHVMNLLREQSRTRPITPKEIERMVQIIHKKFSSIQMQLKQSTCEAVMILRSRFLDARRKRRNFSKQASEI
+    Biomphalaria_glabrata        YEQACNEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKNATEI
+    Patella_vulgata              YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEV
+    Owenia_fusiformis            YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVSIIRRKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKTASEI
+    Haliotis_rufescens           YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVSIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEI
+    Haliotis_rubra               YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVSIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEI
+    Doryteuthis_pealeii          YEQACNEFTSHVVNLLREQSRTRPIAPKEIERMVSIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEI
+    Candidula_unifasciata        YEQACNEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQASEI
+    Gigantopelta_aegis           YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVSIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEV
+    Elysia_marginata             --WACTEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKNATEI
+    Aplysia_californica          YEQACNEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKSATEI
+    Pecten_maximus               YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVGIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEV
+    Elysia_chlorotic             YEQACTEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKNATEI
+    Pomacea_canaliculata         YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVAIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQSSEV
+    Crassostrea_virginica        YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVTIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEL
+    Crassostrea_gigas            YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVTIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEL
+    Mizuhopecten_yessoensis      YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVGIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEV
+    Cornu_aspersum               YEQACNEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKSATEV
+    Sepia_sp                    YEQACNEFTSHVVNLLREQSRTRPIAPKEIER-----------------------VMILRSRFLDARRKRRNFSKQATEI
+    Pinctada_fucata              YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVTIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEL
+
+    Octopus_bimaculoides         LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Drosophila_melanogaster      LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Biomphalaria_glabrata        LTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSYSCHISRGNLGSLTSHSSPKHLRKRRNFSKQASEILNEYFYSHLSN
+    Patella_vulgata              LNEYFYSHLSNPYPSEEAKEELARKCSITVSQISN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Owenia_fusiformis            LNEYFYSHLSNPYPSEEAKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Haliotis_rufescens           LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Haliotis_rubra               LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Doryteuthis_pealeii          LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKTSAKRRKK--R---------
+    Candidula_unifasciata        LNEYFYSHLSNPYPSEEAKEELARKCGINVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Gigantopelta_aegis           LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Elysia_marginata             LTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSL--------------ADTDKTPRYSHHTTGLQNN-CLAR-------
+    Aplysia_californica          LTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Pecten_maximus               LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Elysia_chlorotic             LTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Pomacea_canaliculata         LNEYFYSHVSNPYPSEEAKEELARKCGITVAQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Crassostrea_virginica        LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNINKAQEE-AN---------
+    Crassostrea_gigas            LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNITKAQEE-AN---------
+    Mizuhopecten_yessoensis      LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Cornu_aspersum               LTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Sepia_sp                    LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Pinctada_fucata              LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNINKAQEE-AN---------
+
+    Octopus_bimaculoides         LYAAKTAAAAA--------AQQAVS-GHDGG-A---------AQGVSGYNM-VA---SS---------------QA----
+    Drosophila_melanogaster      LYAAKKAAGAS--------PYSM---AGPPSGT---------TTPMMSPA-------PP---------------QD----
+    Biomphalaria_glabrata        PYPSEEAKEELARKCGINVSQVS--NCKSS--LCSFFANSNRPLFTNRFKLQPSIFTISDGKPRRHVHESKWWRQLPRRR
+    Patella_vulgata              MYAAKAARAAS--------GPPTP--HQDPS-T---------PQSTGGYGI--G---SS---------------Q-----
+    Owenia_fusiformis            LYAAKIAAQGA--------QATN---AGPQ--T---------SPGDPN--------------------------------
+    Haliotis_rufescens           LYAAKAASAAA--------SNTP---GGDSA-T---------AQGAAGFG-------TS---------------QS----
+    Haliotis_rubra               LYAAKAASAAA--------SNTP---GGDSA-T---------AQGAAGFA-------TS---------------QS----
+    Doryteuthis_pealeii          IYTQRKQQQRP--------QR------------------------N----------------------------------
+    Candidula_unifasciata        LYAAKAASAAS--------SQMV---A-DPS-S---------PTGSSNYSL--P---SS---------------QS----
+    Gigantopelta_aegis           MYAAKAASAAA--------SQGAI--SSDV--A---------APGAAGF-------------------------------
+    Elysia_marginata             ----KR--------------------------------------------------------------------------
+    Aplysia_californica          LYAAKAASAAS--------SQMV---NNTPS-S---------PTGSSNYSL--P---SS---------------QS----
+    Pecten_maximus               LYAAKTAAAAA--------AV--G--H-DG------------QGGAAGYNL--G---SS---------------QG----
+    Elysia_chlorotic             LYAAKAASAAS--------SQMV---G-DPS-S---------PTGSSNYSL--P---SS---------------QA----
+    Pomacea_canaliculata         LYAAKAASAAS--------AQQLVQAVSDPS-S---------PPG-SNYGL------SS---------------Q-----
+    Crassostrea_virginica        MYAAKTAAAAA--------ANV--------G-S---------EGGAAGYN------------------------------
+    Crassostrea_gigas            VYAAKSAAAHE--------GQ-----------------------GAAGYN------------------------------
+    Mizuhopecten_yessoensis      LYAAKTAAAAA--------AV--G--H-DG------------QGGAAGYNL--G---SS---------------QG----
+    Cornu_aspersum               LYAAKAASAAS--------SQMV---A-DPS-S---------PTGSSNYSL--P---SS---------------QS----
+    Sepia_sp                    LYAAKTAAAAA--------AQQAVS-GHEAG-A---------APGLSGYNM-VA---SS---------------QA----
+    Pinctada_fucata              MYAAKTAAAAA--------ANV--------G-S---------EGGAAGYN------------------------------
+
+    Octopus_bimaculoides         ------------Q--------------------------LGGQQQSIY-MNLN-G-D-SYQGNET--------SVG----
+    Drosophila_melanogaster      ------------S--------------------------M-----GYP-MGSG-GYD-QQQPYDN--------SMG----
+    Biomphalaria_glabrata        KLMGTRRLRVIASKER-VDVDQSINQTKQGSMINEHKIVLGDIFVSIY-HVDQAV-D-NLSLSDHVDQAVDNLSLSDHVD
+    Patella_vulgata              ----------------------------------------GGMEAGMY-MNLN-G-D-NYQGGDN--------SVS----
+    Owenia_fusiformis            ---------------------------------------------------SQ-G-ECTSPRGEP--------NWG----
+    Haliotis_rufescens           ------------G--------------------------LIGQQQGMY-MNIN-G-E-SYQGGDN--------SVG----
+    Haliotis_rubra               ------------G--------------------------IVGQQQGMY-MNIN-G-E-SYQGGDN--------SVG----
+    Doryteuthis_pealeii          ---------------------------------------------RQY-LVM----------------------------
+    Candidula_unifasciata        ------------Q--------------------------MAG-QGSMY-MNLN-G-D-GYPGGDN--------SWG----
+    Gigantopelta_aegis           ------------------------------------------NQSGMY-MNLN-G-E-SYPGGDN--------SVG----
+    Elysia_marginata             -----------RNFSKQASEILNEYFY-----------------------------------------------------
+    Aplysia_californica          ------------Q--------------------------LGG-QGAMY-MNIN-GGE-SYPGGEN--------SWG----
+    Pecten_maximus               ------------G--------------------------IGGQGSGMY-MNLN-G-D-NYQSSDN--------SVN----
+    Elysia_chlorotic             ------------Q--------------------------MPG-QGGMYPMNLN-GGE-SYPGGDN--------SWE----
+    Pomacea_canaliculata         ------------G--------------------------MGGQQGGMY-MNLN-G-E-SYQG-DN--------SGG----
+    Crassostrea_virginica        ---------------------------------------VGGGQAGMY-MNLN-GGD-NYQSSDN--------SVG----
+    Crassostrea_gigas            ---------------------------------------VGGGQAGMY-MNLN-GGD-NYQSSDN--------SVN----
+    Mizuhopecten_yessoensis      ------------G--------------------------IGGQGSGMY-MNLN-G-D-NYQSSDN--------SVN----
+    Cornu_aspersum               ------------Q--------------------------MAG-QGSMY-MNLN-G-D-GYPGGDN--------SWG----
+    Sepia_sp                    ------------Q--------------------------LAGQQXSIY-MNLN-G-D-SYQGNET--------SVG----
+    Pinctada_fucata              ---------------------------------------VGGGQAGMY-MNLN-GGD-NYQSSDN--------SVG----
+
+    Octopus_bimaculoides         ---------ANVQS------------------------------------------------------------------
+    Drosophila_melanogaster      ---------GYD--------------------------------------------------------------------
+    Biomphalaria_glabrata        QAVDNLSLSDHVDQAVDKL---------SLSDPVDQAVDNLSLSDPVDQAVDNLSLSDPVDQAVDNLSLSDHVDQAVDNL
+    Patella_vulgata              ---------D--------NIQS----------------------------------------------------------
+    Owenia_fusiformis            --------------------------------------------------------------------------------
+    Haliotis_rufescens           ---------ANVQSQVNALRHVISQTGGY---------------------------------------------------
+    Haliotis_rubra               ---------ANVQSQVNALRHVISQTGGY---------------------------------------------------
+    Doryteuthis_pealeii          --------------------------------------------------------------------------------
+    Candidula_unifasciata        ---------LEDSE------------------------------------------------------------------
+    Gigantopelta_aegis           ---------ALQTS--------I--VGDQ---------------------------------------------------
+    Elysia_marginata             --------------------------------------------------------------------------------
+    Aplysia_californica          ---------LEDSE------------------------------------------------------------------
+    Pecten_maximus               ---------A--------LRHVIAQTGGY---------------------------------------------------
+    Elysia_chlorotic             ---------LEDQD------------------------------------------------------------------
+    Pomacea_canaliculata         ---------PASNS------------------------------------------------------------------
+    Crassostrea_virginica        ---------DNVQNQVNALRHVISQSGGY---------------------------------------------------
+    Crassostrea_gigas            ---------A--------LRHVISQSGGY---------------------------------------------------
+    Mizuhopecten_yessoensis      ---------A--------LRHVIAQTGGY---------------------------------------------------
+    Cornu_aspersum               ---------LEDSE------------------------------------------------------------------
+    Sepia_sp                    ---------AN---------------------------------------------------------------------
+    Pinctada_fucata              ---------DNVQNQVNALRHVISQSGGY---------------------------------------------------
+
+    Octopus_bimaculoides         --------------------------------------------------------------------------------
+    Drosophila_melanogaster      ----------------------------------------------------------P-NLHQD-LSP-----------
+    Biomphalaria_glabrata        SLSDPVDQAVDNLSLSDHVDQAVDNLSLSDHV--DQ--AVDNLSLSDPVDQAVDNLSLSDHVDQA-VDN--LSLSDHVDQ
+    Patella_vulgata              --------------------------------QK--------------------Y---ESY-------------------
+    Owenia_fusiformis            --------------------------------------------------------------------------------
+    Haliotis_rufescens           ------------------------NTDGI-PG--GTG--M--------------Y---D-HMQQQ-VPSHS---RGRSDS
+    Haliotis_rubra               ------------------------NTDGI-PG--GTG--M--------------Y---D-HMQQQ-KFHL----------
+    Doryteuthis_pealeii          ---------------------------------------M--------------P---VQHLVYQ-VIIW----------
+    Candidula_unifasciata        --------------------------------------------------------------------------------
+    Gigantopelta_aegis           ------------------------SSSTAEHA--NTT-KL--------------E----PRWSATEKNLM----YADNGQ
+    Elysia_marginata             ---------------------------------------------------------------------------SHLSN
+    Aplysia_californica          --------------------------------------------------------------------------------
+    Pecten_maximus               ------------------------SSDNL-HSSTSSS--M--------------Y---DQHMSSQ-ATPLRSTAGSHGGS
+    Elysia_chlorotic             --------------------------------------------------------------------------------
+    Pomacea_canaliculata         ----------------------------GMDS--SEDSKS--------------NIMSRDAWSVGH--------------
+    Crassostrea_virginica        ------------------------SSDSM-HST-PAS--M--------------Y---EQHMNQQ-ITPHS---RSQNGS
+    Crassostrea_gigas            ------------------------SSDSM-HST-PAS--M--------------Y---EQHMNQQ-ITPHP---RSQNGS
+    Mizuhopecten_yessoensis      ------------------------SSDNL-HSSSSSS--M--------------Y---DQHMSSQ-ATPLRSTAGSHGGS
+    Cornu_aspersum               --------------------------------------------------------------------------------
+    Sepia_sp                    --------------------------------------------------------------------------------
+    Pinctada_fucata              ------------------------SSDSM-HST-PAS--M--------------Y---EQHMNQQ-ITPHS---RSQNGS
+
+    Octopus_bimaculoides         --------------------------------------------------------------------------------
+    Drosophila_melanogaster      --------------------------------------------------------------------------------
+    Biomphalaria_glabrata        AVDNLSLSDPVDQAVDNLSLSDHVDQAVDNLSLSD--PVDQAVDNLSLSDPVDQAVDNLSLSDPV-DQAVDNLSLSDHVD
+    Patella_vulgata              --------------------------------------------------------------------------------
+    Owenia_fusiformis            --------------------------------------------------------------------------------
+    Haliotis_rufescens           Q--------PS--------------------------HS------------DLASLKSEKVGM-T-WAGSAMQGF----V
+    Haliotis_rubra               --------------------------------------------------------------------------------
+    Doryteuthis_pealeii          --------------------------------------------------------------------------------
+    Candidula_unifasciata        --------------------------------------------------------------------------------
+    Gigantopelta_aegis           -------------------------------------------------------------------------VY-----
+    Elysia_marginata             P-------------------------------------------------------------------------------
+    Aplysia_californica          --------------------------------------------------------------------------------
+    Pecten_maximus               ---------PP-----------------------DIDRK------------PEDSVDSWTAGQ-TSLGGQTPLGF----M
+    Elysia_chlorotic             --------------------------------------------------------------------------------
+    Pomacea_canaliculata         --------------------------------------------------------------------------------
+    Crassostrea_virginica        ---------PH-------------------------DPK------------PEDSTDSWCAGA-----------F----M
+    Crassostrea_gigas            ---------PH-------------------------DQK------------PDDSTDSWCAGA-----------F----M
+    Mizuhopecten_yessoensis      ---------PP-----------------------DIDRK------------PEDSVDSWTAGQ-PSLGGQTPLGF----M
+    Cornu_aspersum               --------------------------------------------------------------------------------
+    Sepia_sp                    --------------------------------------------------------------------------------
+    Pinctada_fucata              ---------PH-------------------------DPK------------PEDSTDSWCAGA-----------F----M
+
+    Octopus_bimaculoides         --------------------------------------------------------------------Q-----------
+    Drosophila_melanogaster      --------------------------------------------------------------------------------
+    Biomphalaria_glabrata        QAV---------------DNLSLS-DHVDQ-AVDNLSLSDPVDQAVDNLSLSDPVDQAVDNLSLSDPVDQAVDNLW---S
+    Patella_vulgata              --------------------------------------------------------------------------------
+    Owenia_fusiformis            -------------------------------------------------------------------------------L
+    Haliotis_rufescens           AGLRAGNEEEREEEDDDEE--GEG-DYD--------------DEEE-DEDIKHK-------------TG------SMGSD
+    Haliotis_rubra               ------------------S--GDESDAY--------------DEED-QQY------------------------------
+    Doryteuthis_pealeii          --------------------------------------------------------------------------------
+    Candidula_unifasciata        --------------------------------------------------------------------------------
+    Gigantopelta_aegis           ------------------D--DEE-DDD--------------DEEEDSSPTKQS-------------EL-----------
+    Elysia_marginata             ---------------------------YPSEEA-KEELARKC--------------------GINVSQV-SL-QVFCVFC
+    Aplysia_californica          --------------------------------------------------------------------------------
+    Pecten_maximus               HNM-----------D------GDG-GEG--------------YNPHEQEDIKRP-------------LV-----------
+    Elysia_chlorotic             --------------------------------------------------------------------------------
+    Pomacea_canaliculata         --------------------------------------------------------------------P-----------
+    Crassostrea_virginica        QGL-----------D------GDG-DNY--------------DGSSDEPGLKRP-------------KI-----------
+    Crassostrea_gigas            QGL-----------D------GEG-DNY--------------DGSSDEPGLKRP-------------KI-----------
+    Mizuhopecten_yessoensis      HNM-----------E------GDG-GEG--------------YSHHEQEDIKRP-------------MV-----------
+    Cornu_aspersum               --------------------------------------------------------------------------------
+    Sepia_sp                    --------------------------------------------------------------------V-----------
+    Pinctada_fucata              QGL-----------D------GDG-DNY--------------DGSSDEPGLKRP-------------KI-----------
+  ;
+END;
+
+begin mrbayes;
+    set nowarnings=yes;
+    set autoclose=yes;
+    set seed=112491;
+    set swapseed=1337;
+    lset nst=6 rates=gamma;
+    mcmcp ngen=10000000 burninfrac=.25 samplefreq=1000 printfreq=1000 diagnfreq=10000 nruns=3 nchains=3 temp=0.40 swapfreq=10;
+    outgroup Drosophila_melanogaster;
+    mcmc;
+        sumt;
+        sump;
+end;

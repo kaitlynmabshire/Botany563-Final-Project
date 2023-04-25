@@ -807,16 +807,62 @@ Analysis completed in 93 hours 20 mins 11 seconds
 ```
 # Coalescent 
 ## ASTRAL
+### Description
+A Species Tree Reconstruction Algorithm (ASTRAL) is a Java program that estimates a species tree from unrooted gene trees based on the multi-species coaslescent method. ASTRAL searches the tree space to find different combinations of bipartitions seen in gene trees and seeks to find the tree that maximizes the number of induced quartet trees that are shared by the species tree.
+### Strengths
+ASTRAL is accuate and consistent with species trees. Additionally, ASTRAL can process large datasets within a reasonable amoung ot time.
+### Weaknesses
+ASTRAL assumes that the input gene trees are unrooted and have no missing taxa. Also, ASTRAL is sensitive to gene tree estimation errors and incomplete sampling of gene trees, which may lead to inaccurate species tree topology and reconstructions. Finally, ASTRAL does not explicity model gene duplication and loss events.
+### Assumptions
+-Gene trees are generated under the multispecies coaslescent model
+-Inputted gene trees are independent
+
 Downloaded from https://github.com/smirarab/ASTRAL/blob/master/README.md#installation (04/16/2023). ASTRAL can be found in desktop/software/Astral
+### Concatenated gene trees:
+```
+cat nexus_dlx_protein.nex.con.tre exd.output.tre > dlx_exd.tre
+```
 ### Running ASTRAL
 ```
-cd desktop/botany563/botany563-final-project/FINISHPATHNAME
-java -jar ~/Desktop/software/astral/astral.5.7.8.jar -i (File name) -o (output file name)
+cd desktop/software/astral
+java -jar astral.5.7.8.jar
+java -jar ~/Desktop/software/astral/astral.5.7.8.jar -i dlx_exd.tre_ -o astral.tre
 ```
+NOTE: Recieve error "Empty name observed; likely, an input tree has an error"
+
 ## BUCKy
+### Description
+BUCKy is a C++ program that combines molecular data from multiple loci, estimating the dominant history of sampled individuals and how much of the genome/proteome supports each realtionship by using Bayesian concordance. BUCKy groups similar gene trees and combines them to gain more resolution on their common tree.
+### Strengths
+BUCKy can infer species trees in the presence of incomplete lineage sorting. Also, BUCKy allows for flexible prior distributions on model parameters.
+### Weaknesses
+BUCKy can be misleading when gene posterior distributions are inaccurate. BUCKy may underestimate true discordance in large tree sampling spaces
+### Assumptions
+-no assumption is made regarding discordance among gene trees; assumes all discordant trees are random
+-assumes single gene tree posterior distributions are estimated perfectly by the samples
+
 Downloaded v1.4.4 from https://pages.stat.wisc.edu/~ane/bucky/downloads.html (04/16/2023). BUCKy can be found in desktop/software/bucky-1.4.4
-More information on BUCKy at https://pages.stat.wisc.edu/~larget/AustinWorkshop/tutorial.pdf
+More information and manual on BUCKy at https://pages.stat.wisc.edu/~ane/bucky/v1.4/bucky_manual1.4.4.pdf
 ```
-cd desktop/sofwater/bucky-1.4.4
-bucky -a 1 -k 4 -n 1000000 -c 4 -s1 23546 -s2 4564 -o (output file name) 
+cd desktop/software/bucky-1.4.4/src
+brew install gcc
+make
 ```
+NOTE: BUCKy "make" command is not compiling mbsum and bucky, even after installing gcc.
+
+##BEAST2
+Downloaded BEAST 2.7.4 from http://www.beast2.org/download-mac/ (04/24/2023). BEAST2 can be found in desktop/software/beast_2.7.4
+Tutorial for running multispecies coalescent was followed from https://www.beast2.org/2022/03/31/starbeast3.html and https://taming-the-beast.org/tutorials/StarBeast-Tutorial/
+```
+1) Opened BEAUti application. 
+2) Installed OBAMA and StarBeast2 package by (File->Manage Packages)
+3) Changed template mode to StarBeast3 using (File->Template->StarBeast3).
+4) Imported files "nexus_dlx_protein.nex" and "nexus_exd_protein.nex" by (File->Import Alignment)
+5) In Taxon Sets tab, click on Guess. Selected Split on Character and Take Groups 2.
+6) In the Site Model tab, OBAMA was selected for both gene alignments. Additionally, substitution site estimate was selected (checked off).
+7) In Species Clock Model tab, Species Tree Relaxed Model was chosen, and both Stdev and Clock rate estimate were selected (checked off).
+8) In MCMC tab, Chain Length was set to 5000000 and Store Every was set to 500. Under TraceLog, file name was changed to "dlx_exd.log" and Log Every was changed to 5000. Under SpeciesTreeLogger, File Name was changed to "mollusk.species.tre" and Log Every was changed to 5000.
+9) File was saved as dlx_exd2_.xml in desktop/botany563/botany563-final-project/trees/BEAST
+10) Opened BEAST and inputted dlx_exd2_.xml. Then clicked run.
+```
+Output files for BEAST can be found in desktop/botany563/botany563-final-project/trees/BEAST

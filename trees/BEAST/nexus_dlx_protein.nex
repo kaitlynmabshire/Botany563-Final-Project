@@ -24,7 +24,7 @@ BEGIN DATA;
     Aplysia_californica          -------------------------------------------M-LN--------------MSG-MD--GLDADMMKQQS
     Patella_vulgata              -------------------------------------------M-LN--------------MTGNME--GMDPEMA-SKS
     Pomacea_canaliculata         -------------------------------------------M------------------------------------
-    Sepia_pharaonis              -------------------------------------------MMLN--------------IAGSVD--GLDQDVT-GKS
+    Sepia_sp              -------------------------------------------MMLN--------------IAGSVD--GLDQDVT-GKS
 
     Drosophila_melanogaster      AFVELQQHA---AAGYG-----GIRST-YQH---FGPQG--GQDSGFPSPR--SAL-GYPFPPMHQNSYSGY------HL
     Owenia_fusiformis            AFMEIQQMQ----QNMGHHAAYPIRAS-YPS---QHP-S--Q-DSMYTS-QATRPL-GYPFS-MNGMSHTAYNS-P-SH-
@@ -46,7 +46,7 @@ BEGIN DATA;
     Aplysia_californica          AFMELQQQSAGLPHTMGHHPAYQIRSQ-YSGGPHQHPQA--AHDAVFSGPQHRGAL-GYPFG-MNGMSSS-YSS-PPTHA
     Patella_vulgata              AFMELQQQS--MSGGMG-HPAYNIRSG-YPP---QHS-Q--H-E-MFPTSQHTRSF-GYPFS-MNSMAPSGYNAVPPSHH
     Pomacea_canaliculata         --------------------------------------------------------------------------------
-    Sepia_pharaonis              AFMELQQQP--MPPGMA-HPAYPIRSS-YPT---HQS-Q--H-ENVFSTAQHTRPF-TYPFA-MNTMSATTYNP-P-THA
+    Sepia_sp              AFMELQQQP--MPPGMA-HPAYPIRSS-YPT---HQS-Q--H-ENVFSTAQHTRPF-TYPFA-MNTMSATTYNP-P-THA
 
     Drosophila_melanogaster      GSYA------P-PCASP---------PKD---------------------------------------------------
     Owenia_fusiformis            F-VN------PYQASCP---------PRD---------------------------------------------------
@@ -68,7 +68,7 @@ BEGIN DATA;
     Aplysia_californica          FSV------SPYQTPSP---------PRDDLLSPSSSVVLANPGSHLDHVTSQPPTANAYSSSGDDVTGHHSSGIPHGGN
     Patella_vulgata              FPM------SPYQPPSP---------TRD---------------------------------------------------
     Pomacea_canaliculata         ------------HSG-----------NPS---------------------------------------------------
-    Sepia_pharaonis              FSV------TPYQTTSP---------TREGCT------------------------------------------------
+    Sepia_sp              FSV------TPYQTTSP---------TREGCT------------------------------------------------
 
     Drosophila_melanogaster      --------------------------------------------------------------------------------
     Owenia_fusiformis            --------------------------------------------------------------------------------
@@ -90,7 +90,7 @@ BEGIN DATA;
     Aplysia_californica          GIGIGGGGGGGGGGGMGNGGGGILGYSSSYDHYRHYGAGAYGGHYDKHTGSLTPQLPTPSPGTPGSYQPLTPLTPTHSGA
     Patella_vulgata              --------------------------------------------------------------------------------
     Pomacea_canaliculata         --------------------------------------------------------------------------------
-    Sepia_pharaonis              --------------------------------------------------------------------------------
+    Sepia_sp              --------------------------------------------------------------------------------
 
     Drosophila_melanogaster      --------------------------------------------------------------------------------
     Owenia_fusiformis            --------------------------------------------------------------------------------
@@ -112,7 +112,7 @@ BEGIN DATA;
     Aplysia_californica          APDPHATPSLGSAPGATNSSSSSSSSSSSLALGTSSVTPSSSSLSSSSSAPTSSSSSSTTSSLPSANTVTSMSSADLRHH
     Patella_vulgata              --------------------------------------------------------------------------------
     Pomacea_canaliculata         --------------------------------------------------------------------------------
-    Sepia_pharaonis              --------------------------------------------------------------------------------
+    Sepia_sp              --------------------------------------------------------------------------------
 
     Drosophila_melanogaster      --------------------------------------------------------------------------------
     Owenia_fusiformis            --------------------------------------------------------------------------------
@@ -134,7 +134,7 @@ BEGIN DATA;
     Aplysia_californica          HAVIKQEVGEPIASQCSPGGGGGGGGGGIDRSSCGGDITNPLHGSSSSSSSRRSPHGAAANSHDLSNSSNNNNNNSGGSG
     Patella_vulgata              --------------------------------------------------------------------------------
     Pomacea_canaliculata         --------------------------------------------------------------------------------
-    Sepia_pharaonis              --------------------------------------------------------------------------------
+    Sepia_sp              --------------------------------------------------------------------------------
 
     Drosophila_melanogaster      --------------------------------------------------------------------------------
     Owenia_fusiformis            --------------------------------------------------------------------------------
@@ -156,7 +156,7 @@ BEGIN DATA;
     Aplysia_californica          SGQHHHLQQQHLQHPHQTSSSSDPTSTQQQQQQQQQQQQHHHQQHPMGNGEEDDSAYSRQLSSFYMSSALPTHHAHPHHA
     Patella_vulgata              --------------------------------------------------------------------------------
     Pomacea_canaliculata         --------------------------------------------------------------------------------
-    Sepia_pharaonis              ---------------------------------------------------------------F----------------
+    Sepia_sp              ---------------------------------------------------------------F----------------
 
     Drosophila_melanogaster      ------------------------------------------------------------------DFSISDKCE-DSGL
     Owenia_fusiformis            ------------------------------------------------------------------DK-----SPIEEQL
@@ -178,7 +178,7 @@ BEGIN DATA;
     Aplysia_californica          HTHHHHAAYRGAHPLHHHHHHHPHHTATFPPPLMPAPSMSAASFRSPMVPMPPSFLGRNFPDLGDPDK-----SQVEEQL
     Patella_vulgata              ------------------------------------------------------------------DK-----SQVEEQL
     Pomacea_canaliculata         ------------------------------------------------------------------NK-----SQVEEQL
-    Sepia_pharaonis              --------------------------------------------------------------YFPTEK-----SQMEEQL
+    Sepia_sp              --------------------------------------------------------------YFPTEK-----SQMEEQL
 
     Drosophila_melanogaster      RVNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKMMKAAQGPG-
     Owenia_fusiformis            RVNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKIMKHNPNGT-
@@ -200,7 +200,7 @@ BEGIN DATA;
     Aplysia_californica          RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKI---------
     Patella_vulgata              RINGKGKKLRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNKRSKYKKVMKQNPNGP-
     Pomacea_canaliculata         RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKIMKQGGTPP-
-    Sepia_pharaonis              RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQRLETCTILFRV-------LCR-----PL
+    Sepia_sp              RINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQRLETCTILFRV-------LCR-----PL
 
     Drosophila_melanogaster      T-N-------SG------------------MPLG--GGGPNPGQHSPNQM---------HSG--GNNGGGS-------NS
     Owenia_fusiformis            I-SMSPP--HPGSGG---------------NPMSNGGE----------PM---------TPP--PMSQPPQ-------SV
@@ -222,7 +222,7 @@ BEGIN DATA;
     Aplysia_californica          --------------------------------------------------------------------------------
     Patella_vulgata              P-P------QLA------------------NQGQ--A----------------------SSP--PHGQQPP-------QQ
     Pomacea_canaliculata         G-SVGQPGPGGQ--PSNPPLPPNSPTLQHTPPQH--QG----------PP-----------APPPPNQQQ-Q-------P
-    Sepia_pharaonis              --PQ--A--TAT------------------RPPT----------------------------------------------
+    Sepia_sp              --PQ--A--TAT------------------RPPT----------------------------------------------
 
     Drosophila_melanogaster      G-----------SPSHY-LP-PGHSPTPSSTPVS----------------E---L-SP---EFPPTGL-SP-PTQAPWD-
     Owenia_fusiformis            S-----------PPTPHSQH-NGQTTVPGT---------------------VQTN-NM-MGQQN-VHQ-HP-DDSVTP--
@@ -244,7 +244,7 @@ BEGIN DATA;
     Aplysia_californica          --------------------------------------------------------------------------------
     Patella_vulgata              Q-------H---TPTDI--P-PTQPTTPIQ--------------------Q---G-SQ-GGQQPPSML-PV-SSSMSPQ-
     Pomacea_canaliculata         GQ------SPQG---DM--H-P--------QQPG--TPHQQHQPSVCPPPGSSAGNHVS--QSSGSMM-PVSSSSLSPQ-
-    Sepia_pharaonis              --------------------------------------------------------------------------STTPK-
+    Sepia_sp              --------------------------------------------------------------------------STTPK-
 
     Drosophila_melanogaster      ------------------------------------QKPHWIDHK--PPPQ---------MT---PQPPHPAATLHP---
     Owenia_fusiformis            -------------------------------------PSSWAEIH--SSAA----------H---TPS------------
@@ -266,7 +266,7 @@ BEGIN DATA;
     Aplysia_californica          --------------------------------------------------------------------------------
     Patella_vulgata              ------------------------------------PPCSWSDIS--N--N--------NPS--SNSSYMS---------
     Pomacea_canaliculata         ------------------------------------PACTWSDMH--VQQN-AA--------------------------
-    Sepia_pharaonis              ------------------------------------Y--IFLAISILI--L--------TETSIYLSIY-----------
+    Sepia_sp              ------------------------------------Y--IFLAISILI--L--------TETSIYLSIY-----------
 
     Drosophila_melanogaster      ---------QTHHHNP--PPQMGGYVPQYWYQPET--N---PSLVTVWPAV------
     Owenia_fusiformis            -----------M-SMPP-GNYMSQY---PWYSHTAANPVQQQQILT-----------
@@ -288,7 +288,7 @@ BEGIN DATA;
     Aplysia_californica          ---------------------------------------------------------
     Patella_vulgata              ---------------------MSQY---SWYHQNA--MPQQQSLLT-----------
     Pomacea_canaliculata         --------------AV--NSYMSHY---SWYTQGS--MPTSSRC-------------
-    Sepia_pharaonis              ---------------------LSIYL--SIYLSI--F--------L-----------
+    Sepia_sp              ---------------------LSIYL--SIYLSI--F--------L-----------
   ;
 END;
 
