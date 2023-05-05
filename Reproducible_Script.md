@@ -90,6 +90,10 @@ All T-Coffee aligned sequences can be found in desktop/botany563/botany563-final
 
 # Bayesian Inference
 ## MrBayes
+MrBayes is a highly customizable BI software that uses a Markov Chain Monte Carlo (MCMC) algorithm to approximate the posterior probabilities of a tree.
+Assumptions: Likelihood function (substitutions occur under time-homogeneous Poisson process)
+Strengths: Easily operated through command line; can infer ancestral states; accommodates mixed models
+Limitations: More parameters in mixed model leads to slower mixing; does not support multi-threading; often slower than other phylogenetic methods
 ### Downloading MrBayes
 Followed instruction for Mrbayes installation from https://nbisweden.github.io/MrBayes/download.html (06/29/2021). MrBayes can be found in desktop/software/MrBayes
 ```
@@ -613,6 +617,11 @@ _
 All MrBayes output files can be found in desktop/botany563/botany563-final-project/trees/mrbayes
 
 ## BEAST2
+Bayesian Evolutionary Analysis by Sampling Trees (BEAST) is a cross-platform software package for BI that uses a MCMC algorithm with emphasis on phylogenetic analysis of molecular sequences
+Assumptions: Likelihood function (substitutions occur under time-homogeneous Poisson process)
+Strengths: Highly customizable with many packages/models; easy user interface; offers multispecies coalescent methods
+Limitations: EXTREMELY computationally costly; More parameters in mixed model leads to slower mixing
+
 ### Download
 Downloaded BEAST 2.7.4 from http://www.beast2.org/download-mac/ (04/24/2023). BEAST2 can be found in desktop/software/beast_2.7.4
 Tutorial for running multispecies coalescent was followed from https://www.beast2.org/2022/03/31/starbeast3.html and https://taming-the-beast.org/tutorials/StarBeast-Tutorial/
