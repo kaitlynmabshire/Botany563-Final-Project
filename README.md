@@ -13,9 +13,10 @@ Distal-less (dlx) and extradenticle (exd) are expressed in cephalopod cephalic t
 3) Run multiple sequence alignment using T-Coffee and Muscle. (done)
 4) Create neighbor-joining trees. (done)
 5) Create parsimony trees.
-6) Create maximum likelihood trees.
-7) Create Bayesian trees.
-8) Create Coalescent trees.
+6) Create maximum likelihood trees. (done)
+7) Create Bayesian trees. (done)
+8) Create Coalescent trees. (done)
+9) Create Co-estimation trees. (done)
 
 # Quality Control
 
