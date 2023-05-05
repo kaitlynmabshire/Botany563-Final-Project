@@ -816,7 +816,7 @@ ASTRAL assumes that the input gene trees are unrooted and have no missing taxa. 
 ### Assumptions
 -Gene trees are generated under the multispecies coaslescent model
 -Inputted gene trees are independent
-
+### Download
 Downloaded from https://github.com/smirarab/ASTRAL/blob/master/README.md#installation (04/16/2023). ASTRAL can be found in desktop/software/Astral
 ### Concatenated gene trees:
 ```
@@ -840,7 +840,7 @@ BUCKy can be misleading when gene posterior distributions are inaccurate. BUCKy 
 ### Assumptions
 -no assumption is made regarding discordance among gene trees; assumes all discordant trees are random
 -assumes single gene tree posterior distributions are estimated perfectly by the samples
-
+###Download
 Downloaded v1.4.4 from https://pages.stat.wisc.edu/~ane/bucky/downloads.html (04/16/2023). BUCKy can be found in desktop/software/bucky-1.4.4
 More information and manual on BUCKy at https://pages.stat.wisc.edu/~ane/bucky/v1.4/bucky_manual1.4.4.pdf
 ```
@@ -850,7 +850,8 @@ make
 ```
 NOTE: BUCKy "make" command is not compiling mbsum and bucky, even after installing gcc.
 
-##BEAST2
+## BEAST2
+### Download
 Downloaded BEAST 2.7.4 from http://www.beast2.org/download-mac/ (04/24/2023). BEAST2 can be found in desktop/software/beast_2.7.4
 Tutorial for running multispecies coalescent was followed from https://www.beast2.org/2022/03/31/starbeast3.html and https://taming-the-beast.org/tutorials/StarBeast-Tutorial/
 ```
@@ -861,8 +862,56 @@ Tutorial for running multispecies coalescent was followed from https://www.beast
 5) In Taxon Sets tab, click on Guess. Selected Split on Character and Take Groups 2.
 6) In the Site Model tab, OBAMA was selected for both gene alignments. Additionally, substitution site estimate was selected (checked off).
 7) In Species Clock Model tab, Species Tree Relaxed Model was chosen, and both Stdev and Clock rate estimate were selected (checked off).
-8) In MCMC tab, Chain Length was set to 5000000 and Store Every was set to 500. Under TraceLog, file name was changed to "dlx_exd.log" and Log Every was changed to 5000. Under SpeciesTreeLogger, File Name was changed to "mollusk.species.tre" and Log Every was changed to 5000.
+8) In MCMC tab, Chain Length was set to 10000000 and Store Every was set to 5000. Under TraceLog, file name was changed to "dlx_exd.log" and Log Every was changed to 5000. Under SpeciesTreeLogger, File Name was changed to "mollusk.species.tre" and Log Every was changed to 5000.
 9) File was saved as dlx_exd2_.xml in desktop/botany563/botany563-final-project/trees/BEAST
 10) Opened BEAST and inputted dlx_exd2_.xml. Then clicked run.
+11) Once BEAST run was finished, TreeAnnotator v2.7.4 was used to create consensus trees (output files: "dlx_beast.tre", "exd_beast.tre", "species_beast.tre")
+```
+### Output
+```
+Operator                                                                                                      Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+starbeast3.operators.NodeReheight2(Reheight.t:Species)                                                             -    5660260    3879788    0.09544    0.59332 
+starbeast3.operators.CoordinatedExponential(CoordinatedExponential.t:Species)                                0.00525     148269    5205872    0.04772    0.02769 
+starbeast3.operators.CoordinatedUniform(CoordinatedUniform.t:Species)                                              -    4150477    6012451    0.09544    0.40839 
+kernel.BactrianSubtreeSlide(BactrianSubtreeSlide.t:Species)                                                  0.06003      70369    4700580    0.04772    0.01475 Try decreasing size to about 0.03
+WilsonBalding(WilsonBalding.t:Species)                                                                             -      82083    4690859    0.04772    0.01720 
+Exchange(Wide.t:Species)                                                                                           -      71407    4701277    0.04772    0.01496 
+AdaptableOperatorSampler(AdaptableTopologyOperator.tree.Species)                                                   -    1419152    3354136    0.04772    0.29731 
+Uniform(UniformOperator.t:Species)                                                                                 -    5497466    6964445    0.00954    0.44114 
+kernel.BactrianScaleOperator(TreeRootScaler.t:Species)                                                       0.43401      27161     927558    0.00954    0.02845 Try setting scale factor to about 0.217
+kernel.BactrianNodeOperator(BactrianNodeOperator.t:Species)                                                  1.94208    2341846    5231856    0.00954    0.30921 
+AdaptableOperatorSampler(AdaptableTopologyOperator.lengths.Species)                                                -   10473890   21337233    0.31812    0.32925 
+starbeast3.operators.PopSizeGibbsSampler(PopSizeGibbsSampler.Species)                                              -   15906726          0    0.15906    1.00000 
+AdaptableOperatorSampler(AdaptableOperatorSampler.popmean:Species)                                                 -     450065    1137901    0.01591    0.28342 
+AdaptableOperatorSampler(AdaptableOperatorSampler.YuleModel.t:Species)                                             -     449474    1140894    0.01591    0.28262 
+kernel.BactrianScaleOperator(clockRateScaler.c:nexus_dlx_protein)                                            0.13525       7871      23569    0.00032    0.25035 
+kernel.BactrianScaleOperator(clockRateScaler.c:nexus_exd_protein)                                            0.21632       8454      23348    0.00032    0.26583 
+kernel.AdaptableVarianceMultivariateNormalOperator(OBAMA_FrequenciesAVMNOperator.s:nexus_dlx_protein)        0.49241       3948      11906    0.00016    0.24902 
+bmodeltest.evolution.operators.BMTScaleOperator(OBAMA_gammaShapeScaler.s:nexus_dlx_protein)                  0.46623       3332      12344    0.00016    0.21255 
+bmodeltest.evolution.operators.BMTScaleOperator(OBAMA_ProportionInvariableScaler.s:nexus_dlx_protein)        0.46548       3479      12321    0.00016    0.22019 
+bmodeltest.evolution.operators.BMTBirthDeathOperator(OBAMA_hasGammaRatesFlipper.s:nexus_dlx_protein)               -          0      31871    0.00032    0.00000 
+bmodeltest.evolution.operators.BMTBirthDeathOperator(OBAMA_hasInvariableSitesFlipper.s:nexus_dlx_protein)          -          0      31813    0.00032    0.00000 
+beast.base.inference.operator.BitFlipOperator(OBAMA_FreqsFlipOperator.s:nexus_dlx_protein)                         -          4      31677    0.00032    0.00013 
+beast.base.inference.operator.UniformOperator(OBAMA_ModelIndicatorUniformOperator.s:nexus_dlx_protein)             -      63522     891508    0.00954    0.06651 
+kernel.AdaptableVarianceMultivariateNormalOperator(OBAMA_FrequenciesAVMNOperator.s:nexus_exd_protein)        0.49916       4277      11870    0.00016    0.26488 
+bmodeltest.evolution.operators.BMTScaleOperator(OBAMA_gammaShapeScaler.s:nexus_exd_protein)                  0.58450       3190      12585    0.00016    0.20222 
+bmodeltest.evolution.operators.BMTScaleOperator(OBAMA_ProportionInvariableScaler.s:nexus_exd_protein)        0.16472       2349      13771    0.00016    0.14572 
+bmodeltest.evolution.operators.BMTBirthDeathOperator(OBAMA_hasGammaRatesFlipper.s:nexus_exd_protein)               -          0      31976    0.00032    0.00000 
+bmodeltest.evolution.operators.BMTBirthDeathOperator(OBAMA_hasInvariableSitesFlipper.s:nexus_exd_protein)          -       3608      28032    0.00032    0.11403 
+beast.base.inference.operator.BitFlipOperator(OBAMA_FreqsFlipOperator.s:nexus_exd_protein)                         -          0      31599    0.00032    0.00000 
+beast.base.inference.operator.UniformOperator(OBAMA_ModelIndicatorUniformOperator.s:nexus_exd_protein)             -      63864     890854    0.00954    0.06689 
+kernel.BactrianScaleOperator(OBAMA_mutationRateScaler.s:nexus_exd_protein)                                   0.20786       4941      11054    0.00016    0.30891 
+kernel.BactrianScaleOperator(OBAMA_mutationRateScaler.s:nexus_dlx_protein)                                   0.12530       4930      10948    0.00016    0.31049 
+starbeast3.operators.ParallelMCMCTreeOperator(ParallelMCMCTreeOperator)                                            -          0          0    0.01000        NaN 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+
+Total calculation time: 551336.975 seconds
+End likelihood: -14331.269858383224
 ```
 Output files for BEAST can be found in desktop/botany563/botany563-final-project/trees/BEAST

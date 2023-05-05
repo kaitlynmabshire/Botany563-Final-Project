@@ -17,7 +17,7 @@ BEGIN DATA;
     Elysia_marginata             ---------------MD---------------DQQRL--THPSQ---GQVNMQN--VM---QGYD-------------GS
     Aplysia_californica          ---------------MD---------------DQQRL--MHPSQ---GQVSMAG--VMPQ-QGYD-------------GS
     Pecten_maximus               ---------------MD---------------DTQRLSVMHPQQ---GAVSMSGPENMI--QQYN-------------LQ
-    Elysia_chlorotic             ---------------MD---------------DQQRL--THPSQ---GQVNMQN--VM---QGYD-------------GS
+    Elysia_chlorotica             ---------------MD---------------DQQRL--THPSQ---GQVNMQN--VM---QGYD-------------GS
     Pomacea_canaliculata         ---------------MD---------------DQQRL--MHPQ----GPVSMAS--VMPQQGGYD-------------GM
     Crassostrea_virginica        ---------------ME---------------DGQRM--YSQQG---GLTNMSG--NVL--PQYN-------------M-
     Crassostrea_gigas            ---------------ME---------------DGQRM--YSQQG---GLTNMSG--NVL--PQYN-------------M-
@@ -39,7 +39,7 @@ BEGIN DATA;
     Elysia_marginata             Y-GQG--DPSEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKAYSSV---
     Aplysia_californica          L-TQG--DPGDQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKTVLSIRNT
     Pecten_maximus               P-TGQ--EPSEQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNS
-    Elysia_chlorotic             Y-GQG--DPSEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKACLSIRNT
+    Elysia_chlorotica             Y-GQG--DPSEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKACLSIRNT
     Pomacea_canaliculata         Q-SAA--PDPDQRK-QEIGDILQQIMTITDQSLDEAQARSV--DR----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNT
     Crassostrea_virginica        --GQD--EPSDQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNS
     Crassostrea_gigas            --GQD--EPSDQRK-QEIGDILQQIMTITDQSLDEAQARC----R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNS
@@ -61,7 +61,7 @@ BEGIN DATA;
     Elysia_marginata             ------------------GSGFAPWLRGRGFKTQPSTVRA-PTG------------------------------------
     Aplysia_californica          QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
     Pecten_maximus               QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAVNATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
-    Elysia_chlorotic             QEEEPPDPQLMRLDNMLIAEGVAGPEKGGASTAS-TPSPA-ASG--GQ-----TDSAIEHSDYRAKLAQIRQIYHTELEK
+    Elysia_chlorotica             QEEEPPDPQLMRLDNMLIAEGVAGPEKGGASTAS-TPSPA-ASG--GQ-----TDSAIEHSDYRAKLAQIRQIYHTELEK
     Pomacea_canaliculata         QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAAAASG--GQ-----PESAIEHSDYRAKLAQIRQIYHTELEK
     Crassostrea_virginica        QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
     Crassostrea_gigas            QEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEK
@@ -83,7 +83,7 @@ BEGIN DATA;
     Elysia_marginata             --WACTEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKNATEI
     Aplysia_californica          YEQACNEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKSATEI
     Pecten_maximus               YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVGIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEV
-    Elysia_chlorotic             YEQACTEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKNATEI
+    Elysia_chlorotica             YEQACTEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKNATEI
     Pomacea_canaliculata         YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVAIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQSSEV
     Crassostrea_virginica        YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVTIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEL
     Crassostrea_gigas            YEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVTIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEL
@@ -105,7 +105,7 @@ BEGIN DATA;
     Elysia_marginata             LTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSL--------------ADTDKTPRYSHHTTGLQNN-CLAR-------
     Aplysia_californica          LTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
     Pecten_maximus               LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
-    Elysia_chlorotic             LTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
+    Elysia_chlorotica             LTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
     Pomacea_canaliculata         LNEYFYSHVSNPYPSEEAKEELARKCGITVAQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------
     Crassostrea_virginica        LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNINKAQEE-AN---------
     Crassostrea_gigas            LNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNITKAQEE-AN---------
@@ -127,7 +127,7 @@ BEGIN DATA;
     Elysia_marginata             ----KR--------------------------------------------------------------------------
     Aplysia_californica          LYAAKAASAAS--------SQMV---NNTPS-S---------PTGSSNYSL--P---SS---------------QS----
     Pecten_maximus               LYAAKTAAAAA--------AV--G--H-DG------------QGGAAGYNL--G---SS---------------QG----
-    Elysia_chlorotic             LYAAKAASAAS--------SQMV---G-DPS-S---------PTGSSNYSL--P---SS---------------QA----
+    Elysia_chlorotica             LYAAKAASAAS--------SQMV---G-DPS-S---------PTGSSNYSL--P---SS---------------QA----
     Pomacea_canaliculata         LYAAKAASAAS--------AQQLVQAVSDPS-S---------PPG-SNYGL------SS---------------Q-----
     Crassostrea_virginica        MYAAKTAAAAA--------ANV--------G-S---------EGGAAGYN------------------------------
     Crassostrea_gigas            VYAAKSAAAHE--------GQ-----------------------GAAGYN------------------------------
@@ -149,7 +149,7 @@ BEGIN DATA;
     Elysia_marginata             -----------RNFSKQASEILNEYFY-----------------------------------------------------
     Aplysia_californica          ------------Q--------------------------LGG-QGAMY-MNIN-GGE-SYPGGEN--------SWG----
     Pecten_maximus               ------------G--------------------------IGGQGSGMY-MNLN-G-D-NYQSSDN--------SVN----
-    Elysia_chlorotic             ------------Q--------------------------MPG-QGGMYPMNLN-GGE-SYPGGDN--------SWE----
+    Elysia_chlorotica             ------------Q--------------------------MPG-QGGMYPMNLN-GGE-SYPGGDN--------SWE----
     Pomacea_canaliculata         ------------G--------------------------MGGQQGGMY-MNLN-G-E-SYQG-DN--------SGG----
     Crassostrea_virginica        ---------------------------------------VGGGQAGMY-MNLN-GGD-NYQSSDN--------SVG----
     Crassostrea_gigas            ---------------------------------------VGGGQAGMY-MNLN-GGD-NYQSSDN--------SVN----
@@ -171,7 +171,7 @@ BEGIN DATA;
     Elysia_marginata             --------------------------------------------------------------------------------
     Aplysia_californica          ---------LEDSE------------------------------------------------------------------
     Pecten_maximus               ---------A--------LRHVIAQTGGY---------------------------------------------------
-    Elysia_chlorotic             ---------LEDQD------------------------------------------------------------------
+    Elysia_chlorotica             ---------LEDQD------------------------------------------------------------------
     Pomacea_canaliculata         ---------PASNS------------------------------------------------------------------
     Crassostrea_virginica        ---------DNVQNQVNALRHVISQSGGY---------------------------------------------------
     Crassostrea_gigas            ---------A--------LRHVISQSGGY---------------------------------------------------
@@ -193,7 +193,7 @@ BEGIN DATA;
     Elysia_marginata             ---------------------------------------------------------------------------SHLSN
     Aplysia_californica          --------------------------------------------------------------------------------
     Pecten_maximus               ------------------------SSDNL-HSSTSSS--M--------------Y---DQHMSSQ-ATPLRSTAGSHGGS
-    Elysia_chlorotic             --------------------------------------------------------------------------------
+    Elysia_chlorotica             --------------------------------------------------------------------------------
     Pomacea_canaliculata         ----------------------------GMDS--SEDSKS--------------NIMSRDAWSVGH--------------
     Crassostrea_virginica        ------------------------SSDSM-HST-PAS--M--------------Y---EQHMNQQ-ITPHS---RSQNGS
     Crassostrea_gigas            ------------------------SSDSM-HST-PAS--M--------------Y---EQHMNQQ-ITPHP---RSQNGS
@@ -215,7 +215,7 @@ BEGIN DATA;
     Elysia_marginata             P-------------------------------------------------------------------------------
     Aplysia_californica          --------------------------------------------------------------------------------
     Pecten_maximus               ---------PP-----------------------DIDRK------------PEDSVDSWTAGQ-TSLGGQTPLGF----M
-    Elysia_chlorotic             --------------------------------------------------------------------------------
+    Elysia_chlorotica             --------------------------------------------------------------------------------
     Pomacea_canaliculata         --------------------------------------------------------------------------------
     Crassostrea_virginica        ---------PH-------------------------DPK------------PEDSTDSWCAGA-----------F----M
     Crassostrea_gigas            ---------PH-------------------------DQK------------PDDSTDSWCAGA-----------F----M
@@ -237,7 +237,7 @@ BEGIN DATA;
     Elysia_marginata             ---------------------------YPSEEA-KEELARKC--------------------GINVSQV-SL-QVFCVFC
     Aplysia_californica          --------------------------------------------------------------------------------
     Pecten_maximus               HNM-----------D------GDG-GEG--------------YNPHEQEDIKRP-------------LV-----------
-    Elysia_chlorotic             --------------------------------------------------------------------------------
+    Elysia_chlorotica             --------------------------------------------------------------------------------
     Pomacea_canaliculata         --------------------------------------------------------------------P-----------
     Crassostrea_virginica        QGL-----------D------GDG-DNY--------------DGSSDEPGLKRP-------------KI-----------
     Crassostrea_gigas            QGL-----------D------GEG-DNY--------------DGSSDEPGLKRP-------------KI-----------

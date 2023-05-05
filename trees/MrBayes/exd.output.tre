@@ -16,7 +16,7 @@ Begin taxa;
 		Elysia_marginata
 		Aplysia_californica
 		Pecten_maximus
-		Elysia_chlorotic
+		Elysia_chlorotica
 		Pomacea_canaliculata
 		Crassostrea_virginica
 		Crassostrea_gigas
@@ -42,7 +42,7 @@ Begin trees;
 		11 Elysia_marginata,
 		12 Aplysia_californica,
 		13 Pecten_maximus,
-		14 Elysia_chlorotic,
+		14 Elysia_chlorotica,
 		15 Pomacea_canaliculata,
 		16 Crassostrea_virginica,
 		17 Crassostrea_gigas,

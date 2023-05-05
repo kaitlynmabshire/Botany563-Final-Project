@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='StarBeast3' beautistatus='noAutoSetClockRate|noAutoUpdateFixMeanSubstRate' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.4:starbeast3 v1.1.7:bModelTest v1.3.3:OBAMA v1.1.1:BEASTLabs v2.0.0:ORC v1.1.1" version="2.7">
+
+    <data
+id="nexus_dlx_protein"
+spec="Alignment"
+dataType="aminoacid"
+name="alignment">
+        <sequence id="seq_Aplysia_californica" spec="Sequence" taxon="Aplysia_californica" totalcount="20" value="-------------------------------------------M-LN--------------MSG-MD--GLDADMMKQQSAFMELQQQSAGLPHTMGHHPAYQIRSQ-YSGGPHQHPQA--AHDAVFSGPQHRGAL-GYPFG-MNGMSSS-YSS-PPTHAFSV------SPYQTPSP---------PRDDLLSPSSSVVLANPGSHLDHVTSQPPTANAYSSSGDDVTGHHSSGIPHGGNGIGIGGGGGGGGGGGMGNGGGGILGYSSSYDHYRHYGAGAYGGHYDKHTGSLTPQLPTPSPGTPGSYQPLTPLTPTHSGAAPDPHATPSLGSAPGATNSSSSSSSSSSSLALGTSSVTPSSSSLSSSSSAPTSSSSSSTTSSLPSANTVTSMSSADLRHHHAVIKQEVGEPIASQCSPGGGGGGGGGGIDRSSCGGDITNPLHGSSSSSSSRRSPHGAAANSHDLSNSSNNNNNNSGGSGSGQHHHLQQQHLQHPHQTSSSSDPTSTQQQQQQQQQQQQHHHQQHPMGNGEEDDSAYSRQLSSFYMSSALPTHHAHPHHAHTHHHHAAYRGAHPLHHHHHHHPHHTATFPPPLMPAPSMSAASFRSPMVPMPPSFLGRNFPDLGDPDK-----SQVEEQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKI------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Biomphalaria_glabrata" spec="Sequence" taxon="Biomphalaria_glabrata" totalcount="20" value="-----------------------------------------------------------------------------------------------MG-SPVRTVSHD-------AHPH-----ESLVKT-DLPRFT-CHVFR-LQYNLYTSI---IDDHPFVTRLTNCDEDYKSVLPGQRIRDRVWHQQ-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------HK-----GQVEEQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKIMKQGGTPQ-S-Q---P--CSQ------------------PPSH--QG----------SA-----------SSPPQQQAM-G----IKQQQSSFLDDGPPGS---DM--H-P--------GSQGSPTPQ--H--------GLQHP-HPQ--GTPTPLL-PA-SSPMSQQ------------------------------------GNVLSWSDLG--TG---PTSGHGH----------THG--QHH------------NHQ-QIG--NAYMSHYS--SWYSQNG--IPHQQSLLT-----------"/>
+        <sequence id="seq_Candidula_unifasciata" spec="Sequence" taxon="Candidula_unifasciata" totalcount="20" value="-------------------------------------------M----------------------D--GLEQDMMKQQSAFMELQQQTGGLAHSMGHHPAYQIRPQ-YP---GAHPQHH-QPHDVFSSQQHGRMP---------------------SHPFSV------SPYQTPSP---------PRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DK-----SQVEEQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKIMKQGGPPP-T-QA--P--CSQ------------------TPVH--QG----------SA-----------ASPSLQQQG-SMGVGIKQQQNSFLDEGPPGG---DM--H-P--------GSQGSPTPQ--H--------GLQHP-HPQ--GTPTPML-SA-SSPMSQQ------------------------------------GSVLSWSDLG--SN---PNSGHIH----------PHSHNQHH------------AQH-QIN--SAYMSHYS--SWYTQNG--LPHQQSLLT-----------"/>
+        <sequence id="seq_Cornu_aspersum" spec="Sequence" taxon="Cornu_aspersum" totalcount="20" value="------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------PRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DK-----SQVEEQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKIMKQGGPPP-T-QA--P--CSQ------------------TPVH--QG----------SA-----------GSPSLQQQQGSMG--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------V--VIKQ----------------"/>
+        <sequence id="seq_Crassostrea_gigas" spec="Sequence" taxon="Crassostrea_gigas" totalcount="20" value="-------------------------------------------M-IN--------------VG-NVDGHGLDQEMS-GKSAFMELQQQG----MGMG-HPAYPIRSS-YQT--HHHPSQ--HGDSVFSNPQTRPPL-GYPFH-MNPMSPSSYNP-PTGHPFSM------PPYQSPSP---------TRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DK-----SQME-ELRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKAKKMIKQGANPM-Q-AS-----GQQ------------------TP-----T----------PV---------TSP--TQGQQPM-------QPQ-----------SPSQQ--H-SPPTPSAHSHNAHGHHPP--N--------GLKME-TPDQNPHNSVMI-SP-ASSVSPE-------------------------------------HEPQWNDHP--A-NN--------YTS---SQSYMPMSSMPP------------MTS-VMTSGMPPMSHYHS-AWYSTQP--MMNQQSCLT-----------"/>
+        <sequence id="seq_Crassostrea_virginica" spec="Sequence" taxon="Crassostrea_virginica" totalcount="20" value="-------------------------------------------M-IN--------------VG-NVDGHGLDQEMS-GKSAFMELQQQG----MGMG-HPAYPIRSS-YQP--HHHPTQ--HGDSVFSNPQTRPPL-GYPFH-MNPMSPTSYNP-PTGHPFSM------PPYQSPSP---------SRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DK-----SQME-ELRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKAKKMIKQGANPM-Q-AS-----GQQ------------------TP-----T----------PV---------TSP--TQGQPPM-------QPH-----------SPSQQ--H-SPQTPSAHSHNTHGHHPP--N--------GLKME-TPDQNQHNSVMI-SP-ASSVSPE-------------------------------------HEPQWSDHP--A-NN--------YTS---SQSYMPMSNMPP------------MTS-VMTSGMPPMSHYHP-AWYSTQP--MMNQQSCLT-----------"/>
+        <sequence id="seq_Doryteuthis_pealeii" spec="Sequence" taxon="Doryteuthis_pealeii" totalcount="20" value="DTVDLSTLLVRICYSRFTSGLSVSLPSTFIRKLPIINRKTGPMM-LN--------------IAGSVD--GLDQDVT-GKSAFMELQQQP--MPPGMA-HPAYPIRSS-YPT---HQS-Q--H-ENVFSTAQHTRPF-TYPFA-MNTMSATTYNP-P-THAFSV------TPYQTTSP---------TREGCT---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------F------------------------------------------------------------------------------YFPTEK-----TQMEEQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKMMKQQQTNPGQ-PQ--P--QAQ------------------QPPS--Q----------------------GHTT-PTPQPQQ-------QQ------------QATVQ--H-PTQPTTPQQ--------------------NG--P-AP-NGQQNSSLL-PP-ASSVSPP-------------------------------------P--TWSELS--T--T--------TP----TTSY--------------------------------MSPY---TWYSQQQ-NSISHQSLLT-----------"/>
+        <sequence id="seq_Drosophila_melanogaster" spec="Sequence" taxon="Drosophila_melanogaster" totalcount="20" value="-------------------------------------------M-DAPDAPHTPKYMDGGNTA-ASV--TPGINIP-GKSAFVELQQHA---AAGYG-----GIRST-YQH---FGPQG--GQDSGFPSPR--SAL-GYPFPPMHQNSYSGY------HLGSYA------P-PCASP---------PKD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DFSISDKCE-DSGLRVNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKMMKAAQGPG-T-N-------SG------------------MPLG--GGGPNPGQHSPNQM---------HSG--GNNGGGS-------NSG-----------SPSHY-LP-PGHSPTPSSTPVS----------------E---L-SP---EFPPTGL-SP-PTQAPWD-------------------------------------QKPHWIDHK--PPPQ---------MT---PQPPHPAATLHP------------QTHHHNP--PPQMGGYVPQYWYQPET--N---PSLVTVWPAV------"/>
+        <sequence id="seq_Elysia_chlorotica" spec="Sequence" taxon="Elysia_chlorotica" totalcount="20" value="-------------------------------------------M--------------------------------------------SH---HHHH-HPAYQLRAAQYG---SAHAQHAQGHDSVFSSGQHGRAL-AYPFG-MNGMGGNPYGS-PGAHPFSV------SPYQTPSP---------PRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DK-----SQVEEQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAAALGLTQTQV----KIWFQNRRSKYKKIMKQGGAPP-PP----P--SSQ------------------PQSS--SP--------------------GGAPTPSLGGVV-NVKQQPGSQSNSFLDEGPPTGNSSDM--H-P--------GSQGSPTPQPHG--------GIQHP-GSQ--GTPTPML-PA-SSPLSHHHHHHQHHQHQQQQHQQHQ--HHPHHSHHNNHQGGAAGGVLSWSDLG--AAGGIPTSGHV-------------------------------------------HS-HG--GQHVHPH--AHSVSSAAA--------HQ-"/>
+        <sequence id="seq_Elysia_marginata" spec="Sequence" taxon="Elysia_marginata" totalcount="20" value="------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAAALGLTQTQV----KIWFQNRRSKYKKIMKQGGAPP-PSQP--P--CSQ------------------PPSH--QA----------SSSPGAQHGPGGAPTPSLGG-V-TVKQQPGSQNSSFLDDGPSTGNSSDM--H-P--------GSQGSPTPQPHG--------GLQHP-HPQ--GTPTPML-PA-SSPLSHHHHP--HH--QQQQHHPHHTPHHPHSAAH-HQQGGAAGGVLSWSDLG--AAGGIPTSGHAH----------SHG--GQHVHPHAHSVSSAAAHQ-QIG--NAYMSHYS--SWYSQGS--LPHQQSLLT-----------"/>
+        <sequence id="seq_Gigantopelta_aegis" spec="Sequence" taxon="Gigantopelta_aegis" totalcount="20" value="-------------------------------------------M-LN--------------MTGPMD--GLDQEMV-GKSAFMELQQQ---MPPGMG-HPAYQIRTG-YPP---QHG-H--H-DGSYTS-QATRSL-GYPFS-MNSMAPTSYNP-PPPH-FSM------SPYQTPSP---------PRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DK-----SQVEEQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKIMKHNPNGP-N-P---A--QSQ------------------NP-H--Q----------------------TSPQPPSQQQQQQQ-----QQQ-------PPQSQSADL--PSPPQAPTPHQ--------------------V---S-QP-Q-APPQALL-PV-SSSMSPQ-------------------------------------PVGSWSDIS--N--N--------NPS---TNSYMS------------------------------MSHY---SWYAQNS--MVPQQPLIT----KTEVPGF"/>
+        <sequence id="seq_Haliotis_rubra" spec="Sequence" taxon="Haliotis_rubra" totalcount="20" value="-------------------------------------------M-LN--------------MAGAMD--GLEQEMV-GKSAFMELQQQ---MPPSMG-HPAYPIRSG-YPP---QHS-Q--H-D-VFTS-QPTRPL-AYPFP-MNSMAPTSYNP-PTSHPFSM------SPYQTPSP---------PRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------EK-----PQMDDQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKLMKQNPNST-P-P------QPQ------------------QPQP--Q----------------------TSPV-PQQQPQP-------QAQ-------P---QPAEL--P-PAQPQTPQQ--------------------SAAQG-QG-QGQQPQPLL-PV-SSSMSPQ-------------------------------------PVCTWSDLS--N--N--------NPS---TNSYMS------------------------------MSHY---SWYAHNN--MNSQQSLL-----------T"/>
+        <sequence id="seq_Haliotis_rufescens" spec="Sequence" taxon="Haliotis_rufescens" totalcount="20" value="-------------------------------------------M-LN--------------MAGAMD--GLEQEMV-GKSAFMELQQQ---MPPSMG-HPAYPIRSG-YPP---QHS-Q--H-D-VFTS-QPTRPL-AYPFP-MNSMAPTSYNP-PTSHPFSM------SPYQTPSP---------PRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------EK-----PQMDDQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKLMKQNPNST-P-P------QPQ------------------QPQP--Q----------------------TSPV-PQQQPQP-------QAQ-------P---QPAEL--P-PAQPQTPQQ--------------------SAAQG-QG-QGQQPQPLL-PV-SSSMSPQ-------------------------------------PVCTWSDLS--N--N--------NPS---TNSYMS------------------------------MSHY---SWYAHNN--MNSQQSLL-----------T"/>
+        <sequence id="seq_Mizuhopecten_yessoensis" spec="Sequence" taxon="Mizuhopecten_yessoensis" totalcount="20" value="-------------------------------------------M-LN--------------VG-GVD--GLEQDMS-GKSAFMELQQQA-GMPPGMG-HPAYPIRSS-YQH---HHGGQ--HGESVFSNSQGR-AL--YPFH-MNAMSPSSYQP-PSAHPFPM------PPYQSPSP---------TREDFYGDMV-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------S------------------------------------------------------------------------------LYITDK-----SQME-ELRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKVMKSPVNPG-Q-VN--P--TPG------------------QPQG--QA----------PV---------TTS--PSTHPPQ-------QSS-----------PPAPR--H-PPQTPTPHAHPASQQ-----N--------G---Q-SH-NGQPTSAMLSPP-SSSVSPQ-------------------------------------P--TWTEMD--AVNN--------QTS---TNSYMAMSSMSA------------MSS-GMPAG--AMSHYH--SWYAQP---PMNQQSCLT-----------"/>
+        <sequence id="seq_Octopus_bimaculoides" spec="Sequence" taxon="Octopus_bimaculoides" totalcount="20" value="-----------------------------------------------------------------------------------------------------------------------------------------------------TRDNP-P-THPFSV------TPYQTTSP---------TREGYT---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------F------------------------------------------------------------------------------YFPTEK-----SQMEEQLRMNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERA-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Owenia_fusiformis" spec="Sequence" taxon="Owenia_fusiformis" totalcount="20" value="-------------------------------------------M-LN--------------MT-GSE--AIGQDIPDSKSAFMEIQQMQ----QNMGHHAAYPIRAS-YPS---QHP-S--Q-DSMYTS-QATRPL-GYPFS-MNGMSHTAYNS-P-SH-F-VN------PYQASCP---------PRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DK-----SPIEEQLRVNGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKIMKHNPNGT-I-SMSPP--HPGSGG---------------NPMSNGGE----------PM---------TPP--PMSQPPQ-------SVS-----------PPTPHSQH-NGQTTVPGT---------------------VQTN-NM-MGQQN-VHQ-HP-DDSVTP---------------------------------------PSSWAEIH--SSAA----------H---TPS-----------------------M-SMPP-GNYMSQY---PWYSHTAANPVQQQQILT-----------"/>
+        <sequence id="seq_Patella_vulgata" spec="Sequence" taxon="Patella_vulgata" totalcount="20" value="-------------------------------------------M-LN--------------MTGNME--GMDPEMA-SKSAFMELQQQS--MSGGMG-HPAYNIRSG-YPP---QHS-Q--H-E-MFPTSQHTRSF-GYPFS-MNSMAPSGYNAVPPSHHFPM------SPYQPPSP---------TRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DK-----SQVEEQLRINGKGKKLRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNKRSKYKKVMKQNPNGP-P-P------QLA------------------NQGQ--A----------------------SSP--PHGQQPP-------QQQ-------H---TPTDI--P-PTQPTTPIQ--------------------Q---G-SQ-GGQQPPSML-PV-SSSMSPQ-------------------------------------PPCSWSDIS--N--N--------NPS--SNSSYMS------------------------------MSQY---SWYHQNA--MPQQQSLLT-----------"/>
+        <sequence id="seq_Pecten_maximus" spec="Sequence" taxon="Pecten_maximus" totalcount="20" value="-------------------------------------------M-LN--------------VG-GVD--GLEQDMS-GKSAFMELQQQA-GMPPGMG-HPAYPIRSS-YQH---HHGGQ--HGDSVFSNSQGR-PL--YPFH-MNTMSPSSYQP-PAAHPFPM------PPYQSPSP---------TREDFYGDMV-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------S------------------------------------------------------------------------------LYITDK-----SQME-ELRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKVMKSPVNPG-Q-VN--P--TSG------------------QPQG--QA----------PV---------TTS--PTTHPPQ-------QSS-----------PPAPR--H-PPQTPTPHAHPASQQ-----N--------G---Q-SH-NGQQSSVMLSPP-SSSVSPQ-------------------------------------P--TWTEMD--AVNN--------QTS---TNSYMAMSSMSA------------MST-GMPAG--AMSHYH--SWYAQP---PMNQQSCLT-----------"/>
+        <sequence id="seq_Pinctada_fucata" spec="Sequence" taxon="Pinctada_fucata" totalcount="20" value="-------------------------------------------M-LN--------------VG-SVE--GMEQEMA-GKSAFMELQQSG-G--MPMG-HPAYPMRSS-YQP--PHHGGQ--HGESVFSNPQGRGPLAGYPFH-MNAMSPTAYNP-SSGHHFSM------PPYQSPSP---------TRD-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DK-----SQMD-ELRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKAKKIMKQGGTPP-G-P------NQQ------------------PP-----T----------PV---------TSP--PANQQM--------QPP-----------SSPVQ--H-SPPTSNTHAHTPHQQLPP--N--------GLKME-AP--EQQHNLMV-SP-SSSASPE-------------------------------------PENHWNDHM--S-GM--TSSH-HAHA---SQPYMSMPSMPP------------SSS-MMPSG-MPMSYYHS-AWYSQP---MVNQQSCLT-----------"/>
+        <sequence id="seq_Pomacea_canaliculata" spec="Sequence" taxon="Pomacea_canaliculata" totalcount="20" value="-------------------------------------------M--------------------------------------------------------------------------------------------------------------------------------HSG-----------NPS-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------NK-----SQVEEQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQV----KIWFQNRRSKYKKIMKQGGTPP-G-SVGQPGPGGQ--PSNPPLPPNSPTLQHTPPQH--QG----------PP-----------APPPPNQQQ-Q-------PGQ------SPQG---DM--H-P--------QQPG--TPHQQHQPSVCPPPGSSAGNHVS--QSSGSMM-PVSSSSLSPQ-------------------------------------PACTWSDMH--VQQN-AA----------------------------------------AV--NSYMSHY---SWYTQGS--MPTSSRC-------------"/>
+        <sequence id="seq_Sepia_sp" spec="Sequence" taxon="Sepia_sp" totalcount="20" value="-------------------------------------------MMLN--------------IAGSVD--GLDQDVT-GKSAFMELQQQP--MPPGMA-HPAYPIRSS-YPT---HQS-Q--H-ENVFSTAQHTRPF-TYPFA-MNTMSATTYNP-P-THAFSV------TPYQTTSP---------TREGCT---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------F------------------------------------------------------------------------------YFPTEK-----SQMEEQLRINGKGKKMRKPRTIYSSLQLQQLNRRFQRTQYLALPERAELAASLGLTQTQRLETCTILFRV-------LCR-----PL--PQ--A--TAT------------------RPPT------------------------------------------------------------------------------------------------------------------------STTPK-------------------------------------Y--IFLAISILI--L--------TETSIYLSIY--------------------------------LSIYL--SIYLSI--F--------L-----------"/>
+    </data>
+
+    <data
+id="nexus_exd_protein"
+spec="Alignment"
+dataType="aminoacid"
+name="alignment">
+        <sequence id="seq_Aplysia_californica1" spec="Sequence" taxon="Aplysia_californica" totalcount="20" value="---------------MD---------------DQQRL--MHPSQ---GQVSMAG--VMPQ-QGYD-------------GSL-TQG--DPGDQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKTVLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKSATEILTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKAASAAS--------SQMV---NNTPS-S---------PTGSSNYSL--P---SS---------------QS----------------Q--------------------------LGG-QGAMY-MNIN-GGE-SYPGGEN--------SWG-------------LEDSE------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Biomphalaria_glabrata1" spec="Sequence" taxon="Biomphalaria_glabrata" totalcount="20" value="---------------MD---------------EQQRL--SHP-P---GQVNMSN--VMAP-QGYD-------------GGY-GQS--DHGEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKTVLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSTAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKNATEILTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSYSCHISRGNLGSLTSHSSPKHLRKRRNFSKQASEILNEYFYSHLSNPYPSEEAKEELARKCGINVSQVS--NCKSS--LCSFFANSNRPLFTNRFKLQPSIFTISDGKPRRHVHESKWWRQLPRRRKLMGTRRLRVIASKER-VDVDQSINQTKQGSMINEHKIVLGDIFVSIY-HVDQAV-D-NLSLSDHVDQAVDNLSLSDHVDQAVDNLSLSDHVDQAVDKL---------SLSDPVDQAVDNLSLSDPVDQAVDNLSLSDPVDQAVDNLSLSDHVDQAVDNLSLSDPVDQAVDNLSLSDHVDQAVDNLSLSDHV--DQ--AVDNLSLSDPVDQAVDNLSLSDHVDQA-VDN--LSLSDHVDQAVDNLSLSDPVDQAVDNLSLSDHVDQAVDNLSLSD--PVDQAVDNLSLSDPVDQAVDNLSLSDPV-DQAVDNLSLSDHVDQAV---------------DNLSLS-DHVDQ-AVDNLSLSDPVDQAVDNLSLSDPVDQAVDNLSLSDPVDQAVDNLW---S"/>
+        <sequence id="seq_Candidula_unifasciata1" spec="Sequence" taxon="Candidula_unifasciata" totalcount="20" value="MNDFK----------MD---------------EQQRL--SHPSQ---GQVNMSS--VMAA-QGYD-------------GSY-GPG--DHGEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKTVLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSTAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQASEILNEYFYSHLSNPYPSEEAKEELARKCGINVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKAASAAS--------SQMV---A-DPS-S---------PTGSSNYSL--P---SS---------------QS----------------Q--------------------------MAG-QGSMY-MNLN-G-D-GYPGGDN--------SWG-------------LEDSE------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Cornu_aspersum1" spec="Sequence" taxon="Cornu_aspersum" totalcount="20" value="MNDFK----------MD---------------EQQRL--SHPSQ---GQVNMSS--VMAA-QGYD-------------GSY-GPG--DHGEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKTVLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSTAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKSATEVLTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKAASAAS--------SQMV---A-DPS-S---------PTGSSNYSL--P---SS---------------QS----------------Q--------------------------MAG-QGSMY-MNLN-G-D-GYPGGDN--------SWG-------------LEDSE------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Crassostrea_gigas1" spec="Sequence" taxon="Crassostrea_gigas" totalcount="20" value="---------------ME---------------DGQRM--YSQQG---GLTNMSG--NVL--PQYN-------------M---GQD--EPSDQRK-QEIGDILQQIMTITDQSLDEAQARC----R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNSQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVTIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATELLNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNITKAQEE-AN---------VYAAKSAAAHE--------GQ-----------------------GAAGYN---------------------------------------------------------------------VGGGQAGMY-MNLN-GGD-NYQSSDN--------SVN-------------A--------LRHVISQSGGY---------------------------------------------------------------------------SSDSM-HST-PAS--M--------------Y---EQHMNQQ-ITPHP---RSQNGS---------PH-------------------------DQK------------PDDSTDSWCAGA-----------F----MQGL-----------D------GEG-DNY--------------DGSSDEPGLKRP-------------KI-----------"/>
+        <sequence id="seq_Crassostrea_virginica1" spec="Sequence" taxon="Crassostrea_virginica" totalcount="20" value="---------------ME---------------DGQRM--YSQQG---GLTNMSG--NVL--PQYN-------------M---GQD--EPSDQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNSQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVTIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATELLNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNINKAQEE-AN---------MYAAKTAAAAA--------ANV--------G-S---------EGGAAGYN---------------------------------------------------------------------VGGGQAGMY-MNLN-GGD-NYQSSDN--------SVG-------------DNVQNQVNALRHVISQSGGY---------------------------------------------------------------------------SSDSM-HST-PAS--M--------------Y---EQHMNQQ-ITPHS---RSQNGS---------PH-------------------------DPK------------PEDSTDSWCAGA-----------F----MQGL-----------D------GDG-DNY--------------DGSSDEPGLKRP-------------KI-----------"/>
+        <sequence id="seq_Doryteuthis_pealeii1" spec="Sequence" taxon="Doryteuthis_pealeii" totalcount="20" value="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AANATAA-ASGGPGQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTSHVVNLLREQSRTRPIAPKEIERMVSIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEILNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKTSAKRRKK--R---------IYTQRKQQQRP--------QR------------------------N-------------------------------------------------------------------------------RQY-LVM---------------------------------------------------------------------------------------------------------------------------------------------------M--------------P---VQHLVYQ-VIIW--------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosophila_melanogaster1" spec="Sequence" taxon="Drosophila_melanogaster" totalcount="20" value="---------------ME---------------DPNRM--LAHTG---GMMAP-QG-YGLSG--QD-------------DGQ-NAG--SENEVRKQKDIGEILQQIMSISEQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGGAAAASAAAA-SQG--GSLSIDGADNAIEHSDYRAKLAQIRQIYHQELEKYEQACNEFTTHVMNLLREQSRTRPITPKEIERMVQIIHKKFSSIQMQLKQSTCEAVMILRSRFLDARRKRRNFSKQASEILNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKKAAGAS--------PYSM---AGPPSGT---------TTPMMSPA-------PP---------------QD----------------S--------------------------M-----GYP-MGSG-GYD-QQQPYDN--------SMG-------------GYD------------------------------------------------------------------------------------------------------------------------------P-NLHQD-LSP---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Elysia_chlorotica1" spec="Sequence" taxon="Elysia_chlorotica" totalcount="20" value="---------------MD---------------DQQRL--THPSQ---GQVNMQN--VM---QGYD-------------GSY-GQG--DPSEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKACLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGASTAS-TPSPA-ASG--GQ-----TDSAIEHSDYRAKLAQIRQIYHTELEKYEQACTEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKNATEILTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKAASAAS--------SQMV---G-DPS-S---------PTGSSNYSL--P---SS---------------QA----------------Q--------------------------MPG-QGGMYPMNLN-GGE-SYPGGDN--------SWE-------------LEDQD------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Elysia_marginata1" spec="Sequence" taxon="Elysia_marginata" totalcount="20" value="---------------MD---------------DQQRL--THPSQ---GQVNMQN--VM---QGYD-------------GSY-GQG--DPSEQRK-QEIGDVLQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFNVLCEIKEKAYSSV---------------------GSGFAPWLRGRGFKTQPSTVRA-PTG--------------------------------------WACTEFTTHVVNLLREQSRTRPIQPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFTKNATEILTEYFYSHLSNPYPSEEVKEELARKCGISVSQVSL--------------ADTDKTPRYSHHTTGLQNN-CLAR-----------KR-------------------------------------------------------------------------------------RNFSKQASEILNEYFY----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SHLSNP----------------------------------------------------------------------------------------------------------YPSEEA-KEELARKC--------------------GINVSQV-SL-QVFCVFC"/>
+        <sequence id="seq_Gigantopelta_aegis1" spec="Sequence" taxon="Gigantopelta_aegis" totalcount="20" value="---------------MENLVRFASSGATGMENDQQRL--MHQ-----GPGTMAS--VMPQQTVYD-------------QNM-QSG--D-PDQRK-QEIGDILQQIMTITDQSLDEAQARWV--DR----KHTLNCHRMKPALFSVLCEIKEKTVLNIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVSIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEVLNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------MYAAKAASAAA--------SQGAI--SSDV--A---------APGAAGF-------------------------------------------------------------------------NQSGMY-MNLN-G-E-SYPGGDN--------SVG-------------ALQTS--------I--VGDQ---------------------------------------------------------------------------SSSTAEHA--NTT-KL--------------E----PRWSATEKNLM----YADNGQ-------------------------------------------------------------------------VY-----------------------D--DEE-DDD--------------DEEEDSSPTKQS-------------EL-----------"/>
+        <sequence id="seq_Haliotis_rubra1" spec="Sequence" taxon="Haliotis_rubra" totalcount="20" value="MDSLVRFASSAATTGME---------------DQQRL--LHQ-----GQVSMASG-VMPQQTGYD-------------QNMQQSGNPSDPDQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVSIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEILNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKAASAAA--------SNTP---GGDSA-T---------AQGAAGFA-------TS---------------QS----------------G--------------------------IVGQQQGMY-MNIN-G-E-SYQGGDN--------SVG-------------ANVQSQVNALRHVISQTGGY---------------------------------------------------------------------------NTDGI-PG--GTG--M--------------Y---D-HMQQQ-KFHL------------------------------------------------------------------------------------------------------------S--GDESDAY--------------DEED-QQY------------------------------"/>
+        <sequence id="seq_Haliotis_rufescens1" spec="Sequence" taxon="Haliotis_rufescens" totalcount="20" value="MDSLVRFASSAATTGME---------------DQQRL--LHQ-----GQVSMASG-VMTQQTGYD-------------QNMQQSGNPSDPDQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVSIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEILNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKAASAAA--------SNTP---GGDSA-T---------AQGAAGFG-------TS---------------QS----------------G--------------------------LIGQQQGMY-MNIN-G-E-SYQGGDN--------SVG-------------ANVQSQVNALRHVISQTGGY---------------------------------------------------------------------------NTDGI-PG--GTG--M--------------Y---D-HMQQQ-VPSHS---RGRSDSQ--------PS--------------------------HS------------DLASLKSEKVGM-T-WAGSAMQGF----VAGLRAGNEEEREEEDDDEE--GEG-DYD--------------DEEE-DEDIKHK-------------TG------SMGSD"/>
+        <sequence id="seq_Mizuhopecten_yessoensis1" spec="Sequence" taxon="Mizuhopecten_yessoensis" totalcount="20" value="---------------MD---------------DTQRLGVMHPQQ---GAVSMSAPENMI--QQYN-------------LQP-TGQ--EPSEQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNSQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVGIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEVLNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKTAAAAA--------AV--G--H-DG------------QGGAAGYNL--G---SS---------------QG----------------G--------------------------IGGQGSGMY-MNLN-G-D-NYQSSDN--------SVN-------------A--------LRHVIAQTGGY---------------------------------------------------------------------------SSDNL-HSSSSSS--M--------------Y---DQHMSSQ-ATPLRSTAGSHGGS---------PP-----------------------DIDRK------------PEDSVDSWTAGQ-PSLGGQTPLGF----MHNM-----------E------GDG-GEG--------------YSHHEQEDIKRP-------------MV-----------"/>
+        <sequence id="seq_Octopus_bimaculoides1" spec="Sequence" taxon="Octopus_bimaculoides" totalcount="20" value="---------------MD---------------DQQRL--MHPQQAGGGPVSMSA--GMPPQHGYMPPGAGGGGGGGGGGGG-GPD--DHQEQRK-QEISDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRGTQEEEPADPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASSGPGQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTSHVINLLREQSRTRPIAPKEIERMVSIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEILNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKTAAAAA--------AQQAVS-GHDGG-A---------AQGVSGYNM-VA---SS---------------QA----------------Q--------------------------LGGQQQSIY-MNLN-G-D-SYQGNET--------SVG-------------ANVQS------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Q-----------"/>
+        <sequence id="seq_Owenia_fusiformis1" spec="Sequence" taxon="Owenia_fusiformis" totalcount="20" value="---------------MD---------------DRGQY--GAP--------QMMGG-YGMQQ--DP-------------GNV-QGGD-VNSEQRK-QEIGDILQQIMTITDQSLDEAQASIVSNSR----KHTLNCHRMKPALFSVLCEIKEKTVLSIRGSQDDEPPDPQLMRLDNMLIAEGVAGPEKDGVGSG----------P--GQ-----PENAIEHSDYRSKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVSIIRRKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKTASEILNEYFYSHLSNPYPSEEAKEELARKCGISVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKIAAQGA--------QATN---AGPQ--T---------SPGDPN-----------------------------------------------------------------------------------SQ-G-ECTSPRGEP--------NWG-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------L"/>
+        <sequence id="seq_Patella_vulgata1" spec="Sequence" taxon="Patella_vulgata" totalcount="20" value="---------------MD---------------DQQRL--MQIQS---NVAAMNNSVNMGQQQGYE-------------NMQ-PTA--PTDPDRK-QEIGDILQQIMTITDQSLDEAQA------RWVSGKHTLNCHRMKPALFSVLCEIKEKTVLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDGAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVGIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEVLNEYFYSHLSNPYPSEEAKEELARKCSITVSQISN--------------WFGNKRIRYKKNIGKAQEE-AN---------MYAAKAARAAS--------GPPTP--HQDPS-T---------PQSTGGYGI--G---SS---------------Q---------------------------------------------GGMEAGMY-MNLN-G-D-NYQGGDN--------SVS-------------D--------NIQS------------------------------------------------------------------------------------------QK--------------------Y---ESY-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Pecten_maximus1" spec="Sequence" taxon="Pecten_maximus" totalcount="20" value="---------------MD---------------DTQRLSVMHPQQ---GAVSMSGPENMI--QQYN-------------LQP-TGQ--EPSEQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNSQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAVNATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVGIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATEVLNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKTAAAAA--------AV--G--H-DG------------QGGAAGYNL--G---SS---------------QG----------------G--------------------------IGGQGSGMY-MNLN-G-D-NYQSSDN--------SVN-------------A--------LRHVIAQTGGY---------------------------------------------------------------------------SSDNL-HSSTSSS--M--------------Y---DQHMSSQ-ATPLRSTAGSHGGS---------PP-----------------------DIDRK------------PEDSVDSWTAGQ-TSLGGQTPLGF----MHNM-----------D------GDG-GEG--------------YNPHEQEDIKRP-------------LV-----------"/>
+        <sequence id="seq_Pinctada_fucata1" spec="Sequence" taxon="Pinctada_fucata" totalcount="20" value="---------------ME---------------DGQRM--YSQQG---GLTNMSG--NVL--PQYN-------------M---GQD--EPSDQRK-QEIGDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNSQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASG--GQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVTIIRKKFAAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQATELLNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNINKAQEE-AN---------MYAAKTAAAAA--------ANV--------G-S---------EGGAAGYN---------------------------------------------------------------------VGGGQAGMY-MNLN-GGD-NYQSSDN--------SVG-------------DNVQNQVNALRHVISQSGGY---------------------------------------------------------------------------SSDSM-HST-PAS--M--------------Y---EQHMNQQ-ITPHS---RSQNGS---------PH-------------------------DPK------------PEDSTDSWCAGA-----------F----MQGL-----------D------GDG-DNY--------------DGSSDEPGLKRP-------------KI-----------"/>
+        <sequence id="seq_Pomacea_canaliculata1" spec="Sequence" taxon="Pomacea_canaliculata" totalcount="20" value="---------------MD---------------DQQRL--MHPQ----GPVSMAS--VMPQQGGYD-------------GMQ-SAA--PDPDQRK-QEIGDILQQIMTITDQSLDEAQARSV--DR----KHTLNCHRMKPALFSVLCEIKEKTVLSIRNTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAASATAAAASG--GQ-----PESAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTTHVVNLLREQSRTRPIAPKEIERMVAIIRKKFSAIEMQLKQSTCEAVMILRSRFLDARRKRRNFSKQSSEVLNEYFYSHVSNPYPSEEAKEELARKCGITVAQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKAASAAS--------AQQLVQAVSDPS-S---------PPG-SNYGL------SS---------------Q-----------------G--------------------------MGGQQGGMY-MNLN-G-E-SYQG-DN--------SGG-------------PASNS----------------------------------------------------------------------------------------------GMDS--SEDSKS--------------NIMSRDAWSVGH------------------------------------------------------------------------------------------------------------------------------------------------------------------P-----------"/>
+        <sequence id="seq_Sepia_sp1" spec="Sequence" taxon="Sepia_sp" totalcount="20" value="---------------MD---------------DGQRL--MHPQQAGGGPVSMSG--AMPPQHGYLPPPGAGG--GGGGGGG-GGG--DEQEQRK-QEISDILQQIMTITDQSLDEAQA------R----KHTLNCHRMKPALFSVLCEIKEKTVLSIRGTQEEEPPDPQLMRLDNMLIAEGVAGPEKGGGSSAAANATAA-ASGGPGQ-----PDSAIEHSDYRAKLAQIRQIYHTELEKYEQACNEFTSHVVNLLREQSRTRPIAPKEIER-----------------------VMILRSRFLDARRKRRNFSKQATEILNEYFYSHLSNPYPSEEAKEELARKCGITVSQVSN--------------WFGNKRIRYKKNIGKAQEE-AN---------LYAAKTAAAAA--------AQQAVS-GHEAG-A---------APGLSGYNM-VA---SS---------------QA----------------Q--------------------------LAGQQXSIY-MNLN-G-D-SYQGNET--------SVG-------------AN---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------V-----------"/>
+    </data>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="100000000" storeEvery="50000">
+        <state id="state" spec="State" storeEvery="50000">
+            <stateNode id="Tree.t:Species" spec="starbeast3.tree.SpeciesTree">
+                <taxonset id="taxonsuperset" spec="starbeast3.tree.StarBeast3TaxonSet">
+                    <taxon id="aspersum" spec="TaxonSet">
+                        <taxon id="Cornu_aspersum" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="rufescens" spec="TaxonSet">
+                        <taxon id="Haliotis_rufescens" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="yessoensis" spec="TaxonSet">
+                        <taxon id="Mizuhopecten_yessoensis" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="aegis" spec="TaxonSet">
+                        <taxon id="Gigantopelta_aegis" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="gigas" spec="TaxonSet">
+                        <taxon id="Crassostrea_gigas" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="fusiformis" spec="TaxonSet">
+                        <taxon id="Owenia_fusiformis" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="bimaculoides" spec="TaxonSet">
+                        <taxon id="Octopus_bimaculoides" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="virginica" spec="TaxonSet">
+                        <taxon id="Crassostrea_virginica" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="rubra" spec="TaxonSet">
+                        <taxon id="Haliotis_rubra" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="canaliculata" spec="TaxonSet">
+                        <taxon id="Pomacea_canaliculata" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="fucata" spec="TaxonSet">
+                        <taxon id="Pinctada_fucata" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="glabrata" spec="TaxonSet">
+                        <taxon id="Biomphalaria_glabrata" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="marginata" spec="TaxonSet">
+                        <taxon id="Elysia_marginata" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="pealeii" spec="TaxonSet">
+                        <taxon id="Doryteuthis_pealeii" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="chlorotica" spec="TaxonSet">
+                        <taxon id="Elysia_chlorotica" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="californica" spec="TaxonSet">
+                        <taxon id="Aplysia_californica" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="melanogaster" spec="TaxonSet">
+                        <taxon id="Drosophila_melanogaster" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="unifasciata" spec="TaxonSet">
+                        <taxon id="Candidula_unifasciata" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="vulgata" spec="TaxonSet">
+                        <taxon id="Patella_vulgata" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="sp" spec="TaxonSet">
+                        <taxon id="Sepia_sp" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="maximus" spec="TaxonSet">
+                        <taxon id="Pecten_maximus" spec="Taxon"/>
+                    </taxon>
+                </taxonset>
+            </stateNode>
+            <parameter id="speciationRate.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="popSize" spec="parameter.RealParameter" dimension="41" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="popMean" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <tree id="Tree.t:nexus_dlx_protein" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.nexus_dlx_protein" spec="TaxonSet">
+                    <alignment idref="nexus_dlx_protein"/>
+                </taxonset>
+            </tree>
+            <parameter id="clockRate.c:nexus_dlx_protein" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <tree id="Tree.t:nexus_exd_protein" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.nexus_exd_protein" spec="TaxonSet">
+                    <alignment idref="nexus_exd_protein"/>
+                </taxonset>
+            </tree>
+            <parameter id="clockRate.c:nexus_exd_protein" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <stateNode id="OBAMA_ModelIndicator.s:nexus_dlx_protein" spec="parameter.IntegerParameter" lower="0" upper="14">0</stateNode>
+            <parameter id="OBAMA_gammaShape.s:nexus_dlx_protein" spec="parameter.RealParameter" lower="0.1" name="stateNode">1.0</parameter>
+            <parameter id="OBAMA_ProportionInvariable.s:nexus_dlx_protein" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="OBAMA_hasInvariableSites.s:nexus_dlx_protein" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="OBAMA_hasGammaRates.s:nexus_dlx_protein" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="OBAMA_useExternalFreqs.s:nexus_dlx_protein" spec="parameter.BooleanParameter">false</stateNode>
+            <parameter id="frequencies_OBAMA.s:nexus_dlx_protein" spec="parameter.RealParameter" dimension="20" lower="0.0" name="stateNode" upper="1.0">0.05</parameter>
+            <stateNode id="OBAMA_ModelIndicator.s:nexus_exd_protein" spec="parameter.IntegerParameter" lower="0" upper="14">0</stateNode>
+            <parameter id="OBAMA_gammaShape.s:nexus_exd_protein" spec="parameter.RealParameter" lower="0.1" name="stateNode">1.0</parameter>
+            <parameter id="OBAMA_ProportionInvariable.s:nexus_exd_protein" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="OBAMA_hasInvariableSites.s:nexus_exd_protein" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="OBAMA_hasGammaRates.s:nexus_exd_protein" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="OBAMA_useExternalFreqs.s:nexus_exd_protein" spec="parameter.BooleanParameter">false</stateNode>
+            <parameter id="frequencies_OBAMA.s:nexus_exd_protein" spec="parameter.RealParameter" dimension="20" lower="0.0" name="stateNode" upper="1.0">0.05</parameter>
+            <parameter id="OBAMA_mutationRate.s:nexus_exd_protein" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="OBAMA_mutationRate.s:nexus_dlx_protein" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        </state>
+        <init id="SBI" spec="starbeast3.core.StarBeastStartState" birthRate="@speciationRate.t:Species" estimate="false" popMean="@popMean" speciesTree="@Tree.t:Species">
+            <gene idref="Tree.t:nexus_dlx_protein"/>
+            <gene idref="Tree.t:nexus_exd_protein"/>
+            <speciesTreePrior id="SpeciesTreePopSize.Species" spec="starbeast3.evolution.speciation.SpeciesTreePrior" bottomPopSize="@popSize" gammaParameter="@popMean" taxonset="@taxonsuperset" tree="@Tree.t:Species">
+                <populationModel id="speciesTreePopulationModel" spec="starbeast3.evolution.speciation.ConstantPopulations" populationSizes="@popSize" speciesTree="@Tree.t:Species"/>
+                <treePrior id="YuleModel.t:Species" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@speciationRate.t:Species" tree="@Tree.t:Species"/>
+            </speciesTreePrior>
+            <sharedRateModel id="branchRatesModel.Species" spec="starbeast3.evolution.branchratemodel.SharedSpeciesClockModel">
+                <branchRateModel id="strictClockModel.Species" spec="starbeast3.evolution.branchratemodel.StrictClockModelSB3" tree="@Tree.t:Species">
+                    <parameter id="SpeciesTreeStrictClockRate" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </sharedRateModel>
+        </init>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="speciescoalescent" spec="CompoundDistribution">
+                <distribution id="treePrior.t:nexus_dlx_protein" spec="starbeast3.evolution.speciation.GeneTreeForSpeciesTreeDistribution" populationModel="@speciesTreePopulationModel" speciesTree="@Tree.t:Species" speciesTreePrior="@SpeciesTreePopSize.Species" tree="@Tree.t:nexus_dlx_protein"/>
+                <distribution id="treePrior.t:nexus_exd_protein" spec="starbeast3.evolution.speciation.GeneTreeForSpeciesTreeDistribution" populationModel="@speciesTreePopulationModel" speciesTree="@Tree.t:Species" speciesTreePrior="@SpeciesTreePopSize.Species" tree="@Tree.t:nexus_exd_protein"/>
+            </distribution>
+            <distribution idref="SpeciesTreePopSize.Species"/>
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution idref="YuleModel.t:Species"/>
+                <distribution id="OBAMA_PropInvariablePrior.s:nexus_dlx_protein" spec="bmodeltest.math.distributions.BMTPrior" count="@OBAMA_hasInvariableSites.s:nexus_dlx_protein" x="@OBAMA_ProportionInvariable.s:nexus_dlx_protein">
+                    <Beta id="Beta.0" name="distr">
+                        <alpha id="Function$Constant.11" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.12" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="OBAMA_PropInvariablePrior.s:nexus_exd_protein" spec="bmodeltest.math.distributions.BMTPrior" count="@OBAMA_hasInvariableSites.s:nexus_exd_protein" x="@OBAMA_ProportionInvariable.s:nexus_exd_protein">
+                    <Beta id="Beta.1" name="distr">
+                        <alpha id="Function$Constant.13" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.14" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="OBAMA_GammaShapePrior.s:nexus_dlx_protein" spec="bmodeltest.math.distributions.BMTPrior" count="@OBAMA_hasGammaRates.s:nexus_dlx_protein" x="@OBAMA_gammaShape.s:nexus_dlx_protein">
+                    <Exponential id="Exponential.0" name="distr">
+                        <mean id="Function$Constant.3" spec="Function$Constant" value="1.0"/>
+                    </Exponential>
+                </distribution>
+                <distribution id="OBAMA_GammaShapePrior.s:nexus_exd_protein" spec="bmodeltest.math.distributions.BMTPrior" count="@OBAMA_hasGammaRates.s:nexus_exd_protein" distr="@Exponential.0" x="@OBAMA_gammaShape.s:nexus_exd_protein"/>
+                <prior id="OBAMA_MutationRatePrior.s:nexus_dlx_protein" name="distribution" x="@OBAMA_mutationRate.s:nexus_dlx_protein">
+                    <OneOnX id="OneOnX.2" name="distr"/>
+                </prior>
+                <prior id="OBAMA_MutationRatePrior.s:nexus_exd_protein" name="distribution" x="@OBAMA_mutationRate.s:nexus_exd_protein">
+                    <OneOnX id="OneOnX.3" name="distr"/>
+                </prior>
+                <prior id="ClockRatePrior.c:nexus_dlx_protein" name="distribution" x="@clockRate.c:nexus_dlx_protein">
+                    <LogNormal id="LogNormalDistributionModel.1" meanInRealSpace="true" name="distr">
+                        <M id="Function$Constant.4" spec="Function$Constant" value="1.0"/>
+                        <S id="Function$Constant.5" spec="Function$Constant" value="0.6"/>
+                    </LogNormal>
+                </prior>
+                <prior id="ClockRatePrior.c:nexus_exd_protein" name="distribution" x="@clockRate.c:nexus_exd_protein">
+                    <LogNormal id="LogNormalDistributionModel.3" meanInRealSpace="true" name="distr">
+                        <M id="Function$Constant.9" spec="Function$Constant" value="1.0"/>
+                        <S id="Function$Constant.10" spec="Function$Constant" value="0.6"/>
+                    </LogNormal>
+                </prior>
+                <prior id="OBAMA_freqsPrior.s:nexus_dlx_protein" name="distribution" x="@frequencies_OBAMA.s:nexus_dlx_protein">
+                    <distr id="OBMAMA_Dirichlet" spec="distribution.Dirichlet">
+                        <parameter id="RealParameter" spec="parameter.RealParameter" dimension="20" lower="0.0" name="alpha" upper="0.0">4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0</parameter>
+                    </distr>
+                </prior>
+                <prior id="OBAMA_freqsPrior.s:nexus_exd_protein" distr="@OBMAMA_Dirichlet" name="distribution" x="@frequencies_OBAMA.s:nexus_exd_protein"/>
+                <prior id="popMean.prior" name="distribution" x="@popMean">
+                    <OneOnX id="OneOnX.0" name="distr"/>
+                </prior>
+                <prior id="speciationRatePrior.t:Species" name="distribution" x="@speciationRate.t:Species">
+                    <Uniform id="Uniform.0" name="distr" upper="10000.0"/>
+                </prior>
+            </distribution>
+            <distribution id="vectorPrior" spec="CompoundDistribution">
+                <prior id="constPopSizesPrior.Species" name="distribution" x="@popSize">
+                    <InverseGamma id="popPriorDistr.InverseGamma" beta="@popMean" name="distr">
+                        <alpha id="Function$Constant.0" spec="Function$Constant" value="2.0"/>
+                    </InverseGamma>
+                </prior>
+            </distribution>
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                <distribution id="treeLikelihood.nexus_dlx_protein" spec="TreeLikelihood" data="@nexus_dlx_protein" tree="@Tree.t:nexus_dlx_protein">
+                    <siteModel id="OBAMA.s:nexus_dlx_protein" spec="obama.sitemodel.OBAMAModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@OBAMA_hasGammaRates.s:nexus_dlx_protein" hasInvariantSites="@OBAMA_hasInvariableSites.s:nexus_dlx_protein" mutationRate="@OBAMA_mutationRate.s:nexus_dlx_protein" proportionInvariant="@OBAMA_ProportionInvariable.s:nexus_dlx_protein" shape="@OBAMA_gammaShape.s:nexus_dlx_protein">
+                        <substModel id="OBAMA_substmodel.s:nexus_dlx_protein" spec="obama.substitutionmodel.OBAMAModel" modelIndicator="@OBAMA_ModelIndicator.s:nexus_dlx_protein" useExternalFreqs="@OBAMA_useExternalFreqs.s:nexus_dlx_protein">
+                            <model id="OBAMA_Blosum62.0" spec="obama.substitutionmodel.OBAMA_Blosum62"/>
+                            <model id="OBAMA_CpREV.0" spec="obama.substitutionmodel.OBAMA_CpREV"/>
+                            <model id="OBAMA_DCMut.0" spec="obama.substitutionmodel.OBAMA_DCMut"/>
+                            <model id="OBAMA_Dayhoff.0" spec="obama.substitutionmodel.OBAMA_Dayhoff"/>
+                            <model id="OBAMA_FLU.0" spec="obama.substitutionmodel.OBAMA_FLU"/>
+                            <model id="OBAMA_HIVb.0" spec="obama.substitutionmodel.OBAMA_HIVb"/>
+                            <model id="OBAMA_HIVw.0" spec="obama.substitutionmodel.OBAMA_HIVw"/>
+                            <model id="OBAMA_JTT.0" spec="obama.substitutionmodel.OBAMA_JTT"/>
+                            <model id="OBAMA_LG.0" spec="obama.substitutionmodel.OBAMA_LG"/>
+                            <model id="OBAMA_MtArt.0" spec="obama.substitutionmodel.OBAMA_MtArt"/>
+                            <model id="OBAMA_MtREV.0" spec="obama.substitutionmodel.OBAMA_MtREV"/>
+                            <model id="OBAMA_MtMam.0" spec="obama.substitutionmodel.OBAMA_MtMam"/>
+                            <model id="OBAMA_RtREV.0" spec="obama.substitutionmodel.OBAMA_RtREV"/>
+                            <model id="OBAMA_VT.0" spec="obama.substitutionmodel.OBAMA_VT"/>
+                            <model id="OBAMA_WAG.0" spec="obama.substitutionmodel.OBAMA_WAG"/>
+                            <frequencies id="OBAMA_freqs.s:nexus_dlx_protein" spec="Frequencies" frequencies="@frequencies_OBAMA.s:nexus_dlx_protein"/>
+                        </substModel>
+                    </siteModel>
+                    <branchRateModel id="GeneTreeClock.c:nexus_dlx_protein" spec="starbeast3.evolution.branchratemodel.StarBeast3Clock" clock.rate="@clockRate.c:nexus_dlx_protein" geneTree="@treePrior.t:nexus_dlx_protein" sharedRateModel="@branchRatesModel.Species" tree="@Tree.t:nexus_dlx_protein"/>
+                </distribution>
+                <distribution id="treeLikelihood.nexus_exd_protein" spec="TreeLikelihood" data="@nexus_exd_protein" tree="@Tree.t:nexus_exd_protein">
+                    <siteModel id="OBAMA.s:nexus_exd_protein" spec="obama.sitemodel.OBAMAModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@OBAMA_hasGammaRates.s:nexus_exd_protein" hasInvariantSites="@OBAMA_hasInvariableSites.s:nexus_exd_protein" mutationRate="@OBAMA_mutationRate.s:nexus_exd_protein" proportionInvariant="@OBAMA_ProportionInvariable.s:nexus_exd_protein" shape="@OBAMA_gammaShape.s:nexus_exd_protein">
+                        <substModel id="OBAMA_substmodel.s:nexus_exd_protein" spec="obama.substitutionmodel.OBAMAModel" modelIndicator="@OBAMA_ModelIndicator.s:nexus_exd_protein" useExternalFreqs="@OBAMA_useExternalFreqs.s:nexus_exd_protein">
+                            <model idref="OBAMA_Blosum62.0"/>
+                            <model idref="OBAMA_CpREV.0"/>
+                            <model idref="OBAMA_DCMut.0"/>
+                            <model idref="OBAMA_Dayhoff.0"/>
+                            <model idref="OBAMA_FLU.0"/>
+                            <model idref="OBAMA_HIVb.0"/>
+                            <model idref="OBAMA_HIVw.0"/>
+                            <model idref="OBAMA_JTT.0"/>
+                            <model idref="OBAMA_LG.0"/>
+                            <model idref="OBAMA_MtArt.0"/>
+                            <model idref="OBAMA_MtREV.0"/>
+                            <model idref="OBAMA_MtMam.0"/>
+                            <model idref="OBAMA_RtREV.0"/>
+                            <model idref="OBAMA_VT.0"/>
+                            <model idref="OBAMA_WAG.0"/>
+                            <frequencies id="OBAMA_freqs.s:nexus_exd_protein" spec="Frequencies" frequencies="@frequencies_OBAMA.s:nexus_exd_protein"/>
+                        </substModel>
+                    </siteModel>
+                    <branchRateModel id="GeneTreeClock.c:nexus_exd_protein" spec="starbeast3.evolution.branchratemodel.StarBeast3Clock" clock.rate="@clockRate.c:nexus_exd_protein" geneTree="@treePrior.t:nexus_exd_protein" sharedRateModel="@branchRatesModel.Species" tree="@Tree.t:nexus_exd_protein"/>
+                </distribution>
+            </distribution>
+        </distribution>
+        <operator id="Reheight.t:Species" spec="starbeast3.operators.NodeReheight2" taxonset="@taxonsuperset" tree="@Tree.t:Species" weight="30.0">
+            <gene idref="treePrior.t:nexus_dlx_protein"/>
+            <gene idref="treePrior.t:nexus_exd_protein"/>
+        </operator>
+        <operator id="CoordinatedExponential.t:Species" spec="starbeast3.operators.CoordinatedExponential" speciesTree="@Tree.t:Species" weight="15.0">
+            <gene idref="treePrior.t:nexus_dlx_protein"/>
+            <gene idref="treePrior.t:nexus_exd_protein"/>
+        </operator>
+        <operator id="CoordinatedUniform.t:Species" spec="starbeast3.operators.CoordinatedUniform" speciesTree="@Tree.t:Species" weight="30.0">
+            <gene idref="treePrior.t:nexus_dlx_protein"/>
+            <gene idref="treePrior.t:nexus_exd_protein"/>
+        </operator>
+        <operator id="BactrianSubtreeSlide.t:Species" spec="kernel.BactrianSubtreeSlide" size="0.002" tree="@Tree.t:Species" weight="15.0"/>
+        <operator id="WilsonBalding.t:Species" spec="WilsonBalding" tree="@Tree.t:Species" weight="15.0"/>
+        <operator id="Wide.t:Species" spec="Exchange" isNarrow="false" tree="@Tree.t:Species" weight="15.0"/>
+        <operator id="AdaptableTopologyOperator.tree.Species" spec="AdaptableOperatorSampler" weight="15.0">
+            <tree idref="Tree.t:Species"/>
+            <operator id="Narrow.t:Species" spec="Exchange" tree="@Tree.t:Species" weight="1.0"/>
+            <operator id="CoordinatedExchange" spec="starbeast3.operators.CoordinatedExchangeRates" tree="@Tree.t:Species" weight="1.0">
+                <gene idref="treePrior.t:nexus_dlx_protein"/>
+                <gene idref="treePrior.t:nexus_exd_protein"/>
+            </operator>
+            <metric id="RNNIMetric.0" spec="beastlabs.evolution.tree.RNNIMetric" taxonset="@taxonsuperset"/>
+        </operator>
+        <operator id="UniformOperator.t:Species" spec="Uniform" tree="@Tree.t:Species" weight="3.0"/>
+        <operator id="TreeRootScaler.t:Species" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:Species" upper="10.0" weight="3.0"/>
+        <operator id="BactrianNodeOperator.t:Species" spec="kernel.BactrianNodeOperator" tree="@Tree.t:Species" weight="3.0"/>
+        <operator id="AdaptableTopologyOperator.lengths.Species" spec="AdaptableOperatorSampler" weight="100.0">
+            <tree idref="Tree.t:Species"/>
+            <operator idref="UniformOperator.t:Species"/>
+            <operator idref="BactrianNodeOperator.t:Species"/>
+            <operator id="TreeScaler.t:Species" spec="kernel.BactrianScaleOperator" scaleFactor="0.01" tree="@Tree.t:Species" upper="10.0" weight="1.0"/>
+            <operator idref="CoordinatedUniform.t:Species"/>
+            <operator idref="CoordinatedExponential.t:Species"/>
+            <operator id="updown.all" spec="operator.kernel.BactrianUpDownOperator" scaleFactor="0.75" weight="1.0">
+                <up idref="speciationRate.t:Species"/>
+                <up idref="clockRate.c:nexus_dlx_protein"/>
+                <up idref="clockRate.c:nexus_exd_protein"/>
+                <down idref="Tree.t:Species"/>
+                <down idref="popSize"/>
+                <down idref="popMean"/>
+                <down idref="Tree.t:nexus_dlx_protein"/>
+                <down idref="Tree.t:nexus_exd_protein"/>
+            </operator>
+        </operator>
+        <operator id="ParallelMCMCTreeOperator" spec="starbeast3.operators.ParallelMCMCTreeOperator" chainCoverage="1.0" learning="false" nregression="50" otherState="@state" runtime="1000.0" speciesTree="@Tree.t:Species" targetCPU="0.0" weight="1.0">
+            <distribution id="ParallelMCMCTreeOperatorLikelihood.nexus_dlx_protein" spec="starbeast3.operators.ParallelMCMCTreeOperatorTreeDistribution" geneprior="@treePrior.t:nexus_dlx_protein" tree="@Tree.t:nexus_dlx_protein" treelikelihood="@treeLikelihood.nexus_dlx_protein"/>
+            <distribution id="ParallelMCMCTreeOperatorLikelihood.nexus_exd_protein" spec="starbeast3.operators.ParallelMCMCTreeOperatorTreeDistribution" geneprior="@treePrior.t:nexus_exd_protein" tree="@Tree.t:nexus_exd_protein" treelikelihood="@treeLikelihood.nexus_exd_protein"/>
+            <schedule id="operatorSchedule" spec="starbeast3.core.OperatorScheduleRecalculator">
+                <subschedule id="operatorSubschedule" spec="OperatorSchedule" operatorPattern="^ParallelMCMCTreeOperator$" weight="1.0" weightIsPercentage="true"/>
+            </schedule>
+        </operator>
+        <operator id="PopSizeGibbsSampler.Species" spec="starbeast3.operators.PopSizeGibbsSampler" gammaprior="@popPriorDistr.InverseGamma" popSizes="@popSize" weight="50.0">
+            <gene idref="treePrior.t:nexus_dlx_protein"/>
+            <gene idref="treePrior.t:nexus_exd_protein"/>
+        </operator>
+        <operator id="AdaptableOperatorSampler.popmean:Species" spec="AdaptableOperatorSampler" weight="5.0">
+            <parameter idref="popMean"/>
+            <operator id="Scale.popmean" spec="kernel.BactrianScaleOperator" parameter="@popMean" upper="10.0" weight="1.0"/>
+            <operator idref="updown.all"/>
+            <operator id="SampleFromPriorOperator.popmean" spec="orc.operators.SampleFromPriorOperator" parameter="@popMean" prior2="@popMean.prior" weight="1.0"/>
+        </operator>
+        <operator id="AdaptableOperatorSampler.YuleModel.t:Species" spec="AdaptableOperatorSampler" weight="5.0">
+            <parameter idref="speciationRate.t:Species"/>
+            <operator id="Scale.YuleModel" spec="kernel.BactrianScaleOperator" parameter="@speciationRate.t:Species" upper="10.0" weight="1.0"/>
+            <operator idref="updown.all"/>
+            <operator id="SampleFromPriorOperator.YuleModel" spec="orc.operators.SampleFromPriorOperator" parameter="@speciationRate.t:Species" prior2="@speciationRatePrior.t:Species" weight="1.0"/>
+        </operator>
+        <operator id="clockRateScaler.c:nexus_dlx_protein" spec="kernel.BactrianScaleOperator" parameter="@clockRate.c:nexus_dlx_protein" upper="10.0" weight="0.1"/>
+        <operator id="clockRateScaler.c:nexus_exd_protein" spec="kernel.BactrianScaleOperator" parameter="@clockRate.c:nexus_exd_protein" upper="10.0" weight="0.1"/>
+        <operator id="OBAMA_FrequenciesAVMNOperator.s:nexus_dlx_protein" spec="kernel.AdaptableVarianceMultivariateNormalOperator" beta="0.05" burnin="500" initial="1000" weight="0.05">
+            <transformations id="LogConstrainedSumTransform.s:nexus_dlx_protein" spec="operator.kernel.Transform$LogConstrainedSumTransform">
+                <f idref="frequencies_OBAMA.s:nexus_dlx_protein"/>
+            </transformations>
+        </operator>
+        <operator id="OBAMA_gammaShapeScaler.s:nexus_dlx_protein" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@OBAMA_hasGammaRates.s:nexus_dlx_protein" parameter="@OBAMA_gammaShape.s:nexus_dlx_protein" scaleFactor="0.5" weight="0.05"/>
+        <operator id="OBAMA_ProportionInvariableScaler.s:nexus_dlx_protein" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@OBAMA_hasInvariableSites.s:nexus_dlx_protein" parameter="@OBAMA_ProportionInvariable.s:nexus_dlx_protein" scaleFactor="0.5" weight="0.05"/>
+        <operator id="OBAMA_hasGammaRatesFlipper.s:nexus_dlx_protein" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@OBAMA_hasGammaRates.s:nexus_dlx_protein" rates="@OBAMA_gammaShape.s:nexus_dlx_protein" weight="0.1"/>
+        <operator id="OBAMA_hasInvariableSitesFlipper.s:nexus_dlx_protein" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@OBAMA_hasInvariableSites.s:nexus_dlx_protein" rates="@OBAMA_ProportionInvariable.s:nexus_dlx_protein" weight="0.1"/>
+        <operator id="OBAMA_FreqsFlipOperator.s:nexus_dlx_protein" spec="operator.BitFlipOperator" parameter="@OBAMA_useExternalFreqs.s:nexus_dlx_protein" weight="0.1"/>
+        <operator id="OBAMA_ModelIndicatorUniformOperator.s:nexus_dlx_protein" spec="operator.UniformOperator" parameter="@OBAMA_ModelIndicator.s:nexus_dlx_protein" weight="3.0"/>
+        <operator id="OBAMA_FrequenciesAVMNOperator.s:nexus_exd_protein" spec="kernel.AdaptableVarianceMultivariateNormalOperator" beta="0.05" burnin="500" initial="1000" weight="0.05">
+            <transformations id="LogConstrainedSumTransform.s:nexus_exd_protein" spec="operator.kernel.Transform$LogConstrainedSumTransform">
+                <f idref="frequencies_OBAMA.s:nexus_exd_protein"/>
+            </transformations>
+        </operator>
+        <operator id="OBAMA_gammaShapeScaler.s:nexus_exd_protein" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@OBAMA_hasGammaRates.s:nexus_exd_protein" parameter="@OBAMA_gammaShape.s:nexus_exd_protein" scaleFactor="0.5" weight="0.05"/>
+        <operator id="OBAMA_ProportionInvariableScaler.s:nexus_exd_protein" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@OBAMA_hasInvariableSites.s:nexus_exd_protein" parameter="@OBAMA_ProportionInvariable.s:nexus_exd_protein" scaleFactor="0.5" weight="0.05"/>
+        <operator id="OBAMA_hasGammaRatesFlipper.s:nexus_exd_protein" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@OBAMA_hasGammaRates.s:nexus_exd_protein" rates="@OBAMA_gammaShape.s:nexus_exd_protein" weight="0.1"/>
+        <operator id="OBAMA_hasInvariableSitesFlipper.s:nexus_exd_protein" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@OBAMA_hasInvariableSites.s:nexus_exd_protein" rates="@OBAMA_ProportionInvariable.s:nexus_exd_protein" weight="0.1"/>
+        <operator id="OBAMA_FreqsFlipOperator.s:nexus_exd_protein" spec="operator.BitFlipOperator" parameter="@OBAMA_useExternalFreqs.s:nexus_exd_protein" weight="0.1"/>
+        <operator id="OBAMA_ModelIndicatorUniformOperator.s:nexus_exd_protein" spec="operator.UniformOperator" parameter="@OBAMA_ModelIndicator.s:nexus_exd_protein" weight="3.0"/>
+        <operator id="OBAMA_mutationRateScaler.s:nexus_exd_protein" spec="kernel.BactrianScaleOperator" parameter="@OBAMA_mutationRate.s:nexus_exd_protein" scaleFactor="0.1" upper="10.0" weight="0.05"/>
+        <operator id="OBAMA_mutationRateScaler.s:nexus_dlx_protein" spec="kernel.BactrianScaleOperator" parameter="@OBAMA_mutationRate.s:nexus_dlx_protein" scaleFactor="0.1" upper="10.0" weight="0.05"/>
+        <logger id="tracelog" spec="Logger" fileName="dlx_exd.log" logEvery="5000" model="@posterior" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="vectorPrior"/>
+            <log idref="speciescoalescent"/>
+            <log id="TreeStat.Species" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:Species"/>
+            <log idref="YuleModel.t:Species"/>
+            <log idref="popMean"/>
+            <log idref="popSize"/>
+            <log idref="treeLikelihood.nexus_dlx_protein"/>
+            <log idref="treePrior.t:nexus_dlx_protein"/>
+            <log id="TreeStat.t:nexus_dlx_protein" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:nexus_dlx_protein"/>
+            <log id="TreeDistanceNJ.t:nexus_dlx_protein" spec="beastlabs.evolution.tree.TreeDistanceLogger" tree="@Tree.t:nexus_dlx_protein">
+                <ref id="ClusterTree.0" spec="beast.base.evolution.tree.ClusterTree" clusterType="neighborjoining" taxa="@nexus_dlx_protein"/>
+            </log>
+            <log id="TreeDistanceUPGMA.t:nexus_dlx_protein" spec="beastlabs.evolution.tree.TreeDistanceLogger" tree="@Tree.t:nexus_dlx_protein">
+                <ref id="ClusterTree.1" spec="beast.base.evolution.tree.ClusterTree" clusterType="upgma" taxa="@nexus_dlx_protein"/>
+            </log>
+            <log idref="clockRate.c:nexus_dlx_protein"/>
+            <log idref="treeLikelihood.nexus_exd_protein"/>
+            <log idref="treePrior.t:nexus_exd_protein"/>
+            <log id="TreeStat.t:nexus_exd_protein" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:nexus_exd_protein"/>
+            <log id="TreeDistanceNJ.t:nexus_exd_protein" spec="beastlabs.evolution.tree.TreeDistanceLogger" tree="@Tree.t:nexus_exd_protein">
+                <ref id="ClusterTree.2" spec="beast.base.evolution.tree.ClusterTree" clusterType="neighborjoining" taxa="@nexus_exd_protein"/>
+            </log>
+            <log id="TreeDistanceUPGMA.t:nexus_exd_protein" spec="beastlabs.evolution.tree.TreeDistanceLogger" tree="@Tree.t:nexus_exd_protein">
+                <ref id="ClusterTree.3" spec="beast.base.evolution.tree.ClusterTree" clusterType="upgma" taxa="@nexus_exd_protein"/>
+            </log>
+            <log idref="clockRate.c:nexus_exd_protein"/>
+            <log idref="speciationRate.t:Species"/>
+            <log idref="frequencies_OBAMA.s:nexus_dlx_protein"/>
+            <log idref="OBAMA_ModelIndicator.s:nexus_dlx_protein"/>
+            <log idref="OBAMA_gammaShape.s:nexus_dlx_protein"/>
+            <log idref="OBAMA_ProportionInvariable.s:nexus_dlx_protein"/>
+            <log idref="OBAMA_hasGammaRates.s:nexus_dlx_protein"/>
+            <log idref="OBAMA_hasInvariableSites.s:nexus_dlx_protein"/>
+            <log id="OBAMA_ActivePropInvariable.s:nexus_dlx_protein" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@OBAMA_hasInvariableSites.s:nexus_dlx_protein" parameter="@OBAMA_ProportionInvariable.s:nexus_dlx_protein"/>
+            <log id="OBAMA_ActiveGammaShape.s:nexus_dlx_protein" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@OBAMA_hasGammaRates.s:nexus_dlx_protein" parameter="@OBAMA_gammaShape.s:nexus_dlx_protein"/>
+            <log idref="OBAMA_useExternalFreqs.s:nexus_dlx_protein"/>
+            <log idref="frequencies_OBAMA.s:nexus_exd_protein"/>
+            <log idref="OBAMA_ModelIndicator.s:nexus_exd_protein"/>
+            <log idref="OBAMA_gammaShape.s:nexus_exd_protein"/>
+            <log idref="OBAMA_ProportionInvariable.s:nexus_exd_protein"/>
+            <log idref="OBAMA_hasGammaRates.s:nexus_exd_protein"/>
+            <log idref="OBAMA_hasInvariableSites.s:nexus_exd_protein"/>
+            <log id="OBAMA_ActivePropInvariable.s:nexus_exd_protein" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@OBAMA_hasInvariableSites.s:nexus_exd_protein" parameter="@OBAMA_ProportionInvariable.s:nexus_exd_protein"/>
+            <log id="OBAMA_ActiveGammaShape.s:nexus_exd_protein" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@OBAMA_hasGammaRates.s:nexus_exd_protein" parameter="@OBAMA_gammaShape.s:nexus_exd_protein"/>
+            <log idref="OBAMA_useExternalFreqs.s:nexus_exd_protein"/>
+            <log idref="OBAMA_mutationRate.s:nexus_exd_protein"/>
+            <log idref="OBAMA_mutationRate.s:nexus_dlx_protein"/>
+        </logger>
+        <logger id="speciesTreeLogger" spec="Logger" fileName="mollusk.species.tre" logEvery="5000" mode="tree">
+            <log id="SpeciesTreeLoggerX" spec="starbeast3.core.SpeciesTreeLogger" popSize="@popSize" speciesTreePrior="@SpeciesTreePopSize.Species" tree="@Tree.t:Species">
+                <treetop id="treeTopFinder" spec="beast.base.evolution.speciation.TreeTopFinder">
+                    <tree idref="Tree.t:nexus_dlx_protein"/>
+                    <tree idref="Tree.t:nexus_exd_protein"/>
+                </treetop>
+            </log>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="10000">
+            <log idref="posterior"/>
+            <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:nexus_dlx_protein" spec="Logger" fileName="$(tree).tre" logEvery="5000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:nexus_dlx_protein" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:nexus_dlx_protein"/>
+        </logger>
+        <logger id="treelog.t:nexus_exd_protein" spec="Logger" fileName="$(tree).tre" logEvery="5000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:nexus_exd_protein" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:nexus_exd_protein"/>
+        </logger>
+        <operatorschedule idref="operatorSchedule"/>
+    </run>
+
+</beast>
