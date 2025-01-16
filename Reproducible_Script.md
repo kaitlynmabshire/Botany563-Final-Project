@@ -34,7 +34,7 @@ cd dekstop/HCR/sequences/ncbi-blast-2.13.0+/bin
 ```
 mv ~downloads/ncbi-blast-2.13.0 ~cd dekstop/HCR/sequences
 cd dekstop/HCR/sequences/ncbi-blast-2.13.0+/bin
-./tblastn -query <query_sequence_file.fasta> -out cornu_aspersum_db -out <file.txt>
+./tblastn -query <query_sequence_file.fasta> -db cornu_aspersum_db -out <file.txt>
 ```
 
 Sequences found with the lowest E value (less than E^-20) were selected compared to ortholog sequences using ORFfinder on NCBI.
